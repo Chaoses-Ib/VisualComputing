@@ -26,7 +26,7 @@ Visualization is any technique for creating images, diagrams, or animations to c
 
 ## Tools
 - [Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)
-- [Tableau](https://www.tableau.com/)
+- [Tableau](Tools/Tableau.md)
 - [Metabase](https://www.metabase.com/) ([repo](https://github.com/metabase/metabase))
 - [Processing](https://processing.org/) ([repo](https://github.com/processing/processing4))
 - [Visually](https://visual.ly/)
