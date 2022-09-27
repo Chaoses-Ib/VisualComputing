@@ -7,7 +7,7 @@ Visualization is any technique for creating images, diagrams, or animations to c
 - [D3.js](https://d3js.org/) ([GitHub](https://github.com/d3/d3))
   - [Awesome D3](https://github.com/wbkd/awesome-d3)
   - [plotly.js](https://github.com/plotly/plotly.js)
-- [Apache ECharts](https://echarts.apache.org/) ([GitHub](https://github.com/apache/echarts))
+- [Apache ECharts](Libraries/ECharts/README.md) ([Homepage](https://echarts.apache.org/), [GitHub](https://github.com/apache/echarts))
 - [Chart.js](https://www.chartjs.org/) ([GitHub](https://github.com/chartjs/Chart.js))
 - [p5.js](https://p5js.org/) ([GitHub](https://github.com/processing/p5.js))
 - [AntV](https://antv.vision/)
