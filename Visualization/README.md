@@ -3,7 +3,7 @@ Visualization is any technique for creating images, diagrams, or animations to c
 
 ## Libraries
 ### JS
-[^js-wuduoyi]
+[^lib-js-wuduoyi]
 - [D3.js](https://d3js.org/) ([GitHub](https://github.com/d3/d3))
   - [Awesome D3](https://github.com/wbkd/awesome-d3)
   - [plotly.js](https://github.com/plotly/plotly.js)
