@@ -1,5 +1,8 @@
 # Visual Computing
 ## [Visualization](Visualization/README.md)
+- Text Visualization
+  - [Tag Cloud](Visualization/Text/Tag%20Cloud.md)
+
 Libraries:
 - [Apache ECharts](Visualization/Libraries/ECharts/README.md)
 
