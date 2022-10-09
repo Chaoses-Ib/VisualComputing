@@ -1,5 +1,6 @@
 # Visual Computing
 ## [Visualization](Visualization/README.md)
+- [Graph Visualization](Visualization/Graph/README.md)
 - Text Visualization
   - [Tag Cloud](Visualization/Text/Tag%20Cloud.md)
 
