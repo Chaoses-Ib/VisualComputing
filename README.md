@@ -10,8 +10,10 @@ Libraries:
 - [AntV](Visualization/Libraries/AntV/README.md)
   - [G2](Visualization/Libraries/AntV/G2.md)
     - [G2Plot](Visualization/Libraries/AntV/G2Plot.md)
+- [Mermaid](Visualization/Libraries/Mermaid/README.md)
 
 Tools:
+- [diagrams.net](https://www.diagrams.net/)
 - [Tableau](Visualization/Tools/Tableau.md)
 
 ## Computer Vision

@@ -7,10 +7,13 @@
 ## Implementations
 JavaScript:
 - [G2](Libraries/AntV/G2)
-- [Vega](https://vega.github.io/vega/) ([GitHub](https://github.com/vega/vega))  
+- [Vega](https://vega.github.io/vega/) ([GitHub](https://github.com/vega/vega))
+  
   Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using Canvas or SVG.
-	- [Vega-Lite](https://vega.github.io/vega-lite/) ([GitHub](https://github.com/vega/vega-lite))  
-	  Vega-Lite is a high-level grammar of interactive graphics. It provides a concise, declarative JSON syntax to create an expressive range of visualizations for data analysis and presentation.
+  
+  - [Vega-Lite](https://vega.github.io/vega-lite/) ([GitHub](https://github.com/vega/vega-lite))
+  
+    Vega-Lite is a high-level grammar of interactive graphics. It provides a concise, declarative JSON syntax to create an expressive range of visualizations for data analysis and presentation.
 
 R:
 - [ggplot2](https://ggplot2.tidyverse.org/) ([GitHub](https://github.com/tidyverse/ggplot2/))

@@ -1,6 +1,16 @@
 # Visualization
 Visualization is any technique for creating images, diagrams, or animations to communicate a message.[^wiki]
 
+## Charts and diagrams
+A **chart (sometimes known as a graph)** is a graphical representation for data visualization, in which "the data is represented by symbols, such as bars in a bar chart, lines in a line chart, or slices in a pie chart".[^chart-wiki]
+
+A **diagram** is a symbolic representation of information using visualization techniques. The word **graph** is sometimes used as a synonym for diagram.[^diagram-wiki]
+
+[What is the difference between "Diagram" and "Chart" and "Graph" and "Figure" ? "Diagram" vs "Chart" vs "Graph" vs "Figure" ? | HiNative](https://hinative.com/questions/13093815)
+
+[^chart-wiki]: [Chart - Wikipedia](https://en.wikipedia.org/wiki/Chart)
+[^diagram-wiki]: [Diagram - Wikipedia](https://en.wikipedia.org/wiki/Diagram)
+
 ## Libraries
 ### JS
 [^lib-js-wuduoyi]
@@ -8,6 +18,9 @@ Visualization is any technique for creating images, diagrams, or animations to c
   - [Awesome D3](https://github.com/wbkd/awesome-d3)
   - [plotly.js](https://github.com/plotly/plotly.js)
 - [Apache ECharts](Libraries/ECharts/README.md) ([Homepage](https://echarts.apache.org/), [GitHub](https://github.com/apache/echarts))
+- [Mermaid](https://mermaid.js.org/) ([GitHub](https://github.com/mermaid-js/mermaid))
+
+  JavaScript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.
 - [Chart.js](https://www.chartjs.org/) ([GitHub](https://github.com/chartjs/Chart.js))
 - [p5.js](https://p5js.org/) ([GitHub](https://github.com/processing/p5.js))
 - [AntV](Libraries/AntV/README.md) ([Homepage](https://antv.vision/), [GitHub](https://github.com/antvis))
@@ -30,8 +43,13 @@ Visualization is any technique for creating images, diagrams, or animations to c
 ### R
 - [ggplot2](https://ggplot2.tidyverse.org/) ([GitHub](https://github.com/tidyverse/ggplot2))
 
+### C++
+- [Graphviz](https://graphviz.org/) ([GitLab](https://gitlab.com/graphviz/graphviz))
+
 ## Tools
 - [Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)
+- Microsoft Visio
+- [diagrams.net](https://www.diagrams.net/) (formerly draw.io, [GitHub](https://github.com/jgraph/drawio))
 - [Tableau](Tools/Tableau.md)
 - [Metabase](https://www.metabase.com/) ([GitHub](https://github.com/metabase/metabase))
 - [Processing](https://processing.org/) ([GitHub](https://github.com/processing/processing4))
