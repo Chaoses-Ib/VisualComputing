@@ -28,6 +28,7 @@ A **diagram** is a symbolic representation of information using visualization te
     - [G2Plot](Libraries/AntV/G2Plot.md)
   - [G6](https://g6.antv.vision/) ([GitHub](https://github.com/antvis/G6))
   - [F2](https://f2.antv.vision/) ([GitHub](https://github.com/antvis/F2))
+- [flowchart.js](http://flowchart.js.org/) ([GitHub](https://github.com/adrai/flowchart.js))
 - [Highcharts](https://www.highcharts.com/) ([GitHub](https://github.com/highcharts/highcharts))
 
 [^lib-js-wuduoyi]: [如何挑选数据可视化框架及平台 - 前端篇 - 知乎](https://zhuanlan.zhihu.com/p/149398216)
@@ -37,6 +38,9 @@ A **diagram** is a symbolic representation of information using visualization te
 - [matplotlib](https://matplotlib.org/) ([GitHub](https://github.com/matplotlib/matplotlib))
   - [Seaborn](https://seaborn.pydata.org/) ([GitHub](https://github.com/mwaskom/seaborn))
 - [plotly.py](https://plotly.com/python/) ([GitHub](https://github.com/plotly/plotly.py))
+- [Diagrams](https://diagrams.mingrammer.com/) ([GitHub](https://github.com/mingrammer/diagrams))
+
+  Diagrams lets you draw the cloud system architecture in Python code.
 
 [^lib-py-khuyen]: [Top 6 Python Libraries for Visualization: Which one to Use? | by Khuyen Tran | Towards Data Science](https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658)
 
@@ -45,6 +49,7 @@ A **diagram** is a symbolic representation of information using visualization te
 
 ### C++
 - [Graphviz](https://graphviz.org/) ([GitLab](https://gitlab.com/graphviz/graphviz))
+  - Diagrams
 
 ## Tools
 - [Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)

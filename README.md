@@ -13,7 +13,7 @@ Libraries:
 - [Mermaid](Visualization/Libraries/Mermaid/README.md)
 
 Tools:
-- [diagrams.net](https://www.diagrams.net/)
+- [diagrams.net](Visualization/Tools/diagrams.net.md)
 - [Tableau](Visualization/Tools/Tableau.md)
 
 ## Computer Vision
