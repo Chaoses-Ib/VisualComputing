@@ -6,8 +6,9 @@
 ## Natural Language Processing
 - [Text-to-image](NLP/Text-to-image/README.md)
   - [Diffusion Models](NLP/Text-to-image/Diffusion%20Models/README.md)
-    - [LoRA](NLP/Text-to-image/Diffusion%20Models/LoRA.md)
+    - [Low-Rank Adaptation](NLP/Text-to-image/Diffusion%20Models/LoRA.md)
     - [ControlNet](NLP/Text-to-image/Diffusion%20Models/ControlNet.md)
+    - [Variational Autoencoder](NLP/Text-to-image/Diffusion%20Models/VAE.md)
 - [Text-to-video](NLP/Text-to-video/README.md)
 
 ## [Image Processing](Image%20Processing/README.md)
