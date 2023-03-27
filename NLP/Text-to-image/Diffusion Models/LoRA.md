@@ -59,18 +59,25 @@
   legs
   ```
     用于整幅图像时可能会导致产生大小胸。
+- [Pant Pull Down - LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11126/pant-pull-down-lora)
 - [Incoming hug | Stable Diffusion LORA | Civitai](https://civitai.com/models/21388/incoming-hug)
   
   ```
   incoming hug
   ```
 - [Doggystyle | Stable Diffusion LORA | Civitai](https://civitai.com/models/6082/doggystyle)
+- [Doggystyle from side view | Stable Diffusion LORA | Civitai](https://civitai.com/models/12961/doggystyle-from-side-view)
 - [girl in glass bottle | Stable Diffusion LORA | Civitai](https://civitai.com/models/13185/girl-in-glass-bottle)
 - [Trapped in Wall | Stable Diffusion LORA | Civitai](https://civitai.com/models/8764/trapped-in-wall)
 - [Trapped in Wall - Behind | Stable Diffusion LORA | Civitai](https://civitai.com/models/8817/trapped-in-wall-behind)
 - [🎁美少女礼盒 | girl in gift box | 箱入り娘 | Stable Diffusion LORA | Civitai](https://civitai.com/models/9706/or-girl-in-gift-box-or)
 - [【Concept】Delivery In Box 装箱 | Stable Diffusion LORA | Civitai](https://civitai.com/models/9844/conceptdelivery-in-box)
 - [Nyotaimori / food table girl | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/7895/nyotaimori-food-table-girl)
+- [POV Imminent Penetration \[1 MB\] | Stable Diffusion LORA | Civitai](https://civitai.com/models/9432/pov-imminent-penetration-1-mb)
+
+  ```
+  1boy, penis, imminent penetration, lying, on back, spread legs
+  ```
 - [JUN_bukkake | Stable Diffusion LORA | Civitai](https://civitai.com/models/17173/junbukkake)
 
   ```
@@ -126,6 +133,9 @@
 - [iamuu_n / 逢編いあむ | Style Lora 166 | Stable Diffusion LORA | Civitai](https://civitai.com/models/10348/iamuun-or-style-lora-166)
 - [Mochizuki Kei (望月けい) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/12190/mochizuki-kei-art-style-lora)
 - [Nou (のう) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/12218/nou-art-style-lora)
+- [画风 超级可爱 wral.safetensors | SD - WebUI 资源站](https://www.123114514.xyz/models/LoRA/%E7%94%BB%E9%A3%8E/%E7%94%BB%E9%A3%8E%20%E8%B6%85%E7%BA%A7%E5%8F%AF%E7%88%B1%20wral.safetensors)
+
+  偏卡通。
 - [『Blacklight』 | Stable Diffusion LORA | Civitai](https://civitai.com/models/15898/blacklight)
 
   ```
@@ -143,9 +153,27 @@
 - [MAPPA-like Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/11490/mappa-like-style)
 - [Anime Lineart (线稿/線画) Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/16014/anime-lineart-style)
 
+3D:
+- [Hipoly 3D Model LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/8730/hipoly-3d-model-lora)
+
+
 ## Characters
 - 東方 Project
   - [LORA_HF_26 | Stable Diffusion LORA | Civitai](https://civitai.com/models/14180/lorahf26)
+- TYPE-MOON
+  - [魔法少女伊莉雅* Prisma illya | AI绘画模型博物馆](https://aimodel.subrecovery.top/2023/01/22/lora/)
+
+    ```
+    Prisma illya,illya style, pink skirt, pink dress,cape,bridal garter
+    ```
+  - [Fate/kaleid liner プリズマ☆イリヤ-Illya/伊莉雅 | Stable Diffusion LORA | Civitai](https://civitai.com/models/8379/fatekaleid-liner-illya)
+
+    ```
+    silver hair, red eyes,
+    ```
+
+    和其它模型配合得不是太好。
+  - [Abigail Williams(Fate) | Stable Diffusion LORA | Civitai](https://civitai.com/models/16793/abigail-williamsfate)
 - Virtual YouTubers
   - [All Vtubers Lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/10664/all-vtubers-lora)
 

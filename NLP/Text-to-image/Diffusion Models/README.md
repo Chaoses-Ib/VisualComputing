@@ -10,7 +10,10 @@
 
 Models:
 - [Civitai | Stable Diffusion models, embeddings, hypernetworks and more](https://civitai.com/)
-- [元素法典 LORA模型共享](https://t.me/loraeveryone)
+- [AI绘画模型博物馆](https://aimodel.subrecovery.top/)
+- [SD - WebUI 资源站](https://www.123114514.xyz/)
+  - [元素法典 LORA模型共享](https://t.me/loraeveryone)
+- [Gavin123/anything3.0 at maim](https://huggingface.co/Gavin123/anything3.0/tree/main)
 
 Tools:
 - [Stable Diffusion web UI](#stable-diffusion-web-ui)
@@ -29,7 +32,6 @@ Prompts:
   - [DeepDanbooru: AI based multi-label girl image classification system, implemented by using TensorFlow.](https://github.com/KichangKim/DeepDanbooru)
   - [Danbooru 标签导出器](https://sleazyfork.org/zh-CN/scripts/452976-danbooru-tags-select-to-export)
   - [Danbooru 标签超市](https://tags.novelai.dev/)
-- [EasyNegative | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/7808/easynegative)
 - [sd-promptbook](https://github.com/space-nuko/sd-promptbook/)
 - [Stable Diffusion使用入门与提示词技巧 - 知乎](https://zhuanlan.zhihu.com/p/577238010)
 - [元素法典——Novel AI 元素魔法全收录](https://docs.qq.com/doc/DWHl3am5Zb05QbGVs)
@@ -41,6 +43,7 @@ Prompts:
     ```
 
     异形率比较高。
+  - [XP模组loli | SD - WebUI 资源站](https://www.123114514.xyz/models/embeddings/NSFW/XP%E6%A8%A1%E7%BB%84loli)
 
 ### Stable Diffusion 1.5
 [GitHub](https://github.com/runwayml/stable-diffusion), [Hugging Face](https://huggingface.co/runwayml/stable-diffusion-v1-5)
@@ -55,6 +58,7 @@ Prompts:
 
 ### [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 [Features · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)
+- [stable-diffusion-webui-state: Stable Diffusion extension that preserves ui state](https://github.com/ilian6806/stable-diffusion-webui-state)
 
 [【AI绘画】从零开始的AI绘画入门教程——魔法导论 - 哔哩哔哩](https://www.bilibili.com/read/cv22159609)
 - [AI绘画教程：从入门到放弃(xiaobai) - 知乎](https://zhuanlan.zhihu.com/p/607892849)
@@ -76,8 +80,11 @@ Size:
 
 [Inpainging & Outpainting](https://rentry.org/drfar)
 - Inpaint 可能会与原图产生色差，将 inpaint 结果通过低 denoising strength 的 img2img 再次处理可以缓解这一问题，但会导致整幅图发生变化；也可以使用 Photoshop 手动修复。
-- 也可以直接使用 Photoshop 等工具手动粗略修复图像，再通过 img2img 细化。
-- 同时修复多个部位比单独修复每个部位困难。
+- 也可以直接使用 Photoshop 等工具手动粗略修复图像，再通过 img2img 或 inpaint 细化。
+- Inpaint 时使用高 denoising strength 可能会导致图像再次出现问题，低 denoising strength 又可能无法足够地细化，这时可以通过 Loopback 进行多次低 denoising strength 的 inpaint 来解决。
+
+  不过要注意的是，在同一区域 Lookback 过多也会导致图像与原图像存在显著差异。
+- 同时修复多个部位比单独修复每个部位困难，可以使用 Photoshop 将不同图像的不同修复图像进行拼合。
 - Inpaint sketch 尽管可以指定颜色，但经常会修改到 mask 之外的内容，有时还会生成无关的图像。一种替代方法是把 inpaint sketch 中涂改好的图像发送到 inpaint，再绘制 mask，将 original 作为 masked content 来进行 inpaint。
 - 实在无法修复时，也可以考虑只截取图像的正常部分。
 
@@ -135,6 +142,7 @@ Training:
   - [powercolor.v2 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/6167/powercolorv2)
 - [pastelabyss | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/7794/pastelabyss)
 - [LulubearMix | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/18934/lulubearmix)
+- [MeinaPastel | Civitai](https://civitai.com/models/11866/meinapastel)
 - [0.6(CounterfeitV25)0.25(Anything4.5)0.15(PastelMix) | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/22387/06counterfeitv25025anything45015pastelmix)
 - [0.4(pastelmix-fp16) + 0.6(Counterfeit-V2.5_fp16).ckpt | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/15036/04pastelmix-fp16-06counterfeit-v25fp16ckpt)
 - [ken_cor+coun+past+adlcv3a+adlcv3p | Civitai](https://civitai.com/models/6602/kencorcounpastadlcv3aadlcv3p)
@@ -149,9 +157,6 @@ Training:
   ligne claire,
   flat color, limited palette, low contrast, high contrast, chromatic aberration
   ```
-- [yden | Civitai](https://civitai.com/models/18616/yden)
-- [(checkpoint) ligne clair style(cogecha焦茶) | Civitai](https://civitai.com/models/10466/checkpoint-ligne-clair-stylecogecha)
-
 - [HoloKuki | Civitai](https://civitai.com/models/17598/holokuki)
 
   需要比较多的 prompts 才能保证生成对应角色。
@@ -164,7 +169,7 @@ Training:
 
   VAE: `pastel-waifu-diffusion.vae.pt`
 
-  偏向 SFW。
+  偏向 SFW；偏向女性角色。
 - [9527 | Civitai](https://civitai.com/models/6204/9527)
 
 β:
@@ -179,8 +184,20 @@ Training:
         默认的 20 步 sampling 可能会导致生成的图像不够精细。
 - [Anything V4](https://huggingface.co/andite/anything-v4.0)
   - [Anything V3 | Civitai](https://civitai.com/models/9409/anything-v3)
+- [Hassaku (hentai model) | Civitai](https://civitai.com/models/2583/hassaku-hentai-model)
 - [MeinaHentai | Civitai](https://civitai.com/models/12606/meinahentai)
 
-γ:
+Realistic:
 - [OrangeChillMix | Civitai](https://civitai.com/models/9486/orangechillmix)
+- [Perfect World 完美世界 | Civitai](https://civitai.com/models/8281/perfect-world)
+
+  指定人体姿势的效果比较好。
+- [FaceBombMix | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/7152/facebombmix)
 - [AOAOKO \[PVC Style Model\] | Civitai](https://civitai.com/models/15509/aoaoko-pvc-style-model)
+- [Realistic Asia doll (peeing) (Lora merge) | Civitai](https://civitai.com/models/13252/realistic-asia-doll-peeing-lora-merge)
+
+Personal styles:
+- [momoco_18000 | AI绘画模型博物馆](https://aimodel.subrecovery.top/2022/11/15/%E7%94%BB%E9%A3%8E%E6%A8%A1%E5%9E%8B/)
+- [RYO | AI绘画模型博物馆](https://aimodel.subrecovery.top/2022/11/15/%E7%94%BB%E9%A3%8E%E6%A8%A1%E5%9E%8B/)
+- [yden | Civitai](https://civitai.com/models/18616/yden)
+- [(checkpoint) ligne clair style(cogecha焦茶) | Civitai](https://civitai.com/models/10466/checkpoint-ligne-clair-stylecogecha)
