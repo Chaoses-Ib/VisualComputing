@@ -14,6 +14,10 @@
 ## [Image Processing](Image%20Processing/README.md)
 - [Image Scaling](Image%20Processing/Image%20Scaling/README.md)
 
+## [Video Processing](Video%20Processing/README.md)
+- [Video Scaling](Video%20Processing/Video%20Scaling.md)
+- [Frame Interpolation](Video%20Processing/Frame%20Interpolation.md)
+
 ## [Visualization](Visualization/README.md)
 - [The Grammar of Graphics](Visualization/The%20Grammar%20of%20Graphics.md)
 - [Graph Visualization](Visualization/Graph/README.md)
