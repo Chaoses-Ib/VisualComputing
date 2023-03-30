@@ -3,20 +3,20 @@
 - Face Recognition
   - [基于 PCA 实现人脸识别](Computer%20Vision/Face%20Recognition/基于%20PCA%20实现人脸识别.md)
 
-## Natural Language Processing
-- [Text-to-image](NLP/Text-to-image/README.md)
-  - [Diffusion Models](NLP/Text-to-image/Diffusion%20Models/README.md)
-    - [Low-Rank Adaptation](NLP/Text-to-image/Diffusion%20Models/LoRA.md)
-    - [ControlNet](NLP/Text-to-image/Diffusion%20Models/ControlNet.md)
-    - [Variational Autoencoder](NLP/Text-to-image/Diffusion%20Models/VAE.md)
-- [Text-to-video](NLP/Text-to-video/README.md)
-
 ## [Image Processing](Image%20Processing/README.md)
+- [Diffusion Models](Image%20Processing/Diffusion%20Models/README.md)
+  - [Low-Rank Adaptation](Image%20Processing/Diffusion%20Models/LoRA.md)
+  - [ControlNet](Image%20Processing/Diffusion%20Models/ControlNet.md)
+  - [Variational Autoencoder](Image%20Processing/Diffusion%20Models/VAE.md)
 - [Image Scaling](Image%20Processing/Image%20Scaling/README.md)
 
 ## [Video Processing](Video%20Processing/README.md)
 - [Video Scaling](Video%20Processing/Video%20Scaling.md)
 - [Frame Interpolation](Video%20Processing/Frame%20Interpolation.md)
+
+## Natural Language Processing
+- [Text-to-image](NLP/Text-to-image/README.md)
+- [Text-to-video](NLP/Text-to-video/README.md)
 
 ## [Visualization](Visualization/README.md)
 - [The Grammar of Graphics](Visualization/The%20Grammar%20of%20Graphics.md)
