@@ -1,6 +1,10 @@
 # Diffusion Models
 [Wikipedia](https://en.wikipedia.org/wiki/Diffusion_model)
 
+[The Illustrated Stable Diffusion – Jay Alammar – Visualizing machine learning one concept at a time.](https://jalammar.github.io/illustrated-stable-diffusion/)
+
+[The Annotated Diffusion Model](https://huggingface.co/blog/annotated-diffusion)
+
 ## Stable Diffusion
 [Wikipedia](https://en.wikipedia.org/wiki/Stable_Diffusion), [GitHub](https://github.com/CompVis/stable-diffusion)
 
@@ -10,9 +14,11 @@
 
 Models:
 - [Civitai | Stable Diffusion models, embeddings, hypernetworks and more](https://civitai.com/)
+- [AI繪圖魔導書 - Google 表格](https://docs.google.com/spreadsheets/d/16wR5Zg_aQEbxLdrTOrB9cZf8QmsMrJnSGxFKbZVtrKc/)
 - [AI绘画模型博物馆](https://aimodel.subrecovery.top/)
 - [SD - WebUI 资源站](https://www.123114514.xyz/)
   - [元素法典 LORA模型共享](https://t.me/loraeveryone)
+- [AI 绘画与作画 stable diffusion webui 常见模型汇总及简介 — 秋风于渭水](https://www.tjsky.net/tutorial/583)
 - [Gavin123/anything3.0 at maim](https://huggingface.co/Gavin123/anything3.0/tree/main)
 
 Tools:
@@ -25,6 +31,7 @@ Services:
 - [MajinAI](https://majinai.art/index.php)
 
 Prompts:
+- [AI繪圖魔導書 - Google 表格](https://docs.google.com/spreadsheets/d/16wR5Zg_aQEbxLdrTOrB9cZf8QmsMrJnSGxFKbZVtrKc/)
 - [词图PromptTool - AI绘画资料管理网站](https://www.prompttool.com/)
 - [Lexica](https://lexica.art/)
 - [PromptHero](https://prompthero.com/)
@@ -43,6 +50,7 @@ Prompts:
     ```
 
     异形率比较高。
+  - [Corneo's Spitroast Threesome TI Embedding | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/5811/corneos-spitroast-threesome-ti-embedding)
   - [XP模组loli | SD - WebUI 资源站](https://www.123114514.xyz/models/embeddings/NSFW/XP%E6%A8%A1%E7%BB%84loli)
 
 ### Stable Diffusion 1.5
@@ -108,13 +116,17 @@ Automation:
   [I made a queue system for Automatic1111's Stable Diffusion WebUI so you don't have to wait for each prompt to complete : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/zq0wl9/i_made_a_queue_system_for_automatic1111s_stable/)
 
 Training:
-- [Checkpoint Merger](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#checkpoint-merger)
 - [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)
+- [Naifu Diffusion: Train stable diffusion model with Diffusers, Hivemind and Pytorch Lightning](https://github.com/Mikubill/naifu-diffusion)
+- [Checkpoint Merger](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#checkpoint-merger)
+- [Merge Models: Merges two latent diffusion models at a user-defined ratio](https://github.com/eyriewow/merge-models)
 
 ## DALL-E 2
 [Two years after DALL-E debut, its inventor is "surprised" by impact | VentureBeat](https://venturebeat.com/ai/two-years-after-dall-e-debut-its-inventor-is-surprised-by-impact/)
 
 ## Ohters
+- [ACertainty](https://huggingface.co/JosephusCheung/ACertainty)
+  - [Evt_V4-preview](https://huggingface.co/haor/Evt_V4-preview)
 - [DisillusionMix 幻灭 | Civitai](https://civitai.com/models/16052/disillusionmix)
 
   VAE: `vae-ft-mse-840000-ema-pruned.ckpt`
@@ -188,13 +200,20 @@ Training:
 - [MeinaHentai | Civitai](https://civitai.com/models/12606/meinahentai)
 
 Realistic:
+- [ChilloutMix | Civitai](https://civitai.com/models/6424/chilloutmix)
+
+  [AnonPerson/ChilloutMix at main](https://huggingface.co/AnonPerson/ChilloutMix/tree/main)
 - [OrangeChillMix | Civitai](https://civitai.com/models/9486/orangechillmix)
 - [Perfect World 完美世界 | Civitai](https://civitai.com/models/8281/perfect-world)
 
   指定人体姿势的效果比较好。
 - [FaceBombMix | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/7152/facebombmix)
 - [AOAOKO \[PVC Style Model\] | Civitai](https://civitai.com/models/15509/aoaoko-pvc-style-model)
+- [Uber Realistic Porn Merge (URPM) | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/2661/uber-realistic-porn-merge-urpm)
 - [Realistic Asia doll (peeing) (Lora merge) | Civitai](https://civitai.com/models/13252/realistic-asia-doll-peeing-lora-merge)
+
+  异形率比较高。
+- [Maw Face Model | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/3990/maw-face-model)
 
 Personal styles:
 - [momoco_18000 | AI绘画模型博物馆](https://aimodel.subrecovery.top/2022/11/15/%E7%94%BB%E9%A3%8E%E6%A8%A1%E5%9E%8B/)

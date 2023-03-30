@@ -53,12 +53,14 @@
   naked ribbon, naked_ribbon, cleavage, topless, bow, red ribbon, best quality, absurdres
   Negative prompt: lowres, poorly drawn, monochrome
   ```
+- [Reverse+Translucent bunnysuit | Stable Diffusion LORA | Civitai](https://civitai.com/models/8682/reversetranslucent-bunnysuit)
 - [Better Legwears（腿部质感增强lora） | Stable Diffusion LORA | Civitai](https://civitai.com/models/12945/better-legwearslora)
 
   ```
   legs
   ```
     用于整幅图像时可能会导致产生大小胸。
+- [Skirtlift: the Astonishing Sequel to Shirtlift | Stable Diffusion LORA | Civitai](https://civitai.com/models/8631/skirtlift-the-astonishing-sequel-to-shirtlift)
 - [Pant Pull Down - LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11126/pant-pull-down-lora)
 - [Incoming hug | Stable Diffusion LORA | Civitai](https://civitai.com/models/21388/incoming-hug)
   
@@ -153,9 +155,9 @@
 - [MAPPA-like Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/11490/mappa-like-style)
 - [Anime Lineart (线稿/線画) Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/16014/anime-lineart-style)
 
-3D:
+Relistic:
 - [Hipoly 3D Model LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/8730/hipoly-3d-model-lora)
-
+- [Korean Doll Likenesss | Stable Diffusion LORA | Civitai](https://civitai.com/models/11619/korean-doll-likenesss)
 
 ## Characters
 - 東方 Project
