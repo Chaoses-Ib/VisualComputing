@@ -3,6 +3,15 @@
 
 [Low-rank Adaptation for Fast Text-to-Image Diffusion Fine-tuning](https://github.com/cloneofsimo/lora)
 
+[LoRA Block Weight](https://github.com/hako-mikan/sd-webui-lora-block-weight)
+- ```
+  NONE,ALL,INS,IND,INALL,MIDD,OUTD,OUTS,OUTALL,ALL0.5
+  ```
+
+[Composable LoRA: This extension replaces the built-in LoRA forward procedure.](https://github.com/opparco/stable-diffusion-webui-composable-lora)
+
+添加多个 LoRA 可能会导致图像出现类似过曝的现象，可以通过减小 CFG scale 和 steps 来缓解，不过减小 steps 也可能会导致水彩画风类图像不够精细。
+
 ## LyCORIS
 [LyCORIS: Lora beYond Conventional methods, Other Rank adaptation Implementations for Stable diffusion.](https://github.com/KohakuBlueleaf/LyCORIS)
 
@@ -145,6 +154,14 @@
   ```
 - [Gyokai / ononoimoko (魚介 / おののいもこ) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11794/gyokai-ononoimoko-art-style-lora)
 - Tarot
+  - [Revue Starlight CG Tarot Style Lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/15332/revue-starlight-cg-tarot-style-lora)
+
+    ```
+    arcana_style\(starlight\)
+    arcana_style\(starlight\)_upside-down
+    roman_numeral
+    English_text
+    ```
   - [Anime Tarot Card Art Style LoRA (塔罗牌/タロットカード) | Stable Diffusion LORA | Civitai](https://civitai.com/models/11177/anime-tarot-card-art-style-lora)
 
     异形率比较高。
@@ -154,6 +171,10 @@
 - [banana | Stable Diffusion LORA | Civitai](https://civitai.com/models/20315/banana)
 - [MAPPA-like Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/11490/mappa-like-style)
 - [Anime Lineart (线稿/線画) Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/16014/anime-lineart-style)
+
+  ```
+  lineart, monochrome
+  ```
 
 Relistic:
 - [Hipoly 3D Model LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/8730/hipoly-3d-model-lora)
@@ -225,3 +246,28 @@ Relistic:
     kagarino kirie
     ```
   - [Renge (Bishoujo Mangekyou) | Stable Diffusion LORA | Civitai](https://civitai.com/models/4519/renge-bishoujo-mangekyou)
+- 孤獨搖滾！
+  - [Gotō Hitori(Bocchi)-Bocchi the rock | Stable Diffusion LORA | Civitai](https://civitai.com/models/9422/goto-hitoribocchi-bocchi-the-rock)
+
+    ```
+    bmaid
+    bgymsuit
+    bshirt
+    ```
+  - 孤独摇滚 波奇 作附aton
+
+    ```
+    hair ornament, cube hair ornament, blue eyes, pink long hair, pink track jacket, bangs, hair between eyes
+    ```
+  - [孤独摇滚 - 后藤一里* Bocchi the rock - Gotou Hitori | AI绘画模型博物馆](https://aimodel.subrecovery.top/2023/01/22/lora/)
+
+  ```
+  pink hair,blue eyes,hair accessories
+  ```
+  - [Kita Ikuyo-Bocchi the rock | Stable Diffusion LORA | Civitai](https://civitai.com/models/8782/kita-ikuyo-bocchi-the-rock)
+
+    ```
+    kmaid
+    kuniform
+    kshirt
+    ```

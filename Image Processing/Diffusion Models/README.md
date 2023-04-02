@@ -86,6 +86,15 @@ Size:
 
 [出精图必备！SD webui更多强大的功能！(Novel AI) - 哔哩哔哩](https://www.bilibili.com/read/cv19211897?from=articleDetail)
 
+Regional prompts:
+- [Latent Couple extension (two shot diffusion port)](https://github.com/opparco/stable-diffusion-webui-two-shot)
+  - [ashen-sensored/stable-diffusion-webui-two-shot](https://github.com/ashen-sensored/stable-diffusion-webui-two-shot)
+
+  Area 的限定并不严格，图像很容易超出 mask。
+
+  要点击 `Prompt Info Update` 才会应用 mask。
+- [Regional Prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
+
 [Inpainging & Outpainting](https://rentry.org/drfar)
 - Inpaint 可能会与原图产生色差，将 inpaint 结果通过低 denoising strength 的 img2img 再次处理可以缓解这一问题，但会导致整幅图发生变化；也可以使用 Photoshop 手动修复。
 - 也可以直接使用 Photoshop 等工具手动粗略修复图像，再通过 img2img 或 inpaint 细化。
@@ -95,6 +104,8 @@ Size:
 - 同时修复多个部位比单独修复每个部位困难，可以使用 Photoshop 将不同图像的不同修复图像进行拼合。
 - Inpaint sketch 尽管可以指定颜色，但经常会修改到 mask 之外的内容，有时还会生成无关的图像。一种替代方法是把 inpaint sketch 中涂改好的图像发送到 inpaint，再绘制 mask，将 original 作为 masked content 来进行 inpaint。
 - 实在无法修复时，也可以考虑只截取图像的正常部分。
+
+较高的 denoising strength 会导致头发趋向于卷发。
 
 [玩了一段时间的sd-webui，简单聊聊我觉得目前ai作画存在的一些痛点，也是当前手工作业很难取代之处 NGA玩家社区](https://g.nga.cn/read.php?tid=35710972&rand=594)
 
@@ -172,6 +183,22 @@ Training:
 - [HoloKuki | Civitai](https://civitai.com/models/17598/holokuki)
 
   需要比较多的 prompts 才能保证生成对应角色。
+- [bocchi-the-rock-character | Civitai](https://civitai.com/models/4154/bocchi-the-rock-character)
+
+  ```
+  bocchi
+  kitaikuyo
+  ijichinijika
+  yamadaryo
+  ijichiseika
+  pasan
+  hiroikikuri
+  shimizueliza
+  iwashitashima
+  bfan1
+  bofa2
+  gotofutari
+  ```
 - [AniFuture-mirai [未来写实] | Civitai](https://civitai.com/models/21007/anifuture-mirai)
 
   VAE: `mse840000_klf8anime.vae.pt`
