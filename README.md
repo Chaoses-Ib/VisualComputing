@@ -4,11 +4,14 @@
   - [基于 PCA 实现人脸识别](Computer%20Vision/Face%20Recognition/基于%20PCA%20实现人脸识别.md)
 
 ## [Image Processing](Image%20Processing/README.md)
+- [Image File Formats](Image%20Processing/File%20Formats/README.md)
+  - [Graphics Interchange Format](Image%20Processing/File%20Formats/GIF.md)
+- [Image Scaling](Image%20Processing/Image%20Scaling/README.md)
 - [Diffusion Models](Image%20Processing/Diffusion%20Models/README.md)
   - [Low-Rank Adaptation](Image%20Processing/Diffusion%20Models/LoRA.md)
   - [ControlNet](Image%20Processing/Diffusion%20Models/ControlNet.md)
   - [Variational Autoencoder](Image%20Processing/Diffusion%20Models/VAE.md)
-- [Image Scaling](Image%20Processing/Image%20Scaling/README.md)
+- [Tools](Image%20Processing/Tools.md)
 
 ## [Video Processing](Video%20Processing/README.md)
 - [Video Scaling](Video%20Processing/Video%20Scaling.md)
