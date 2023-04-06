@@ -4,6 +4,7 @@
 [NovelAI Improvements on Stable Diffusion | by NovelAI | Medium](https://blog.novelai.net/novelai-improvements-on-stable-diffusion-e10d38db82ac)
 
 On October 6, 2022, NovelAI experienced a data breach where its software source code was leaked.
+- [\[閒聊\] NovelAI模型外洩事件對各界後續影響 - 看板 C_Chat - 批踢踢實業坊](https://www.ptt.cc/bbs/C_Chat/M.1665590615.A.461.html)
 
 ## Prompts
 - [Stable Diffusion使用入门与提示词技巧 - 知乎](https://zhuanlan.zhihu.com/p/577238010)

@@ -19,6 +19,7 @@
 
 ## [Video Processing](Video%20Processing/README.md)
 - [Video Scaling](Video%20Processing/Video%20Scaling.md)
+- [Diffusion Models](Video%20Processing/Diffusion%20Models/README.md)
 - [Frame Interpolation](Video%20Processing/Frame%20Interpolation.md)
 
 ## Natural Language Processing
