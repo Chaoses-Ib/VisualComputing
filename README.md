@@ -10,9 +10,11 @@
   - [Graphics Interchange Format](Image%20Processing/File%20Formats/GIF.md)
 - [Image Scaling](Image%20Processing/Image%20Scaling/README.md)
 - [Diffusion Models](Image%20Processing/Diffusion%20Models/README.md)
+  - [Stable Diffusion](Image%20Processing/Diffusion%20Models/Stable%20Diffusion/README.md)
+    - [NovelAI Diffusion](Image%20Processing/Diffusion%20Models/Stable%20Diffusion/NovelAI%20Diffusion.md)
+  - [Variational Autoencoder](Image%20Processing/Diffusion%20Models/VAE.md)
   - [Low-Rank Adaptation](Image%20Processing/Diffusion%20Models/LoRA.md)
   - [ControlNet](Image%20Processing/Diffusion%20Models/ControlNet.md)
-  - [Variational Autoencoder](Image%20Processing/Diffusion%20Models/VAE.md)
 - [Tools](Image%20Processing/Tools.md)
 
 ## [Video Processing](Video%20Processing/README.md)

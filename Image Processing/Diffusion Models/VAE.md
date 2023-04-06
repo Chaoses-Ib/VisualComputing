@@ -5,16 +5,6 @@
 
 不同 VAE 间的效果差别类似滤镜。
 
-VAEs:
-- None
-
-  会导致画面的色彩比较淡。
-- [stabilityai/sd-vae-ft-mse-original](https://huggingface.co/stabilityai/sd-vae-ft-mse-original) (`vae-ft-mse-840000-ema-pruned.ckpt`)
-- `mse840000_klf8anime.vae.pt`
-- `pastel-waifu-diffusion.vae.pt`
-
-- `orangemix.vae.pt`
-
 ## modules.devices.NansException: A tensor with all NaNs was produced in VAE
 ```python
 modules.devices.NansException: A tensor with all NaNs was produced in VAE. This could be because there's not enough prec  
