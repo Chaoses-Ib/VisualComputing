@@ -3,6 +3,7 @@
 - [Image Segmentation](Computer%20Vision/Image%20Segmentation.md)
 - Face Recognition
   - [基于 PCA 实现人脸识别](Computer%20Vision/Face%20Recognition/基于%20PCA%20实现人脸识别.md)
+- [3D Pose Estimation](Computer%20Vision/3D%20Pose%20Estimation.md)
 
 ## [Image Processing](Image%20Processing/README.md)
 - [Image File Formats](Image%20Processing/File%20Formats/README.md)
