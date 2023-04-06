@@ -10,6 +10,10 @@
   - [MediaPipe Pose](https://github.com/google/mediapipe/blob/master/docs/solutions/pose.md)
 - 2018-12-18 [OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation](https://github.com/CMU-Perceptual-Computing-Lab/openpose) ([Paper With Code](https://paperswithcode.com/paper/openpose-realtime-multi-person-2d-pose))
 
+Diffusion models:
+- 2022-11-29 [DiffPose: Multi-hypothesis Human Pose Estimation using Diffusion models](https://arxiv.org/abs/2211.16487)
+- 2022-10-11 [A generic diffusion-based approach for 3D human pose prediction in the wild](https://arxiv.org/abs/2210.05669)
+
 Anime:
 - 2021-08-04 [bizarre-pose-estimator: Transfer Learning for Pose Estimation of Illustrated Characters](https://github.com/ShuhongChen/bizarre-pose-estimator)
 

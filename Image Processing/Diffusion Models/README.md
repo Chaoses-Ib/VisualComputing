@@ -5,6 +5,8 @@
 
 [The Annotated Diffusion Model](https://huggingface.co/blog/annotated-diffusion)
 
+[Awesome-Diffusion-Models: A collection of resources and papers on Diffusion Models](https://github.com/heejkoo/Awesome-Diffusion-Models)
+
 ## Stable Diffusion
 [Wikipedia](https://en.wikipedia.org/wiki/Stable_Diffusion), [GitHub](https://github.com/CompVis/stable-diffusion)
 
@@ -20,6 +22,9 @@ Models:
   - [元素法典 LORA模型共享](https://t.me/loraeveryone)
 - [AI 绘画与作画 stable diffusion webui 常见模型汇总及简介 — 秋风于渭水](https://www.tjsky.net/tutorial/583)
 - [Gavin123/anything3.0 at maim](https://huggingface.co/Gavin123/anything3.0/tree/main)
+- [samle/sd-webui-models at main](https://huggingface.co/samle/sd-webui-models/tree/main)
+
+  Realistic.
 
 Tools:
 - [Stable Diffusion web UI](#stable-diffusion-web-ui)
@@ -31,17 +36,24 @@ Services:
 - [MajinAI](https://majinai.art/index.php)
 
 Prompts:
-- [AI繪圖魔導書 - Google 表格](https://docs.google.com/spreadsheets/d/16wR5Zg_aQEbxLdrTOrB9cZf8QmsMrJnSGxFKbZVtrKc/)
-- [词图PromptTool - AI绘画资料管理网站](https://www.prompttool.com/)
-- [Lexica](https://lexica.art/)
-- [PromptHero](https://prompthero.com/)
-- [Danbooru: Anime Image Board](https://danbooru.donmai.us/)
-  - [DeepDanbooru: AI based multi-label girl image classification system, implemented by using TensorFlow.](https://github.com/KichangKim/DeepDanbooru)
-  - [Danbooru 标签导出器](https://sleazyfork.org/zh-CN/scripts/452976-danbooru-tags-select-to-export)
-  - [Danbooru 标签超市](https://tags.novelai.dev/)
-- [sd-promptbook](https://github.com/space-nuko/sd-promptbook/)
 - [Stable Diffusion使用入门与提示词技巧 - 知乎](https://zhuanlan.zhihu.com/p/577238010)
-- [元素法典——Novel AI 元素魔法全收录](https://docs.qq.com/doc/DWHl3am5Zb05QbGVs)
+- [Danbooru: Anime Image Board](https://danbooru.donmai.us/)
+  - [Danbooru 标签导出器](https://sleazyfork.org/zh-CN/scripts/452976-danbooru-tags-select-to-export)
+- Index
+  - [Danbooru 标签超市](https://tags.novelai.dev/)
+  - [AI繪圖魔導書 - Google 表格](https://docs.google.com/spreadsheets/d/16wR5Zg_aQEbxLdrTOrB9cZf8QmsMrJnSGxFKbZVtrKc/)
+  - [词图PromptTool - AI绘画资料管理网站](https://www.prompttool.com/)
+- Search engines
+  - [Lexica](https://lexica.art/)
+  - [PromptHero](https://prompthero.com/)
+  - [词图PromptTool - AI绘画资料管理网站](https://www.prompttool.com/)
+- Templates
+  - [元素法典——Novel AI 元素魔法全收录](https://docs.qq.com/doc/DWHl3am5Zb05QbGVs)
+  - [词图PromptTool - AI绘画资料管理网站](https://www.prompttool.com/)
+- Extraction
+  - [DeepDanbooru: AI based multi-label girl image classification system, implemented by using TensorFlow.](https://github.com/KichangKim/DeepDanbooru)
+  - [词图PromptTool - AI绘画资料管理网站](https://www.prompttool.com/)
+- [sd-promptbook](https://github.com/space-nuko/sd-promptbook/)
 - [Textual Inversion](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Textual-Inversion)
   - [EasyNegative | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/7808/easynegative)
 
@@ -202,6 +214,7 @@ Training:
 - [AniFuture-mirai [未来写实] | Civitai](https://civitai.com/models/21007/anifuture-mirai)
 
   VAE: `mse840000_klf8anime.vae.pt`
+- [Anime Shibari Bondage Model | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/4226/anime-shibari-bondage-model)
 
 α:
 - [Pastel Mix](https://huggingface.co/andite/pastel-mix) ([Civitai](https://civitai.com/models/5414/pastel-mix-stylized-anime-model))
@@ -210,6 +223,7 @@ Training:
 
   偏向 SFW；偏向女性角色。
 - [9527 | Civitai](https://civitai.com/models/6204/9527)
+- [light painting | Civitai](https://civitai.com/models/21557/light-painting)
 
 β:
 - [Counterfeit-V2.5](https://huggingface.co/gsdf/Counterfeit-V2.5) ([Civitai](https://civitai.com/models/4468/counterfeit-v25))
@@ -225,6 +239,8 @@ Training:
   - [Anything V3 | Civitai](https://civitai.com/models/9409/anything-v3)
 - [Hassaku (hentai model) | Civitai](https://civitai.com/models/2583/hassaku-hentai-model)
 - [MeinaHentai | Civitai](https://civitai.com/models/12606/meinahentai)
+- [untitled-anime-mix | Civitai](https://civitai.com/models/23739/untitled-anime-mix)
+- [奇迹之力 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/27162)
 
 Realistic:
 - [ChilloutMix | Civitai](https://civitai.com/models/6424/chilloutmix)
@@ -241,6 +257,7 @@ Realistic:
 
   异形率比较高。
 - [Maw Face Model | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/3990/maw-face-model)
+- [DosMix | Civitai](https://civitai.com/models/6250)
 
 Personal styles:
 - [momoco_18000 | AI绘画模型博物馆](https://aimodel.subrecovery.top/2022/11/15/%E7%94%BB%E9%A3%8E%E6%A8%A1%E5%9E%8B/)
