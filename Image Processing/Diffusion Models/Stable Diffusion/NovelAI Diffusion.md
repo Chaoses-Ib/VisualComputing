@@ -172,11 +172,7 @@ Personal styles:
 
 ## LoRA
 ### Concepts
-- [headpat | Stable Diffusion LORA | Civitai](https://civitai.com/models/8647/headpat)
-
-  ```
-  headpat, head rub
-  ```
+#### Body
 - [Anime Oni Horns | Stable Diffusion LORA | Civitai](https://civitai.com/models/21226/anime-oni-horns)
 
   ```
@@ -189,22 +185,32 @@ Personal styles:
   ```
   mesugaki, smile
   ```
-- [Glory Hole Tongue | Stable Diffusion LORA | Civitai](https://civitai.com/models/26262/glory-hole-tongue)
-- [Pocky Kiss Side View | Test Concept Lora 231 | Stable Diffusion LORA | Civitai](https://civitai.com/models/27960/pocky-kiss-side-view-or-test-concept-lora-231)
 - [【Concept】Better Hair Censor 更好的头发遮胸 | Stable Diffusion LORA | Civitai](https://civitai.com/models/16940/conceptbetter-hair-censor)
 
   ```
   hair_censor
   ```
-- [【Concept】Hair Over Crotch/Total Hair Censor 完全头发遮挡 | Stable Diffusion LORA | Civitai](https://civitai.com/models/17576/concepthair-over-crotchtotal-hair-censor)
 
   会对胸部大小产生一定影响。
+- [【Concept】Hair Over Crotch/Total Hair Censor 完全头发遮挡 | Stable Diffusion LORA | Civitai](https://civitai.com/models/17576/concepthair-over-crotchtotal-hair-censor)
+- [Butterfly Wings - \[BETA\]\[CONCEPT\]\[ANIME\] | Stable Diffusion LoCon | Civitai](https://civitai.com/models/27714/butterfly-wings-betaconceptanime)
+- [concept Tail censor | Stable Diffusion LORA | Civitai](https://civitai.com/models/27345/concept-tail-censor)
+
+  ```
+  tail censor
+  ```
+- [Better Legwears（腿部质感增强lora） | Stable Diffusion LORA | Civitai](https://civitai.com/models/12945/better-legwearslora)
+
+  ```
+  legs
+  ```
+    用于整幅图像时可能会导致产生大小胸。
+
+#### Clothing
 - [【Concept】Better Center Opening Cleavage Cutout 更好的胸部中间开口 | Stable Diffusion LORA | Civitai](https://civitai.com/models/14566/conceptbetter-center-opening-cleavage-cutout)
   ```
   cleavage_cutout
   ```
-- [Leaf Umbrella | Stable Diffusion LORA | Civitai](https://civitai.com/models/27190/leaf-umbrella)
-- [Butterfly Wings - \[BETA\]\[CONCEPT\]\[ANIME\] | Stable Diffusion LoCon | Civitai](https://civitai.com/models/27714/butterfly-wings-betaconceptanime)
 - [Torn Clothes | Stable Diffusion LORA | Civitai](https://civitai.com/models/19506/torn-clothes)
 
   ```
@@ -217,6 +223,7 @@ Personal styles:
   yukata
   ```
 - [Tutu/Ballet outfit - \[CLOTHING\]\[ANIME\] | Stable Diffusion LoCon | Civitai](https://civitai.com/models/27637/tutuballet-outfit-clothinganime)
+- [Reverse+Translucent bunnysuit | Stable Diffusion LORA | Civitai](https://civitai.com/models/8682/reversetranslucent-bunnysuit)
 - [【Costume】Erotic Jiangshi (China Zombie) Costume 涩情僵尸装 | Stable Diffusion LORA | Civitai](https://civitai.com/models/27647/costumeerotic-jiangshi-china-zombie-costume)
 - [🎀只穿缎带 | 裸リボン | naked ribbon | Stable Diffusion LORA | Civitai](https://civitai.com/models/9354/or-or-naked-ribbon)
 
@@ -224,52 +231,52 @@ Personal styles:
   naked ribbon, naked_ribbon, cleavage, topless, bow, red ribbon, best quality, absurdres
   Negative prompt: lowres, poorly drawn, monochrome
   ```
-- [Reverse+Translucent bunnysuit | Stable Diffusion LORA | Civitai](https://civitai.com/models/8682/reversetranslucent-bunnysuit)
-- [concept Tail censor | Stable Diffusion LORA | Civitai](https://civitai.com/models/27345/concept-tail-censor)
+
+#### Actions
+- [pose fixing helper 姿势助手 | Stable Diffusion LORA | Civitai](https://civitai.com/models/17006/pose-fixing-helper)
+- [headpat | Stable Diffusion LORA | Civitai](https://civitai.com/models/8647/headpat)
 
   ```
-  tail censor
+  headpat, head rub
   ```
-- [Better Legwears（腿部质感增强lora） | Stable Diffusion LORA | Civitai](https://civitai.com/models/12945/better-legwearslora)
+- [Yuri kiss | Stable Diffusion LORA | Civitai](https://civitai.com/models/25152/yuri-kiss)
 
   ```
-  legs
+  yuri, kiss
   ```
-    用于整幅图像时可能会导致产生大小胸。
-- [Skirtlift: the Astonishing Sequel to Shirtlift | Stable Diffusion LORA | Civitai](https://civitai.com/models/8631/skirtlift-the-astonishing-sequel-to-shirtlift)
-- [Pant Pull Down - LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11126/pant-pull-down-lora)
+- [Pocky Kiss Side View | Test Concept Lora 231 | Stable Diffusion LORA | Civitai](https://civitai.com/models/27960/pocky-kiss-side-view-or-test-concept-lora-231)
+- [Glory Hole Tongue | Stable Diffusion LORA | Civitai](https://civitai.com/models/26262/glory-hole-tongue)
 - [Incoming hug | Stable Diffusion LORA | Civitai](https://civitai.com/models/21388/incoming-hug)
   
   ```
   incoming hug
   ```
+- [Skirtlift: the Astonishing Sequel to Shirtlift | Stable Diffusion LORA | Civitai](https://civitai.com/models/8631/skirtlift-the-astonishing-sequel-to-shirtlift)
+- [Pant Pull Down - LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11126/pant-pull-down-lora)
 - [Doggystyle | Stable Diffusion LORA | Civitai](https://civitai.com/models/6082/doggystyle)
 - [{DD} Reverse cowgirl with soles (feet on lap) | Stable Diffusion LORA | Civitai](https://civitai.com/models/28281/dd-reverse-cowgirl-with-soles-feet-on-lap)
 - [Doggystyle from side view | Stable Diffusion LORA | Civitai](https://civitai.com/models/12961/doggystyle-from-side-view)
-- [girl in glass bottle | Stable Diffusion LORA | Civitai](https://civitai.com/models/13185/girl-in-glass-bottle)
 - [Trapped in Wall | Stable Diffusion LORA | Civitai](https://civitai.com/models/8764/trapped-in-wall)
 - [Trapped in Wall - Behind | Stable Diffusion LORA | Civitai](https://civitai.com/models/8817/trapped-in-wall-behind)
 - [🎁美少女礼盒 | girl in gift box | 箱入り娘 | Stable Diffusion LORA | Civitai](https://civitai.com/models/9706/or-girl-in-gift-box-or)
 - [【Concept】Delivery In Box 装箱 | Stable Diffusion LORA | Civitai](https://civitai.com/models/9844/conceptdelivery-in-box)
-- [pose fixing helper 姿势助手 | Stable Diffusion LORA | Civitai](https://civitai.com/models/17006/pose-fixing-helper)
 - [Nyotaimori / food table girl | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/7895/nyotaimori-food-table-girl)
 - [POV Imminent Penetration \[1 MB\] | Stable Diffusion LORA | Civitai](https://civitai.com/models/9432/pov-imminent-penetration-1-mb)
 
   ```
   1boy, penis, imminent penetration, lying, on back, spread legs
   ```
+- [Two-person lora 双人lora 父女 | Stable Diffusion LORA | Civitai](https://civitai.com/models/22007/two-person-lora-lora)
+
+#### Things
+- [Leaf Umbrella | Stable Diffusion LORA | Civitai](https://civitai.com/models/27190/leaf-umbrella)
+- [girl in glass bottle | Stable Diffusion LORA | Civitai](https://civitai.com/models/13185/girl-in-glass-bottle)
 - [JUN_bukkake | Stable Diffusion LORA | Civitai](https://civitai.com/models/17173/junbukkake)
 
   ```
   Cum
   ```
 - [cum facial mask(精液面膜) | Stable Diffusion LORA | Civitai](https://civitai.com/models/27206/cum-facial-mask)
-- [Yuri kiss | Stable Diffusion LORA | Civitai](https://civitai.com/models/25152/yuri-kiss)
-
-  ```
-  yuri, kiss
-  ```
-- [Two-person lora 双人lora 父女 | Stable Diffusion LORA | Civitai](https://civitai.com/models/22007/two-person-lora-lora)
 
 ### Styles
 - [Pastel-Mix [Stylized Anime Model] - Fantasy.ai | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/5414/pastel-mix-stylized-anime-model)
