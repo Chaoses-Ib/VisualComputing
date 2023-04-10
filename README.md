@@ -16,6 +16,8 @@
   - [Low-Rank Adaptation](Image%20Processing/Diffusion%20Models/LoRA.md)
   - [ControlNet](Image%20Processing/Diffusion%20Models/ControlNet.md)
 - [Tools](Image%20Processing/Tools.md)
+- [Image Hosting](Image%20Processing/Image%20Hosting.md)
+- [Image Sharing](Image%20Processing/Image%20Sharing/README.md)
 
 ## [Video Processing](Video%20Processing/README.md)
 - [Video Scaling](Video%20Processing/Video%20Scaling.md)
