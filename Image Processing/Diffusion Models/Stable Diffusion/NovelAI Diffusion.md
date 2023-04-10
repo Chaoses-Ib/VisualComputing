@@ -94,6 +94,13 @@ Models:
   ligne claire,
   flat color, limited palette, low contrast, high contrast, chromatic aberration
   ```
+- [Dorayakimix | Civitai](https://civitai.com/models/32355/dorayamimix)
+
+  ```
+  small breast
+  nsfw,EasyNegative,nsfw,(low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2),bad composition, inaccurate eyes, extra digit,fewer digits,(extra arms:1.2),2girl,lanjiao5,text
+  ```
+  VAE: `Animate.vae`
 - [HoloKuki | Civitai](https://civitai.com/models/17598/holokuki)
 
   需要比较多的 prompts 才能保证生成对应角色。
@@ -193,6 +200,10 @@ Personal styles:
 
   会对胸部大小产生一定影响。
 - [【Concept】Hair Over Crotch/Total Hair Censor 完全头发遮挡 | Stable Diffusion LORA | Civitai](https://civitai.com/models/17576/concepthair-over-crotchtotal-hair-censor)
+
+  ```
+  hair_over_crotch, nude, long_hair
+  ```
 - [Butterfly Wings - \[BETA\]\[CONCEPT\]\[ANIME\] | Stable Diffusion LoCon | Civitai](https://civitai.com/models/27714/butterfly-wings-betaconceptanime)
 - [concept Tail censor | Stable Diffusion LORA | Civitai](https://civitai.com/models/27345/concept-tail-censor)
 
@@ -222,6 +233,13 @@ Personal styles:
   uchikake, short yukata, bath yukata, furisode,
   yukata
   ```
+- [Wedding Dress Extension | Clothing LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/24138/wedding-dress-extension-or-clothing-lora)
+
+  ```
+  wedding dress
+  ```
+- [Widow Style | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/15393/widow-style)
+- [Leotard | Stable Diffusion LORA | Civitai](https://civitai.com/models/32700)
 - [Tutu/Ballet outfit - \[CLOTHING\]\[ANIME\] | Stable Diffusion LoCon | Civitai](https://civitai.com/models/27637/tutuballet-outfit-clothinganime)
 - [Reverse+Translucent bunnysuit | Stable Diffusion LORA | Civitai](https://civitai.com/models/8682/reversetranslucent-bunnysuit)
 - [【Costume】Erotic Jiangshi (China Zombie) Costume 涩情僵尸装 | Stable Diffusion LORA | Civitai](https://civitai.com/models/27647/costumeerotic-jiangshi-china-zombie-costume)
@@ -244,6 +262,8 @@ Personal styles:
   ```
   yuri, kiss
   ```
+
+  容易出现嘴连在一起的问题。
 - [Pocky Kiss Side View | Test Concept Lora 231 | Stable Diffusion LORA | Civitai](https://civitai.com/models/27960/pocky-kiss-side-view-or-test-concept-lora-231)
 - [Glory Hole Tongue | Stable Diffusion LORA | Civitai](https://civitai.com/models/26262/glory-hole-tongue)
 - [Incoming hug | Stable Diffusion LORA | Civitai](https://civitai.com/models/21388/incoming-hug)
@@ -348,6 +368,8 @@ Personal styles:
 - [Abara Heiki Sketches (Art Style) | Stable Diffusion LORA | Civitai](https://civitai.com/models/27599/abara-heiki-sketches-art-style)
 - [akarte'art （吉岡よしこ） | Stable Diffusion LORA | Civitai](https://civitai.com/models/15704/akarteart)
 - [Gyokai / ononoimoko (魚介 / おののいもこ) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11794/gyokai-ononoimoko-art-style-lora)
+- `gzc-000004.safetensors`
+- `gzc_2.safetensors`
 - [汉家松鼠 | Stable Diffusion LORA | Civitai](https://civitai.com/models/8181)
 
   会导致画面变阴暗；和 Pastel Mix 配合得比较好。
