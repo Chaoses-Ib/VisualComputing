@@ -19,6 +19,7 @@
 - [Image Hosting](Image%20Processing/Image%20Hosting.md)
 - [Image Sharing](Image%20Processing/Image%20Sharing/README.md)
   - [Pixiv](Image%20Processing/Image%20Sharing/Pixiv.md)
+  - [Danbooru](Image%20Processing/Image%20Sharing/Danbooru.md)
 
 ## [Video Processing](Video%20Processing/README.md)
 - [Video Scaling](Video%20Processing/Video%20Scaling.md)

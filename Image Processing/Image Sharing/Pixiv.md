@@ -3,9 +3,6 @@
 Web:
 - [Pixiv](https://www.pixiv.net/)
   - [Pixiv Toolkit: A web extension for Pixiv](https://github.com/leoding86/webextension-pixiv-toolkit)
-  - [Pxer: A tool for pixiv.net. 人人可用的P站爬虫](http://pxer.pea3nut.org/) ([GitHub](https://github.com/FoXZilla/Pxer))
-
-    只是批量获取原图地址；速度比较慢；会修改 Pixiv 网站图标。
 - [pixivision - おもしろいもん観たいじゃん](https://www.pixivision.net/)
 - [pixiv年鑑(β)](https://pixiv.navirank.com/)
 - [pixiv萌え](https://pixiv.moe/)
@@ -31,3 +28,12 @@ Telegram:
 
 iOS:
 - [PixivPy3: Pixiv API for Python](https://github.com/upbit/pixivpy)
+
+## Tools
+- [PixivUtil2: Download images from Pixiv and more!](https://github.com/Nandaka/PixivUtil2)
+- [Grabber: Very customizable imageboard/booru downloader with powerful filenaming features.](https://github.com/Bionus/imgbrd-grabber)
+- [gallery-dl: Command-line program to download image galleries and collections from several image hosting sites](https://github.com/mikf/gallery-dl)
+- [Pxer: A tool for pixiv.net. 人人可用的P站爬虫](http://pxer.pea3nut.org/) ([GitHub](https://github.com/FoXZilla/Pxer))
+
+  只是批量获取原图地址；速度比较慢；会修改 Pixiv 网站图标。
+- [Pixiv Toolkit: A web extension for Pixiv](https://github.com/leoding86/webextension-pixiv-toolkit)

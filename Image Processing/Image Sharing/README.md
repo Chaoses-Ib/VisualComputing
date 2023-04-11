@@ -12,3 +12,7 @@ Illustrations:
 
 Cosplay:
 - [3dbooru: ~three-dee-booru~](http://behoimi.org/)
+
+## Tools
+- [gallery-dl: Command-line program to download image galleries and collections from several image hosting sites](https://github.com/mikf/gallery-dl)
+- [Grabber: Very customizable imageboard/booru downloader with powerful filenaming features.](https://github.com/Bionus/imgbrd-grabber)
