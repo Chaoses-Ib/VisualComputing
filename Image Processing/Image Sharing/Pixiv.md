@@ -25,6 +25,7 @@ Telegram:
 - [PIXIV站每日r18图片 Top50搬运](https://t.me/pixiv_top50_r18)
 
 ## Ranks
+- [ランキングについて – pixivヘルプセンター](https://www.pixiv.help/hc/categories/360001065093)
 - [pixiv年鑑(β)](https://pixiv.navirank.com/)
 - [人気のタグ - pixiv](https://www.pixiv.net/tags)
 

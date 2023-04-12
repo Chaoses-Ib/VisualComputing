@@ -2,6 +2,12 @@
 [Wikipedia](https://en.wikipedia.org/wiki/NovelAI)
 
 [NovelAI Improvements on Stable Diffusion | by NovelAI | Medium](https://blog.novelai.net/novelai-improvements-on-stable-diffusion-e10d38db82ac)
+- Using hidden States of CLIP’s penultimate layer
+- [NovelAI Aspect Ratio Bucketing: Implementation of aspect ratio bucketing for training generative image models](https://github.com/NovelAI/novelai-aspect-ratio-bucketing)
+
+  Using random crops instead of center crops only slightly improves the issues.
+- Extending the Stable Diffusion token limit by 3x.
+- Hypernetworks
 
 On October 6, 2022, NovelAI experienced a data breach where its software source code was leaked.
 - [\[閒聊\] NovelAI模型外洩事件對各界後續影響 - 看板 C_Chat - 批踢踢實業坊](https://www.ptt.cc/bbs/C_Chat/M.1665590615.A.461.html)
@@ -39,6 +45,7 @@ On October 6, 2022, NovelAI experienced a data breach where its software source 
 
 ## Models
 - [Civitai | Stable Diffusion models, embeddings, hypernetworks and more](https://civitai.com/)
+- [SD RESOURCE GOLDMINE](https://rentry.org/sdgoldmine)
 - [AI繪圖魔導書 - Google 表格](https://docs.google.com/spreadsheets/d/16wR5Zg_aQEbxLdrTOrB9cZf8QmsMrJnSGxFKbZVtrKc/)
 - [AI绘画模型博物馆](https://aimodel.subrecovery.top/)
 - [SD - WebUI 资源站](https://www.123114514.xyz/)
@@ -143,7 +150,9 @@ Models:
     Negative prompt: nsfw, (worst quality, low quality:1.4), (lip, nose, tooth, rouge, lipstick, eyeshadow:1.4), ( jpeg artifacts:1.4), (depth of field, bokeh, blurry, film grain, chromatic aberration, lens flare:1.0), (1boy, abs, muscular, rib:1.0), greyscale, monochrome, dusty sunbeams, trembling, motion lines, motion blur, emphasis lines, text, title, logo, signature,
     Steps: 20, Sampler: DPM++ SDE Karras
     ```
-        默认的 20 步 sampling 可能会导致生成的图像不够精细。
+    默认的 20 步 sampling 可能会导致生成的图像不够精细。
+
+    VAE: `orangemix.vae.pt`
 - [Anything V4](https://huggingface.co/andite/anything-v4.0)
   - [Anything V3 | Civitai](https://civitai.com/models/9409/anything-v3)
 - [Hassaku (hentai model) | Civitai](https://civitai.com/models/2583/hassaku-hentai-model)
@@ -227,17 +236,20 @@ Personal styles:
   ```
   torn clothes, cloth pieces
   ```
+  18.1 MiB.
 - [Kimono Clothes | Stable Diffusion LORA | Civitai](https://civitai.com/models/12934/kimono-clothes)
 
   ```
   uchikake, short yukata, bath yukata, furisode,
   yukata
   ```
+  18.1 MiB.
 - [Wedding Dress Extension | Clothing LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/24138/wedding-dress-extension-or-clothing-lora)
 
   ```
   wedding dress
   ```
+  9.1 MiB.
 - [Widow Style | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/15393/widow-style)
 - [Leotard | Stable Diffusion LORA | Civitai](https://civitai.com/models/32700)
 - [Tutu/Ballet outfit - \[CLOTHING\]\[ANIME\] | Stable Diffusion LoCon | Civitai](https://civitai.com/models/27637/tutuballet-outfit-clothinganime)
@@ -257,20 +269,24 @@ Personal styles:
   ```
   headpat, head rub
   ```
+  4.6 MiB.
 - [Yuri kiss | Stable Diffusion LORA | Civitai](https://civitai.com/models/25152/yuri-kiss)
 
   ```
   yuri, kiss
   ```
 
-  容易出现嘴连在一起的问题。
+  4.6 MiB；容易出现嘴连在一起的问题。
 - [Pocky Kiss Side View | Test Concept Lora 231 | Stable Diffusion LORA | Civitai](https://civitai.com/models/27960/pocky-kiss-side-view-or-test-concept-lora-231)
 - [Glory Hole Tongue | Stable Diffusion LORA | Civitai](https://civitai.com/models/26262/glory-hole-tongue)
+
+  17.7 MiB.
 - [Incoming hug | Stable Diffusion LORA | Civitai](https://civitai.com/models/21388/incoming-hug)
   
   ```
   incoming hug
   ```
+  18.1 MiB.
 - [Skirtlift: the Astonishing Sequel to Shirtlift | Stable Diffusion LORA | Civitai](https://civitai.com/models/8631/skirtlift-the-astonishing-sequel-to-shirtlift)
 - [Pant Pull Down - LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11126/pant-pull-down-lora)
 - [Doggystyle | Stable Diffusion LORA | Civitai](https://civitai.com/models/6082/doggystyle)
@@ -286,6 +302,7 @@ Personal styles:
   ```
   1boy, penis, imminent penetration, lying, on back, spread legs
   ```
+  0.9 MiB.
 - [Two-person lora 双人lora 父女 | Stable Diffusion LORA | Civitai](https://civitai.com/models/22007/two-person-lora-lora)
 
 #### Things
@@ -296,6 +313,7 @@ Personal styles:
   ```
   Cum
   ```
+  4.6 MiB.
 - [cum facial mask(精液面膜) | Stable Diffusion LORA | Civitai](https://civitai.com/models/27206/cum-facial-mask)
 
 ### Styles
@@ -309,6 +327,8 @@ Personal styles:
 - [Atdan Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/8615/atdan-style-lora)
 - [(21404) Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/21404/style)
 - [GrullBorg Copycat Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/8134/grullborg-copycat-style)
+
+  9.1 MiB.
 - [Viefusion | Stable Diffusion LORA | Civitai](https://civitai.com/models/11678/viefusion)
 
   偏向于露出乳头。
@@ -341,6 +361,7 @@ Personal styles:
   ```
   blacklight
   ```
+  9.1 MiB.
 - Tarot
   - [Revue Starlight CG Tarot Style Lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/15332/revue-starlight-cg-tarot-style-lora)
 
@@ -352,7 +373,7 @@ Personal styles:
     ```
   - [Anime Tarot Card Art Style LoRA (塔罗牌/タロットカード) | Stable Diffusion LORA | Civitai](https://civitai.com/models/11177/anime-tarot-card-art-style-lora)
 
-    异形率比较高。
+    13.6 MiB；异形率比较高。
   - [Sailor Moon Tarot | Stable Diffusion LORA | Civitai](https://civitai.com/models/17720/sailor-moon-tarot)
 - [LORA_HF_30 | Stable Diffusion LORA | Civitai](https://civitai.com/models/13971/lorahf30)
 - [banana | Stable Diffusion LORA | Civitai](https://civitai.com/models/20315/banana)
@@ -363,6 +384,7 @@ Personal styles:
   ```
   lineart, monochrome
   ```
+  18.1 MiB.
 
 Personal styles:
 - [Abara Heiki Sketches (Art Style) | Stable Diffusion LORA | Civitai](https://civitai.com/models/27599/abara-heiki-sketches-art-style)
@@ -370,6 +392,8 @@ Personal styles:
 - [Gyokai / ononoimoko (魚介 / おののいもこ) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11794/gyokai-ononoimoko-art-style-lora)
 - `gzc-000004.safetensors`
 - `gzc_2.safetensors`
+
+  4.8 MiB.
 - [汉家松鼠 | Stable Diffusion LORA | Civitai](https://civitai.com/models/8181)
 
   会导致画面变阴暗；和 Pastel Mix 配合得比较好。
@@ -406,32 +430,67 @@ Relistic:
     ```
     Prisma illya,illya style, pink skirt, pink dress,cape,bridal garter
     ```
+    144 MiB.
   - [Fate/kaleid liner プリズマ☆イリヤ-Illya/伊莉雅 | Stable Diffusion LORA | Civitai](https://civitai.com/models/8379/fatekaleid-liner-illya)
 
     ```
     silver hair, red eyes,
     ```
 
-    和其它模型配合得不是太好。
+    36.1 MiB；和其它模型配合得不是太好。
   - [空の境界/Fate Grand Order-Asagami Fujino 浅上藤乃 | Stable Diffusion LORA | Civitai](https://civitai.com/models/27906/fate-grand-order-asagami-fujino)
   - [Abigail Williams(Fate) | Stable Diffusion LORA | Civitai](https://civitai.com/models/16793/abigail-williamsfate)
 
 #### Virtual YouTubers
 - [All Vtubers Lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/10664/all-vtubers-lora)
 
-  画出来的百鬼あやめ会有紫块。
-- 百鬼あやめ
-
-  ```
-  nakiri ayame, ayame, horns, long hair, oni horns, red eyes, white hair, white pantyhose, double bun
-  ```
-  - [Nakiri Ayame | Hololive | Stable Diffusion LORA | Civitai](https://civitai.com/models/12658/nakiri-ayame-or-hololive)
-
+  360 MiB；画出来的百鬼あやめ会有紫块。
+- Hololive
+  - 百鬼あやめ
+  
     ```
-    nakiri ayame, ayame <lora:nakiriAyameHololive_v10:0.9>
+    nakiri ayame, ayame, horns, long hair, oni horns, red eyes, white hair, white pantyhose, double bun
     ```
-      权重低时会丢角。
-- [Yorumi Rena 夜見れな / Nijisanji | Stable Diffusion LORA | Civitai](https://civitai.com/models/28326/yorumi-rena-nijisanji)
+    - [Nakiri Ayame | Hololive | Stable Diffusion LORA | Civitai](https://civitai.com/models/12658/nakiri-ayame-or-hololive)
+  
+      ```
+      nakiri ayame, ayame <lora:nakiriAyameHololive_v10:0.9>
+      ```
+      144 MiB；权重低时会丢角。
+- 2434
+  - [天宫心](https://zh.moegirl.org.cn/%E5%A4%A9%E5%AE%AB%E5%BF%83)
+    - [彩虹社 - 天宫心-六衣服* Nijisanji - Amamiya Kokoro - 6clothes | AI绘画模型博物馆](https://aimodel.subrecovery.top/2023/01/22/lora/)
+      ```
+      kkrregular
+      kkrcaptain
+      kkrhoodie
+      kkrkimono
+      kkrmiko
+      kkrnun
+      ```
+    - [Amamiya Kokoro (天宮こころ) a Vtuber from Njiisanji \[NSFW / SFW\] (Work on WD / NAI)](https://files.catbox.moe/032110.pt) (`032110.pt`)
+
+      ```
+      (Training set: 36 Input images, 21500 Steps, 0.000005 Learning rate.
+      Training model: NAI-Full-Prunced
+      Start with nijisanji-kokoro to get a good result.
+      Recommend Hypernetwork Strength rate: 0.6 to 1.0
+      ```
+    - [chunliangmmr/amamiyakokoro_lora](https://huggingface.co/chunliangmmr/amamiyakokoro_lora/tree/main) (`amamiyakokoro(推荐权重0.6左右+loli,yellow eyes).safetensors`)
+
+      144 MiB.
+    - [Amamiya Kokoro 天宮こころ / Nijisanji | Stable Diffusion LORA | Civitai](https://civitai.com/models/30119/amamiya-kokoro-nijisanji) (`amamiyaKokoro_v10.safetensors`)
+  
+      ```
+      Model: BloodOrangeMix_half
+      masterpiece,best quality,exceptional,ultra-detailed,anime,1girl,BREAK <lora:amamiyaKokoro_v10:0.5>
+      amamya,blue very long hair,yellow eyes,hair bell,hat,x hair ornament,black beret,grey jacket,ahoge,long sleeves,two side up,puffy sleeves,blue jacket,juliet sleeves,multicolored gradient hair
+      (EasyNegative,bad_prompt_version2:0.8),monochrome,grayscale,flat color,bokeh,blurry
+      ```
+      9.1 MiB；偏向 SFW，用 `MIDD` 可以缓解，但发色会受影响；与其它模型混合时效果不佳。
+  - [叶加濑冬雪/Hakase Fuyuki | Stable Diffusion LORA | Civitai](https://civitai.com/models/19027/hakase-fuyuki)
+  - [Tsukino mito 月ノ美兎 / Nijisanji | Stable Diffusion LORA | Civitai](https://civitai.com/models/18362/tsukino-mito-nijisanji)
+  - [Yorumi Rena 夜見れな / Nijisanji | Stable Diffusion LORA | Civitai](https://civitai.com/models/28326/yorumi-rena-nijisanji)
 - [Chiyuu home (VirtuaReal) | Stable Diffusion LORA | Civitai](https://civitai.com/models/22071/chiyuu-home-virtuareal)
 - [Rurudo Lion Rurudo的小狮子 | Stable Diffusion LORA | Civitai](https://civitai.com/models/10262/rurudo-lion-rurudo)
 
@@ -469,11 +528,15 @@ Relistic:
 - かぐや様は告らせたい
   - [Shirogane Kei 白银圭 / Kaguya-sama wa Kokurasetai | Stable Diffusion LORA | Civitai](https://civitai.com/models/28327/shirogane-kei-kaguya-sama-wa-kokurasetai)
 - [Tatsumaki / Terrible Tornado (One Punch Man) | Stable Diffusion LORA | Civitai](https://civitai.com/models/12543/tatsumaki-terrible-tornado-one-punch-man)
+
+  9.1 MiB.
 - [Kesshouban (Hataraku Saibou) LoRA (血小板/工作细胞/はたらく細胞) | Stable Diffusion LORA | Civitai](https://civitai.com/models/12999/kesshouban-hataraku-saibou-lora)
 
 #### Games
 - 蔚蓝档案
   - [Blue Archive Kisaki Lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/16576/blue-archive-kisaki-lora)
+
+    9.1 MiB.
   - [Mari / マリー / 마리 / 玛丽 (Blue Archive) | Stable Diffusion LORA | Civitai](https://civitai.com/models/7999/mari-blue-archive)
 - 碧蓝航线
   - [Hwah Jah Jiangshi/Zombie 華甲-欢乐喜庆僵尸夜 | Stable Diffusion LORA | Civitai](https://civitai.com/models/7393/hwah-jah-jiangshizombie)
