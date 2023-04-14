@@ -79,6 +79,8 @@ Size:
 - Inpaint 时使用高 denoising strength 可能会导致图像再次出现问题，低 denoising strength 又可能无法足够地细化，这时可以通过 Loopback 进行多次低 denoising strength 的 inpaint 来解决。
 
   不过要注意的是，在同一区域 Lookback 过多也会导致图像与原图像存在显著差异。
+
+  此外，即使是很低的 denosing strength 也会对文字产生较大影响。
 - 同时修复多个部位比单独修复每个部位困难，可以使用 Photoshop 将不同图像的不同修复图像进行拼合。
 - Inpaint sketch 尽管可以指定颜色，但经常会修改到 mask 之外的内容，有时还会生成无关的图像。一种替代方法是把 inpaint sketch 中涂改好的图像发送到 inpaint，再绘制 mask，将 original 作为 masked content 来进行 inpaint。
 - 实在无法修复时，也可以考虑只截取图像的正常部分。

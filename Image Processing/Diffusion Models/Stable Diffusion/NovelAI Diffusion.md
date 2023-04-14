@@ -10,6 +10,10 @@
 - Hypernetworks
 
 On October 6, 2022, NovelAI experienced a data breach where its software source code was leaked.
+- [magnet:?xt=urn:btih:5bde442da86265b670a3e5ea3163afad2c6f8ecc](magnet:?xt=urn:btih:5bde442da86265b670a3e5ea3163afad2c6f8ecc&dn=novelaileak&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce)
+- [Guide to set up the leaked NovelAI model for Stable-Diffusion : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/xxxx94/guide_to_set_up_the_leaked_novelai_model_for/)
+- [NovelAI原版部署教程 – Telegraph](https://telegra.ph/NovelAI%E5%8E%9F%E7%89%88%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B-10-07)
+- [NovelAI Naifu 低顯存優化版教學：Naifu low vram ver - YouTube](https://www.youtube.com/watch?v=T09tBeFzYwI)
 - [\[閒聊\] NovelAI模型外洩事件對各界後續影響 - 看板 C_Chat - 批踢踢實業坊](https://www.ptt.cc/bbs/C_Chat/M.1665590615.A.461.html)
 
 ## Prompts
@@ -94,6 +98,8 @@ Models:
 - [三相之力 | Civitai](https://civitai.com/models/15899)
 - [LemonPieMix | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/19680/lemonpiemix)
 - [Three Delicacy Wonton (三餡馄饨Mix) | Civitai](https://civitai.com/models/20330/three-delicacy-wonton-mix)
+
+  略微倾向于 black hair。
 - [AnyOrangeMix - Anything v4.5 + AbyssOrangeMix 3 | Civitai](https://civitai.com/models/21503/anyorangemix-anything-v45-abyssorangemix-3)
 - [Ligne Claire Anime | Civitai](https://civitai.com/models/3852/ligne-claire-anime)
 
@@ -479,6 +485,11 @@ Relistic:
     - [chunliangmmr/amamiyakokoro_lora](https://huggingface.co/chunliangmmr/amamiyakokoro_lora/tree/main) (`amamiyakokoro(推荐权重0.6左右+loli,yellow eyes).safetensors`)
 
       144 MiB.
+
+      ```
+      amamiya_kokoro,amamya,blue very long hair,yellow eyes,hair bell,hat,x hair ornament,ahoge,multicolored gradient hair,loli,
+      white pantyhose
+      ```
     - [Amamiya Kokoro 天宮こころ / Nijisanji | Stable Diffusion LORA | Civitai](https://civitai.com/models/30119/amamiya-kokoro-nijisanji) (`amamiyaKokoro_v10.safetensors`)
   
       ```
