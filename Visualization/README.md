@@ -16,7 +16,19 @@ A **diagram** is a symbolic representation of information using visualization te
 [^lib-js-wuduoyi]
 - [D3.js](https://d3js.org/) ([GitHub](https://github.com/d3/d3))
   - [Awesome D3](https://github.com/wbkd/awesome-d3)
+  - [Recharts: Redefined chart library built with React and D3](https://github.com/recharts/recharts)
+  - [visx: 🐯 visualization components](https://github.com/airbnb/visx)
   - [plotly.js](https://github.com/plotly/plotly.js)
+  - [Vega](https://vega.github.io/vega/) ([GitHub](https://github.com/vega/vega))
+  
+    Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using Canvas or SVG.
+    
+    - [Vega-Lite](https://vega.github.io/vega-lite/) ([GitHub](https://github.com/vega/vega-lite))
+    
+      Vega-Lite is a high-level grammar of interactive graphics. It provides a concise, declarative JSON syntax to create an expressive range of visualizations for data analysis and presentation.
+  
+  - [Victory: A collection of composable React components for building interactive data visualizations](https://github.com/FormidableLabs/victory)
+  - [c3: A D3-based reusable chart library](https://github.com/c3js/c3) (inactive)
 - [Apache ECharts](Libraries/ECharts/README.md) ([Homepage](https://echarts.apache.org/), [GitHub](https://github.com/apache/echarts))
 - [Mermaid](https://mermaid.js.org/) ([GitHub](https://github.com/mermaid-js/mermaid))
 
@@ -26,6 +38,7 @@ A **diagram** is a symbolic representation of information using visualization te
 - [AntV](Libraries/AntV/README.md) ([Homepage](https://antv.vision/), [GitHub](https://github.com/antvis))
   - [G2](Libraries/AntV/G2.md) ([Homepage](https://g2.antv.vision/), [GitHub](https://github.com/antvis/G2))
     - [G2Plot](Libraries/AntV/G2Plot.md)
+    - [BizCharts](https://bizcharts.taobao.com/) ([GitHub](https://github.com/alibaba/BizCharts))
   - [G6](https://g6.antv.vision/) ([GitHub](https://github.com/antvis/G6))
   - [F2](https://f2.antv.vision/) ([GitHub](https://github.com/antvis/F2))
 - [flowchart.js](http://flowchart.js.org/) ([GitHub](https://github.com/adrai/flowchart.js))
