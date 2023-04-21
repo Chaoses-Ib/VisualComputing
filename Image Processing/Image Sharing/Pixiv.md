@@ -24,10 +24,13 @@ Telegram:
 - [PIXIV站每日 Top50搬运](https://t.me/pixiv_top50)
 - [PIXIV站每日r18图片 Top50搬运](https://t.me/pixiv_top50_r18)
 
+## Tags
+- [ピクシブ百科事典 - 同人・漫画・イラスト・二次創作に関する辞典](https://dic.pixiv.net/)
+- [人気のタグ - pixiv](https://www.pixiv.net/tags)
+
 ## Ranks
 - [ランキングについて – pixivヘルプセンター](https://www.pixiv.help/hc/categories/360001065093)
 - [pixiv年鑑(β)](https://pixiv.navirank.com/)
-- [人気のタグ - pixiv](https://www.pixiv.net/tags)
 
 ## API
 [Pixiv OAuth Flow](https://gist.github.com/ZipFile/c9ebedb224406f4f11845ab700124362)

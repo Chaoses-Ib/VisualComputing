@@ -16,6 +16,8 @@ On October 6, 2022, NovelAI experienced a data breach where its software source 
 - [NovelAI Naifu 低顯存優化版教學：Naifu low vram ver - YouTube](https://www.youtube.com/watch?v=T09tBeFzYwI)
 - [\[閒聊\] NovelAI模型外洩事件對各界後續影響 - 看板 C_Chat - 批踢踢實業坊](https://www.ptt.cc/bbs/C_Chat/M.1665590615.A.461.html)
 
+Textual inversion 相比 LoRA 对画风的影响更小。
+
 ## Prompts
 - [Stable Diffusion使用入门与提示词技巧 - 知乎](https://zhuanlan.zhihu.com/p/577238010)
 - [Danbooru: Anime Image Board](https://danbooru.donmai.us/)
@@ -44,6 +46,13 @@ On October 6, 2022, NovelAI experienced a data breach where its software source 
   ```
 
   异形率比较高。
+- [Deep Negative V1.x | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/4629/deep-negative-v1x)
+- [Nerfgun3/bad_prompt · Datasets at Hugging Face](https://huggingface.co/datasets/Nerfgun3/bad_prompt)
+- [badhandv4 - AnimeIllustDiffusion | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/16993/badhandv4-animeillustdiffusion)
+
+  ```
+  badhandv4
+  ```
 - [Corneo's Spitroast Threesome TI Embedding | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/5811/corneos-spitroast-threesome-ti-embedding)
 - [XP模组loli | SD - WebUI 资源站](https://www.123114514.xyz/models/embeddings/NSFW/XP%E6%A8%A1%E7%BB%84loli)
 
@@ -219,6 +228,12 @@ Personal styles:
   ```
   hair_over_crotch, nude, long_hair
   ```
+- [fixHandxianyv | Stable Diffusion LORA | Civitai](https://civitai.com/models/14196/fixhandxianyv)
+  - [fixHand2lora.safetensors | Stable Diffusion LORA | Civitai](https://civitai.com/models/14366/fixhand2lorasafetensors)
+
+    ```
+    修手修脚lora
+    ```
 - [Butterfly Wings - \[BETA\]\[CONCEPT\]\[ANIME\] | Stable Diffusion LoCon | Civitai](https://civitai.com/models/27714/butterfly-wings-betaconceptanime)
 - [concept Tail censor | Stable Diffusion LORA | Civitai](https://civitai.com/models/27345/concept-tail-censor)
 
@@ -242,7 +257,7 @@ Personal styles:
   ```
   torn clothes, cloth pieces
   ```
-  18.1 MiB.
+  18.1 MiB；高权重会对画风产生很大影响；在服装 prompts 后 BREAK 使用可以改善低权重下效果不明显的问题。
 - [Kimono Clothes | Stable Diffusion LORA | Civitai](https://civitai.com/models/12934/kimono-clothes)
 
   ```
@@ -295,6 +310,11 @@ Personal styles:
   18.1 MiB.
 - [Skirtlift: the Astonishing Sequel to Shirtlift | Stable Diffusion LORA | Civitai](https://civitai.com/models/8631/skirtlift-the-astonishing-sequel-to-shirtlift)
 - [Pant Pull Down - LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11126/pant-pull-down-lora)
+- [{DD} Crossed legs | Stable Diffusion LORA | Civitai](https://civitai.com/models/24848/dd-crossed-legs)
+
+  ```
+  crossed legs
+  ```
 - [Doggystyle | Stable Diffusion LORA | Civitai](https://civitai.com/models/6082/doggystyle)
 - [{DD} Reverse cowgirl with soles (feet on lap) | Stable Diffusion LORA | Civitai](https://civitai.com/models/28281/dd-reverse-cowgirl-with-soles-feet-on-lap)
 - [Doggystyle from side view | Stable Diffusion LORA | Civitai](https://civitai.com/models/12961/doggystyle-from-side-view)
@@ -430,6 +450,22 @@ Relistic:
 - 東方 Project
   - [LORA_HF_26 | Stable Diffusion LORA | Civitai](https://civitai.com/models/14180/lorahf26)
   - [クラウンピース(Clownpiece) | Stable Diffusion LoCon | Civitai](https://civitai.com/models/28179/clownpiece)
+  - [藤原妹红](https://zh.moegirl.org.cn/%E8%97%A4%E5%8E%9F%E5%A6%B9%E7%BA%A2)
+    - `东方 藤原妹红FujiwaraNoMokou 作者ATANA.pt`
+
+      72.2 MiB.
+  - `东方 风见幽香 lorakazami_yuuka.pt`
+
+    72.3 MiB.
+  - `东方 鬼人正邪kijin seija作momo.safetensors`
+
+    72.1 MiB.
+  - `东方 恋恋 komeiji_koishi作附junto.safetensors`
+
+    36.1 MiB.
+  - `东方 八云紫lorayakumo_yukari1.pt`
+
+    72.2 MiB.
 - TYPE-MOON
   - [魔法少女伊莉雅* Prisma illya | AI绘画模型博物馆](https://aimodel.subrecovery.top/2023/01/22/lora/)
 

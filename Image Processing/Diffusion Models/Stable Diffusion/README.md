@@ -46,6 +46,8 @@ Regional prompts:
   要点击 `Prompt Info Update` 才会应用 mask。
 - [Regional Prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 
+[Cutoff: Cutting Off Prompt Effect](https://github.com/hnmr293/sd-webui-cutoff)
+
 ## Tools
 - [Stable Diffusion web UI](#stable-diffusion-web-ui)
 - [Sygil-Dev/sygil-webui: Stable Diffusion web UI](https://github.com/Sygil-Dev/sygil-webui)
