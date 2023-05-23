@@ -21,7 +21,7 @@ movie2movie:
 ControlNet 对于图像存在肢体重叠时仍然表现不佳。
 
 Extensions:
-- [OpenPose](../../Computer%20Vision/3D%20Pose%20Estimation.md#Models)
+- [OpenPose](../../Vision/3D/Poses/Estimation.md#Models)
   - [Openpose Editor](https://github.com/fkunn1326/openpose-editor)
 - [sd-webui-3d-open-pose-editor](https://github.com/nonnonstop/sd-webui-3d-open-pose-editor)
 - [Stable Diffusion WebUI 3D Model Loader](https://github.com/jtydhr88/sd-3dmodel-loader)

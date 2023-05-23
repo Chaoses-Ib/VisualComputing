@@ -78,10 +78,10 @@ weighted avg       0.84      0.83      0.82       400
 准确率达到了 $83\%$。
 
 除了识别结果外，我们还可以欣赏一下平均脸（average face）：  
-![](images/orl-mean.png)
+![](orl-mean.png)
 
 以及 $30$ 张特征脸：  
-![](images/orl-eigens.png)
+![](orl-eigens.png)
 
 ## 存在问题及改进
 在 ORL 数据集下，上述算法取得了较好的识别精度，但在进一步的测试中，我发现使用 Yale 面部 B 数据集时算法的识别精度会变得非常差，接近于随机分类。
@@ -90,12 +90,12 @@ weighted avg       0.84      0.83      0.82       400
 
 模式向量分布 | 模式向量均值分布
 --- | ---
-![](images/yale-patterns.png) | ![](images/yale-classes.png)
+![](yale-patterns.png) | ![](yale-classes.png)
 
 可以看到，面部图像的模式向量均值聚集在中心位置，而各个模式向量却分布在四周，这种情况下识别效果自然不会好。
 
 更进一步地，我们绘制前四个面部图像类的散点图：  
-![](images/yale-patterns-4.png)  
+![](yale-patterns-4.png)  
 可以发现，它们各自的分布非常随机，对这种分布进行分类是非常困难的。
 
 为什么 ORL 数据集的精度可以达到 $83\%$，Yale 面部 B 数据集却会出现这种随机分布？
@@ -104,7 +104,7 @@ weighted avg       0.84      0.83      0.82       400
 
 ORL 数据集 | Yale 面部 B 数据集
 --- | ---
-![](images/orl.png) | ![](images/yale.png)
+![](orl.png) | ![](yale.png)
 
 不难发现，两者间存在着一个显著的区别：ORL 数据集中图像的亮度接近一致，而 Yale 面部 B 数据集中图像的亮度存在着剧烈的变化。亮度的大幅变化使得模式向量所捕捉的信息大部分为亮度信息，而使用亮度信息进行人脸识别，精度就自然接近于随机分类了。
 

@@ -1,9 +1,18 @@
 # Visual Computing
-## Computer Vision
-- [Image Segmentation](Computer%20Vision/Image%20Segmentation.md)
-- Face Recognition
-  - [基于 PCA 实现人脸识别](Computer%20Vision/Face%20Recognition/基于%20PCA%20实现人脸识别.md)
-- [3D Pose Estimation](Computer%20Vision/3D%20Pose%20Estimation.md)
+## [Computer Vision](Vision/README.md)
+- [Features](Vision/Features/README.md)
+- [Image Classification](Vision/Image%20Classification/README.md)
+- [Image Segmentation](Vision/Image%20Segmentation/README.md)
+- [Object Detection](Vision/Object%20Detection/README.md)
+- [Object Recognition](Vision/Object%20Recognition/README.md)
+  - [Optical Character Recognition](Vision/Object%20Recognition/Characters/README.md)
+  - [Face Recognition](Vision/Object%20Recognition/Faces/README.md)
+    - [基于 PCA 实现人脸识别](Vision/Object%20Recognition/Faces/基于%20PCA%20实现人脸识别.md)
+- 3D
+  - [Pose](Vision/3D/Pose/README.md)
+    - [3D Pose Estimation](Vision/3D/Pose/Estimation.md)
+  - [3D Reconstruction](Vision/3D/Reconstruction/README.md)
+- [Motion](Vision/Motion/README.md)
 
 ## [Image Processing](Image%20Processing/README.md)
 - [Image File Formats](Image%20Processing/File%20Formats/README.md)
