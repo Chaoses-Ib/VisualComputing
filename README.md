@@ -46,7 +46,10 @@
 - [Text-to-image](NLP/Text-to-image/README.md)
 - [Text-to-video](NLP/Text-to-video/README.md)
 
-## Computer Graphics
+## [Computer Graphics](Graphics/README.md)
+- [Typography](Graphics/Typography/README.md)
+  - Typesetting
+    - [Fonts](Graphics/Typography/Typesetting/Fonts.md)
 
 ## [Visualization](Visualization/README.md)
 - [The Grammar of Graphics](Visualization/The%20Grammar%20of%20Graphics.md)
