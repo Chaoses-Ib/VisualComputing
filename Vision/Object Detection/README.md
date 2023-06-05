@@ -22,5 +22,8 @@
 
 [Mean Average Precision (mAP) in Object Detection](https://blog.roboflow.com/mean-average-precision/)
 
+## Datasets
+- [COCO - Common Objects in Context](https://cocodataset.org/)
+
 
 [^terven]: Terven, Juan, and Diana Cordova-Esparza. “A Comprehensive Review of YOLO: From YOLOv1 and Beyond.” arXiv, May 19, 2023. https://doi.org/10.48550/arXiv.2304.00501.

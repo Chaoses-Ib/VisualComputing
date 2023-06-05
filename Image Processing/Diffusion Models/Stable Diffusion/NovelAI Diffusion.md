@@ -35,8 +35,14 @@ Textual inversion 相比 LoRA 对画风的影响更小。
   - [词图PromptTool - AI绘画资料管理网站](https://www.prompttool.com/)
 - Extraction
   - [DeepDanbooru: AI based multi-label girl image classification system, implemented by using TensorFlow.](https://github.com/KichangKim/DeepDanbooru)
+  - [AI-image-tag-extractor: A tool to help you get image info.](https://github.com/JingShing/AI-image-tag-extractor)
   - [词图PromptTool - AI绘画资料管理网站](https://www.prompttool.com/)
 - [sd-promptbook](https://github.com/space-nuko/sd-promptbook/)
+
+Random prompts:
+- 输入较少的 prompt 并不能实现随机画面的效果。
+- [Anon's SHITLOAD'O'PROMPTS List](https://rentry.org/randomprompts)
+- [ ] RandomPrompter
 
 ## [Textual Inversion](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Textual-Inversion)
 - [EasyNegative | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/7808/easynegative)
@@ -44,8 +50,6 @@ Textual inversion 相比 LoRA 对画风的影响更小。
   ```
   easynegative
   ```
-
-  异形率比较高。
 - [Deep Negative V1.x | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/4629/deep-negative-v1x)
 - [Nerfgun3/bad_prompt · Datasets at Hugging Face](https://huggingface.co/datasets/Nerfgun3/bad_prompt)
 - [badhandv4 - AnimeIllustDiffusion | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/16993/badhandv4-animeillustdiffusion)
@@ -53,6 +57,7 @@ Textual inversion 相比 LoRA 对画风的影响更小。
   ```
   badhandv4
   ```
+  有一定效果，但仍不完美。
 - [Corneo's Spitroast Threesome TI Embedding | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/5811/corneos-spitroast-threesome-ti-embedding)
 - [XP模组loli | SD - WebUI 资源站](https://www.123114514.xyz/models/embeddings/NSFW/XP%E6%A8%A1%E7%BB%84loli)
 
@@ -100,6 +105,7 @@ Models:
 - [pastelabyss | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/7794/pastelabyss)
 - [LulubearMix | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/18934/lulubearmix)
 - [MeinaPastel | Civitai](https://civitai.com/models/11866/meinapastel)
+- [NijiV5style - v1.0 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/42402/nijiv5style)
 - [0.6(CounterfeitV25)0.25(Anything4.5)0.15(PastelMix) | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/22387/06counterfeitv25025anything45015pastelmix)
 - [0.4(pastelmix-fp16) + 0.6(Counterfeit-V2.5_fp16).ckpt | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/15036/04pastelmix-fp16-06counterfeit-v25fp16ckpt)
 - [ken_cor+coun+past+adlcv3a+adlcv3p | Civitai](https://civitai.com/models/6602/kencorcounpastadlcv3aadlcv3p)
@@ -210,6 +216,11 @@ Personal styles:
   oni, horns, oni horns
   ```
 - [Eye - LoRa | Stable Diffusion LORA | Civitai](https://civitai.com/models/5529/eye-lora)
+
+  ```
+  loraeyes
+  ```
+  不太适合直接用于 txt2img 中。
 - [❤️Heart & Star⭐ Shaped Pupils Inpaint - LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/6052/heart-and-star-shaped-pupils-inpaint-lora)
 - [mesugaki smile | Stable Diffusion LORA | Civitai](https://civitai.com/models/11237/mesugaki-smile)
 
@@ -245,7 +256,7 @@ Personal styles:
   ```
   legs
   ```
-    用于整幅图像时可能会导致产生大小胸。
+  不太适合直接用于 txt2img 中；对 white pantyhose 会倾向于变为 black pantyhose。
 
 #### Clothing
 - [【Concept】Better Center Opening Cleavage Cutout 更好的胸部中间开口 | Stable Diffusion LORA | Civitai](https://civitai.com/models/14566/conceptbetter-center-opening-cleavage-cutout)
@@ -302,6 +313,11 @@ Personal styles:
 - [Glory Hole Tongue | Stable Diffusion LORA | Civitai](https://civitai.com/models/26262/glory-hole-tongue)
 
   17.7 MiB.
+- [Shirtlift: a LORA for flashing tits - Shirtliftv1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/6693/shirtlift-a-lora-for-flashing-tits)
+
+  ```
+  shirtlift
+  ```
 - [Incoming hug | Stable Diffusion LORA | Civitai](https://civitai.com/models/21388/incoming-hug)
   
   ```
@@ -309,6 +325,11 @@ Personal styles:
   ```
   18.1 MiB.
 - [Skirtlift: the Astonishing Sequel to Shirtlift | Stable Diffusion LORA | Civitai](https://civitai.com/models/8631/skirtlift-the-astonishing-sequel-to-shirtlift)
+
+  ```
+  skirtlift
+  ```
+  效果比较稳定，对画风影响较小。
 - [Pant Pull Down - LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11126/pant-pull-down-lora)
 - [{DD} Crossed legs | Stable Diffusion LORA | Civitai](https://civitai.com/models/24848/dd-crossed-legs)
 
@@ -328,12 +349,28 @@ Personal styles:
   ```
   1boy, penis, imminent penetration, lying, on back, spread legs
   ```
-  0.9 MiB.
+  0.9 MiB；加 penis 会导致容易变成 futunari，不加的效果可能更好。
 - [Two-person lora 双人lora 父女 | Stable Diffusion LORA | Civitai](https://civitai.com/models/22007/two-person-lora-lora)
 
 #### Things
 - [Leaf Umbrella | Stable Diffusion LORA | Civitai](https://civitai.com/models/27190/leaf-umbrella)
 - [girl in glass bottle | Stable Diffusion LORA | Civitai](https://civitai.com/models/13185/girl-in-glass-bottle)
+- Tentacles
+  - [Tentacles - X | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/2219/tentacles)
+
+    2 GiB；Relistic.
+  - [tentacles - V1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/17161/tentacles) (`big focking super tentacles.safetensors`)
+  - [Tentacles - Rindou (radical dream) - v4.2 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/23127/tentacles-rindou-radical-dream)
+  - [\[NSFW\]Tentacles LoRA | 触手 - v2 epochs=20 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/11886/nsfwtentacles-lora-or)
+
+    特定姿势。
+  - [tentacle vaginal - v1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/53770/tentacle-vaginal)
+
+    特定姿势。
+  - [触手play - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/63228/play)
+
+    特定姿势。
+
 - [JUN_bukkake | Stable Diffusion LORA | Civitai](https://civitai.com/models/17173/junbukkake)
 
   ```
@@ -401,6 +438,7 @@ Personal styles:
 
     13.6 MiB；异形率比较高。
   - [Sailor Moon Tarot | Stable Diffusion LORA | Civitai](https://civitai.com/models/17720/sailor-moon-tarot)
+- [\[LoCon/LoRA\] Assembly paper dolls/紙人形 Concept - v1.0 | Stable Diffusion LyCORIS | Civitai](https://civitai.com/models/57739/loconlora-assembly-paper-dolls-concept)
 - [LORA_HF_30 | Stable Diffusion LORA | Civitai](https://civitai.com/models/13971/lorahf30)
 - [banana | Stable Diffusion LORA | Civitai](https://civitai.com/models/20315/banana)
 - [Ukiyo-e | Stable Diffusion LORA | Civitai](https://civitai.com/models/6308/ukiyo-e)
@@ -416,10 +454,11 @@ Personal styles:
 - [Abara Heiki Sketches (Art Style) | Stable Diffusion LORA | Civitai](https://civitai.com/models/27599/abara-heiki-sketches-art-style)
 - [akarte'art （吉岡よしこ） | Stable Diffusion LORA | Civitai](https://civitai.com/models/15704/akarteart)
 - [Gyokai / ononoimoko (魚介 / おののいもこ) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11794/gyokai-ononoimoko-art-style-lora)
-- `gzc-000004.safetensors`
-- `gzc_2.safetensors`
+- 鬼针草
+  - `gzc-000004.safetensors`
+  - `gzc_2.safetensors`
 
-  4.8 MiB.
+    4.8 MiB.
 - [汉家松鼠 | Stable Diffusion LORA | Civitai](https://civitai.com/models/8181)
 
   会导致画面变阴暗；和 Pastel Mix 配合得比较好。
@@ -431,10 +470,12 @@ Personal styles:
   ```
 - [Mochizuki Kei (望月けい) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/12190/mochizuki-kei-art-style-lora)
 - [Nou (のう) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/12218/nou-art-style-lora)
+
+  容易导致画面杂乱，可以通过 white background、nude 或者较高的 CFG 来减缓。
 - [ohisashiburi style lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/16851/ohisashiburi-style-lora)
 - [\[LoCon/LoRA\] Uekura eku/上倉エク Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/17305/loconlora-uekura-eku-style)
 
-  Pastel.
+  对眼睛的影响很强烈。
 - [Umemaro / 梅まろ | Style Lora 191 | Stable Diffusion LORA | Civitai](https://civitai.com/models/10376/umemaro-or-style-lora-191)
 - [Classic_W_/￦ANKE style lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/15620/classicwanke-style-lora)
 - [画风 超级可爱 wral.safetensors | SD - WebUI 资源站](https://www.123114514.xyz/models/LoRA/%E7%94%BB%E9%A3%8E/%E7%94%BB%E9%A3%8E%20%E8%B6%85%E7%BA%A7%E5%8F%AF%E7%88%B1%20wral.safetensors)
@@ -448,21 +489,43 @@ Relistic:
 
 ### Characters
 - 東方 Project
-  - [LORA_HF_26 | Stable Diffusion LORA | Civitai](https://civitai.com/models/14180/lorahf26)
+  - チルノ
+    - [Cirno / Yellow Cirno - v1.0 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/57816/cirno-yellow-cirno)
+
+      ```
+      cirno,
+      crystal wings, blue hair, blue eyes, puffy short sleeves
+      ```
+    - [cirno (touhou) 琪露诺 东方project - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/81610/cirno-touhou-project)
+    - [LORA_HF_26 | Stable Diffusion LORA | Civitai](https://civitai.com/models/14180/lorahf26)
+  
+      ```
+      动漫画风-crayoncirno风格
+      ```
   - [クラウンピース(Clownpiece) | Stable Diffusion LoCon | Civitai](https://civitai.com/models/28179/clownpiece)
   - [藤原妹红](https://zh.moegirl.org.cn/%E8%97%A4%E5%8E%9F%E5%A6%B9%E7%BA%A2)
     - `东方 藤原妹红FujiwaraNoMokou 作者ATANA.pt`
 
       72.2 MiB.
+  - [芙兰朵露·斯卡蕾特](https://zh.moegirl.org.cn/zh-hans/%E8%8A%99%E5%85%B0%E6%9C%B5%E9%9C%B2%C2%B7%E6%96%AF%E5%8D%A1%E8%95%BE%E7%89%B9)
+    - [フランドール・スカーレット/芙兰朵露·斯卡蕾特/Flandre Scarlet - Touhou Project - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/25062/flandre-scarlet-touhou-project)
+
+      ```
+      flandre scarlet, white soft hat, red hat bow, blonde hair, side ponytail, red eyes, shiny eyes, fang, red vest, short sleeves, puffy sleeves, yellow ascot, red frilled skirt, crystal wings, bobby socks, mary janes, red shoes,
+      ```
+
+      72.1 MiB.
   - `东方 风见幽香 lorakazami_yuuka.pt`
 
     72.3 MiB.
   - `东方 鬼人正邪kijin seija作momo.safetensors`
 
     72.1 MiB.
-  - `东方 恋恋 komeiji_koishi作附junto.safetensors`
-
-    36.1 MiB.
+  - [古明地恋](https://zh.moegirl.org.cn/zh-hans/%E5%8F%A4%E6%98%8E%E5%9C%B0%E6%81%8B)
+    - [KomeijiKoishi-v0.1 - KomeijiKoishi-v0.1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/10480/komeijikoishi-v01) (`东方 恋恋 komeiji_koishi作附junto.safetensors`)
+  
+      36.1 MiB.
+  - [remilia scarlet (touhou) 蕾米莉亚 东方project - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/80142/remilia-scarlet-touhou-project)
   - `东方 八云紫lorayakumo_yukari1.pt`
 
     72.2 MiB.
@@ -473,6 +536,35 @@ Relistic:
     Prisma illya,illya style, pink skirt, pink dress,cape,bridal garter
     ```
     144 MiB.
+  - [Illyasviel von Einzbern 22 outfits (Fate) 伊莉雅 22套外观 LoRA - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/51525/illyasviel-von-einzbern-22-outfits-fate-22-lora)
+
+    ```
+    FSN outfit 外观= FSNnormal, Casual Cloth
+    FSN winter FSN冬装=FSNwinter, Winterclothing
+    Fujimura dojo(buruma) 藤村道场(运动裤)= DojoIllya, Sport Uniform
+    Dress of Heaven天之衣= DressofHeaven, HolyGrail Clothing, white dress, white thighhigh
+    chocoangel巧克力天使= ChocoAngle, Illya's Valentine Outfit
+    beaststyle野兽服=BeastStyle, Kitty Costume
+    halloween petite devil 万圣小恶魔= HalloweenDevil, LittleDevil Suit
+    Swimsuit Archer1 泳装1=SwimsuitArcher1, Fur Hood Swimsuit
+    Swimsuit Archer2 泳装2=SwimsuitArcher2, VisorCapSwimsuit
+    Swimsuit Archer3 泳装3=SwimsuitArcher3, Raincoat Bikini
+    School Uniform 校服= UniformIllya, Illya's School Uniform
+    Prisma Illya 魔法少女伊莉雅=PrismaIllya, Magical Girl Default
+    Zwei Form 最终形态伊莉雅=ZweiFrom, Illya Final Form
+    Testment form圣约形态=TestmentForm, Dark MagicalGirl
+    Sapphire Form蓝宝石形态=SapphireForm, Magical Sapphire Dress
+    --Installs-梦幻召唤
+    Saber=SaberInstall, Saber Lily Outfit
+    lancer=LancerInstall, CuChulainn's Bodysuit
+    archer=ArcherInstall, Emiya's Clothing
+    assassin=AssassinInstall, Hassan's Hood
+    caster=CasterInstall, Medea's Dress
+    rider= RiderInstall, Medusa's Outfit, blind fold
+    berserker=BerserkerInstall, Heracles Outfit, bandeau
+    ```
+
+    72.1 MiB.
   - [Fate/kaleid liner プリズマ☆イリヤ-Illya/伊莉雅 | Stable Diffusion LORA | Civitai](https://civitai.com/models/8379/fatekaleid-liner-illya)
 
     ```
@@ -481,7 +573,27 @@ Relistic:
 
     36.1 MiB；和其它模型配合得不是太好。
   - [空の境界/Fate Grand Order-Asagami Fujino 浅上藤乃 | Stable Diffusion LORA | Civitai](https://civitai.com/models/27906/fate-grand-order-asagami-fujino)
-  - [Abigail Williams(Fate) | Stable Diffusion LORA | Civitai](https://civitai.com/models/16793/abigail-williamsfate)
+  - [アビゲイル･ウィリアムズ](https://zh.moegirl.org.cn/%E9%98%BF%E6%AF%94%E7%9B%96%E5%B0%94%C2%B7%E5%A8%81%E5%BB%89%E5%A7%86%E6%96%AF)
+    - [Abigail Williams アビゲイル・ウィリアムズ / Fate Grand Order - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/81269/abigail-williams-fate-grand-order) (`abigail_v1.safetensors`)
+
+      ![](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51db2ff0-871f-4e0e-8ae0-e28f151e32c8/width=525/51db2ff0-871f-4e0e-8ae0-e28f151e32c8.jpeg)
+
+      ```
+      hmaw1, long hair, hat, black dress, long sleeve, black sleeves, white bloomers
+      hmaw2, long hair, red eyes, witch hat, revealing clothes, underwear, single thighhigh, bare arms
+      hmaw3, short hair, bow, single hair bun, (black jacket:1.2), skirt
+      hmaw4, long hair, double bun, black bikini, collarbone
+      hmaw5, braid, maid headdress, maid, white shirt, bloomers, sleeves past wrists
+      hmaw6, twintails, bonnet, white bikini
+      ```
+
+      36.1 MiB；场景比较单调，数据集可能较小。
+    - [Abigail Williams(Fate) | Stable Diffusion LORA | Civitai](https://civitai.com/models/16793/abigail-williamsfate) (`Abigail-v1.1.safetensors`)
+
+      36.1 MiB.
+    - [FGO-Abigail Williams (阿比盖尔·威廉姆斯) - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/47371/fgo-abigail-williams)
+
+      144.1 MiB.
 
 #### Virtual YouTubers
 - [All Vtubers Lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/10664/all-vtubers-lora)
@@ -493,6 +605,7 @@ Relistic:
     ```
     nakiri ayame, ayame, horns, long hair, oni horns, red eyes, white hair, white pantyhose, double bun
     ```
+    - [Nakiri Ayame (6 Outfits) | Hololive - v2.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/12658)
     - [Nakiri Ayame | Hololive | Stable Diffusion LORA | Civitai](https://civitai.com/models/12658/nakiri-ayame-or-hololive)
   
       ```
@@ -538,10 +651,24 @@ Relistic:
   - [叶加濑冬雪/Hakase Fuyuki | Stable Diffusion LORA | Civitai](https://civitai.com/models/19027/hakase-fuyuki)
   - [Tsukino mito 月ノ美兎 / Nijisanji | Stable Diffusion LORA | Civitai](https://civitai.com/models/18362/tsukino-mito-nijisanji)
   - [Yorumi Rena 夜見れな / Nijisanji | Stable Diffusion LORA | Civitai](https://civitai.com/models/28326/yorumi-rena-nijisanji)
+  - [Machita Chima 町田ちま / Nijisanji - v1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/18726/machita-chima-nijisanji)
+  - 星川サラ
+    - [Hoshikawa Sara 星川サラ / Nijisanji - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/71513/hoshikawa-sara-nijisanji)
+    - [星川サラ hoshikawa sara Nijisanji - v1.0 | Stable Diffusion LyCORIS | Civitai](https://civitai.com/models/68557/hoshikawa-sara-nijisanji)
 - [Chiyuu home (VirtuaReal) | Stable Diffusion LORA | Civitai](https://civitai.com/models/22071/chiyuu-home-virtuareal)
 - [Rurudo Lion Rurudo的小狮子 | Stable Diffusion LORA | Civitai](https://civitai.com/models/10262/rurudo-lion-rurudo)
 
 #### Anime
+- 【推しの子】
+  - [OshiNoKo-characters-LoHa/LoCon/FullCkpt 推しの子 \[Will update along the season\] || Hoshino Ai / Hoshino Aquamarine / Hoshino Ruby / Arima Kana / Saito Miyako / Kurokawa Akane / Kotobuki Minami / Shiranui Frill / ... - LoHa EP04 | Stable Diffusion LyCORIS | Civitai](https://civitai.com/models/40182/oshinoko-characters-lohaloconfullckpt-will-update-along-the-season-oror-hoshino-ai-hoshino-aquamarine-hoshino-ruby-arima-kana-saito-miyako-kurokawa-akane-kotobuki-minami-shiranui-frill)
+  - [Arima Kana/(OshiNoKo)推しの子 - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/52115/arima-kanaoshinoko)
+
+    ```
+    kana_arima\(oshinoko\)
+    ```
+  - [Arima Kana / Oshi no Ko LORA - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/60603/arima-kana-oshi-no-ko-lora)
+  - [Ruby Hoshino 【推しの子】星野ルビー [Oshi No Ko] Hoshino Ruby - v3 beta | Stable Diffusion LyCORIS | Civitai](https://civitai.com/models/44572/ruby-hoshino-oshi-no-ko-hoshino-ruby)
+  - [Kurokawa Akane | Oshi no Ko | (LoRA) - v2.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/63784/kurokawa-akane-or-oshi-no-ko-or-lora)
 - 孤獨搖滾！
   - [Gotō Hitori(Bocchi)-Bocchi the rock | Stable Diffusion LORA | Civitai](https://civitai.com/models/9422/goto-hitoribocchi-bocchi-the-rock)
 
@@ -567,17 +694,28 @@ Relistic:
     kuniform
     kshirt
     ```
-- [Makima (Chainsaw Man) LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/5373/makima-chainsaw-man-lora)
+- Chainsaw Man
+  - [Chainsaw Man (characters pack) - Makma(lite) | Stable Diffusion LoRA | Civitai](https://civitai.com/models/46187/chainsaw-man-characters-pack)
+  - [Makima (Chainsaw Man) LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/5373/makima-chainsaw-man-lora)
 
-  ```
-  makima \(chainsaw man\)
-  ```
+    ```
+    makima \(chainsaw man\)
+    ```
+  - [\[justTNP\] Power | Chainsaw Man - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/72595/justtnp-power-or-chainsaw-man)
+  - Reze
+    - [Reze (Chainsaw Man) LoRA - V1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/26541/reze-chainsaw-man-lora)
+    - [,reze \(chainsaw man\), - ,reze \(chainsaw man\), | Stable Diffusion LoRA | Civitai](https://civitai.com/models/6529/reze-chainsaw-man)
+    - [reze (chainsaw man) - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/24679/reze-chainsaw-man)
 - かぐや様は告らせたい
   - [Shirogane Kei 白银圭 / Kaguya-sama wa Kokurasetai | Stable Diffusion LORA | Civitai](https://civitai.com/models/28327/shirogane-kei-kaguya-sama-wa-kokurasetai)
-- [Tatsumaki / Terrible Tornado (One Punch Man) | Stable Diffusion LORA | Civitai](https://civitai.com/models/12543/tatsumaki-terrible-tornado-one-punch-man)
+- One Punch Man
+  - [Tatsumaki / Terrible Tornado (One Punch Man) | Stable Diffusion LORA | Civitai](https://civitai.com/models/12543/tatsumaki-terrible-tornado-one-punch-man)
 
-  9.1 MiB.
+    9.1 MiB.
 - [Kesshouban (Hataraku Saibou) LoRA (血小板/工作细胞/はたらく細胞) | Stable Diffusion LORA | Civitai](https://civitai.com/models/12999/kesshouban-hataraku-saibou-lora)
+- 天国大魔境
+  - [天国大魔境/Heavenly Delusion-style/Character（Doomsday/animel style) - キルコ/斬子 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/74609/heavenly-delusion-stylecharacterdoomsdayanimel-style)
+- [Yurine Hanazono || Dropkick on My Devil! - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/71569/yurine-hanazono-oror-dropkick-on-my-devil)
 
 #### Games
 - 蔚蓝档案
@@ -602,6 +740,7 @@ Relistic:
 - 米哈游
   - 崩坏3
     - [Luna Kindred 月下初擁 | Honkai Impact 3rd | Stable Diffusion LORA | Civitai](https://civitai.com/models/28297/luna-kindred-or-honkai-impact-3rd)
+- [コッコロ](https://zh.moegirl.org.cn/%E6%9E%A3%E5%8F%AF%E8%90%9D)
 - [yume from kuro no kiseki | Stable Diffusion LORA | Civitai](https://civitai.com/models/14803/yume-from-kuro-no-kiseki)
 
 #### Galgames

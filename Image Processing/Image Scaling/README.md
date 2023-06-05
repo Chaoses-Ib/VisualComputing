@@ -11,6 +11,8 @@
   
 - SwinIR_4x
   - [Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration. Advances in Image Manipulation (AIM) workshop ECCV 2022](https://github.com/mv-lab/swin2sr)
+
+    比 R-ESRGAN 慢很多；RealworldSR 对于 anime 图像的结果不如 R-ESRGAN 4x+ Anime6B 清晰，但对细节保留得更好，特别是液体。
   
     [Implement SwinIR v2 by C43H66N12O12S2 · Pull Request #2092 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)
 

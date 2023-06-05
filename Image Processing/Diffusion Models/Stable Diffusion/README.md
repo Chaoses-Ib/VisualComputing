@@ -3,6 +3,7 @@
 
 ## Models
 - [Civitai | Stable Diffusion models, embeddings, hypernetworks and more](https://civitai.com/)
+  - [Civitai Helper2: Model Info Helper: Stable Diffusion Webui Extension for Civitai, to manage your model much more easily.](https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper/tree/main)
 
 ### Stable Diffusion 1.5
 [GitHub](https://github.com/runwayml/stable-diffusion), [Hugging Face](https://huggingface.co/runwayml/stable-diffusion-v1-5)
@@ -36,6 +37,10 @@
   - [Lexica](https://lexica.art/)
   - [PromptHero](https://prompthero.com/)
 - [sd-promptbook](https://github.com/space-nuko/sd-promptbook/)
+- [stable-diffusion-webui-wildcards: Wildcards](https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards)
+- [Stable Diffusion Dynamic Prompts extension](https://github.com/adieyal/sd-dynamic-prompts)
+- [MagicPrompt-Stable-Diffusion · Hugging Face](https://huggingface.co/Gustavosta/MagicPrompt-Stable-Diffusion)
+- [Booru tag autocompletion for A1111](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 
 Regional prompts:
 - [Latent Couple extension (two shot diffusion port)](https://github.com/opparco/stable-diffusion-webui-two-shot)
@@ -88,8 +93,14 @@ Size:
 - 实在无法修复时，也可以考虑只截取图像的正常部分。
 
 较高的 denoising strength 会导致头发趋向于卷发。
+- [ABG extension](https://github.com/KutsuyaYuki/ABG_extension)
+
+  Remove background.
 
 [玩了一段时间的sd-webui，简单聊聊我觉得目前ai作画存在的一些痛点，也是当前手工作业很难取代之处 NGA玩家社区](https://g.nga.cn/read.php?tid=35710972&rand=594)
+
+Sampling methods:
+- [Comparison of new UniPC sampler method added to Automatic1111 : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11oke60/comparison_of_new_unipc_sampler_method_added_to/)
 
 [Optimizations](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Optimizations)
 - `--xformers`
@@ -107,12 +118,21 @@ Automation:
 - [Kryptortio/SDAtom-WebUi-us: Queue system for AUTOMATIC1111's webui](https://github.com/Kryptortio/SDAtom-WebUi-us)
 
   [I made a queue system for Automatic1111's Stable Diffusion WebUI so you don't have to wait for each prompt to complete : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/zq0wl9/i_made_a_queue_system_for_automatic1111s_stable/)
+- [Stable Diffusion Randomize extension: Randomize txt2img generation params](https://github.com/innightwolfsleep/stable-diffusion-webui-randomize)
 
 ## Training
 - [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)
 - [Naifu Diffusion: Train stable diffusion model with Diffusers, Hivemind and Pytorch Lightning](https://github.com/Mikubill/naifu-diffusion)
+
+Merging:
 - [Checkpoint Merger](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#checkpoint-merger)
+- [SuperMerger: model merge extention for stable diffusion web ui](https://github.com/hako-mikan/sd-webui-supermerger)
 - [Merge Models: Merges two latent diffusion models at a user-defined ratio](https://github.com/eyriewow/merge-models)
+- [losslessmix: Mixing models of stable diffusion without weights loss](https://github.com/recoilme/losslessmix) (discontinued)
+
+Tutorials:
+- [(已过时)Lora人物训练（多concept）导论 - 哔哩哔哩](https://www.bilibili.com/read/cv22050074)
+- [Re: [問題] AI為什麼不去吃動畫就好？ - 看板 C_Chat - 批踢踢實業坊](https://www.ptt.cc/bbs/C_Chat/M.1678539597.A.5DB.html)
 
 ## Services
 - [Stable Diffusion Online](https://stablediffusionweb.com/)
