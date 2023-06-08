@@ -42,9 +42,22 @@ A **diagram** is a symbolic representation of information using visualization te
   - [G6](https://g6.antv.vision/) ([GitHub](https://github.com/antvis/G6))
   - [F2](https://f2.antv.vision/) ([GitHub](https://github.com/antvis/F2))
 - [flowchart.js](http://flowchart.js.org/) ([GitHub](https://github.com/adrai/flowchart.js))
+- [GoJS](https://gojs.net/)
+
+  A web framework for rapidly building interactive diagrams.
 - [Highcharts](https://www.highcharts.com/) ([GitHub](https://github.com/highcharts/highcharts))
 
 [^lib-js-wuduoyi]: [如何挑选数据可视化框架及平台 - 前端篇 - 知乎](https://zhuanlan.zhihu.com/p/149398216)
+
+### .NET
+- [LiveCharts2](https://lvcharts.com/) ([GitHub](https://github.com/beto-rodriguez/LiveCharts2))
+- [ScottPlot](https://scottplot.net) ([GitHub](https://github.com/ScottPlot/ScottPlot))
+- [Microcharts](https://github.com/microcharts-dotnet/Microcharts)
+- [teeChart](https://www.steema.com/)
+- [GoDiagram](https://godiagram.com/)
+- [Mapsui](https://github.com/Mapsui/Mapsui)
+
+[C# Data Visualization: Resources for visualizing data using C# and the .NET platform](https://github.com/swharden/Csharp-Data-Visualization)
 
 ### Python
 [^lib-py-khuyen]
