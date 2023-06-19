@@ -55,7 +55,10 @@ A **diagram** is a symbolic representation of information using visualization te
 - [Microcharts](https://github.com/microcharts-dotnet/Microcharts)
 - [teeChart](https://www.steema.com/)
 - [GoDiagram](https://godiagram.com/)
+
+Maps:
 - [Mapsui](https://github.com/Mapsui/Mapsui)
+- [GMap.NET](https://github.com/judero01col/GMap.NET)
 
 [C# Data Visualization: Resources for visualizing data using C# and the .NET platform](https://github.com/swharden/Csharp-Data-Visualization)
 
