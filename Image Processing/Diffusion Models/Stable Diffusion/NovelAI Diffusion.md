@@ -178,6 +178,8 @@ Models:
   - [Anything V3 | Civitai](https://civitai.com/models/9409/anything-v3)
 - [Hassaku (hentai model) | Civitai](https://civitai.com/models/2583/hassaku-hentai-model)
 - [MeinaHentai | Civitai](https://civitai.com/models/12606/meinahentai)
+
+  2 GiB.
 - [untitled-anime-mix | Civitai](https://civitai.com/models/23739/untitled-anime-mix)
 - [奇迹之力 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/27162)
 
@@ -245,7 +247,12 @@ Personal styles:
     ```
     修手修脚lora
     ```
-- [Butterfly Wings - \[BETA\]\[CONCEPT\]\[ANIME\] | Stable Diffusion LoCon | Civitai](https://civitai.com/models/27714/butterfly-wings-betaconceptanime)
+- [Butterfly Wings - \[BETA\]\[CONCEPT\]\[ANIME\] | Stable Diffusion LoCon | Civitai](https://civitai.com/models/27714/butterfly-wings-betaconceptanime) (`ButterflyWings-000020.safetensors`)
+
+  ```
+  wings, butterfly wings
+  ```
+  22.3 MiB.
 - [concept Tail censor | Stable Diffusion LORA | Civitai](https://civitai.com/models/27345/concept-tail-censor)
 
   ```
@@ -336,7 +343,24 @@ Personal styles:
   ```
   crossed legs
   ```
+- [High leg lift/standing on one leg/高抬腿站立 - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/80195/high-leg-liftstanding-on-one-leg) (`poses_v1.safetensors`)
+
+  ```
+  standing on one leg, leg up, standing split,
+  ```
+  36 MiB；很容易崩坏。
+- [{DD} Tiptoes standing doggy - TTF_v4 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/20824/dd-tiptoes-standing-doggy) (`TTF_v4.safetensors`)
+
+  ```
+  tiptoesFuck, from side, from front, from behind, bent, standing, penis
+  ```
+  144 MiB.
 - [Doggystyle | Stable Diffusion LORA | Civitai](https://civitai.com/models/6082/doggystyle)
+
+  ```
+  doggystyle, all fours, looking back, doggy_style, sex_from_behind
+  ```
+  144 MiB；对画风的影响比较大。
 - [{DD} Reverse cowgirl with soles (feet on lap) | Stable Diffusion LORA | Civitai](https://civitai.com/models/28281/dd-reverse-cowgirl-with-soles-feet-on-lap)
 - [Doggystyle from side view | Stable Diffusion LORA | Civitai](https://civitai.com/models/12961/doggystyle-from-side-view)
 - [Trapped in Wall | Stable Diffusion LORA | Civitai](https://civitai.com/models/8764/trapped-in-wall)
@@ -456,12 +480,14 @@ Personal styles:
 - [Gyokai / ononoimoko (魚介 / おののいもこ) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11794/gyokai-ononoimoko-art-style-lora)
 - 鬼针草
   - `gzc-000004.safetensors`
+
+    88.4 MiB.
   - `gzc_2.safetensors`
 
     4.8 MiB.
 - [汉家松鼠 | Stable Diffusion LORA | Civitai](https://civitai.com/models/8181)
 
-  会导致画面变阴暗；和 Pastel Mix 配合得比较好。
+  144 MiB；会导致画面变阴暗；和 Pastel Mix 配合得比较好。
 - [iamuu_n / 逢編いあむ | Style Lora 166 | Stable Diffusion LORA | Civitai](https://civitai.com/models/10348/iamuun-or-style-lora-166)
 - [ヰ世界情緒 Isekai Joucho Nemophila ver. | Stable Diffusion LORA | Civitai](https://civitai.com/models/28256/isekai-joucho-nemophila-ver)
 
@@ -469,18 +495,24 @@ Personal styles:
   bluejoucho
   ```
 - [Mochizuki Kei (望月けい) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/12190/mochizuki-kei-art-style-lora)
-- [Nou (のう) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/12218/nou-art-style-lora)
 
-  容易导致画面杂乱，可以通过 white background、nude 或者较高的 CFG 来减缓。
+  144 MiB.
+- [Nou (のう) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/12218/nou-art-style-lora) (`nouArtStyleLora_v20Offset.safetensors`)
+
+  144 MiB；容易导致画面杂乱，可以通过 white background、nude 或者较高的 CFG 来减缓；对于 yuri 效果较好。
 - [ohisashiburi style lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/16851/ohisashiburi-style-lora)
 - [\[LoCon/LoRA\] Uekura eku/上倉エク Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/17305/loconlora-uekura-eku-style)
 
-  对眼睛的影响很强烈。
+  172 MiB；对眼睛的影响很强烈。
 - [Umemaro / 梅まろ | Style Lora 191 | Stable Diffusion LORA | Civitai](https://civitai.com/models/10376/umemaro-or-style-lora-191)
+
+  9.1 MiB.
 - [Classic_W_/￦ANKE style lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/15620/classicwanke-style-lora)
+
+  144 MiB.
 - [画风 超级可爱 wral.safetensors | SD - WebUI 资源站](https://www.123114514.xyz/models/LoRA/%E7%94%BB%E9%A3%8E/%E7%94%BB%E9%A3%8E%20%E8%B6%85%E7%BA%A7%E5%8F%AF%E7%88%B1%20wral.safetensors)
 
-  偏卡通。
+  288 MiB；偏卡通。
 - [Top Artist Challenge tac001 style LoHA | Stable Diffusion LoCon | Civitai](https://civitai.com/models/28035/top-artist-challenge-tac001-style-loha)
 
 Relistic:
@@ -526,9 +558,25 @@ Relistic:
   
       36.1 MiB.
   - [remilia scarlet (touhou) 蕾米莉亚 东方project - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/80142/remilia-scarlet-touhou-project)
-  - `东方 八云紫lorayakumo_yukari1.pt`
+  - [八云紫](https://zh.moegirl.org.cn/%E5%85%AB%E4%BA%91%E7%B4%AB)
+    - [yakumo yukari (touhou) 八云紫 东方project - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/85753/yakumo-yukari-touhou-project) (`yukari.safetensors`)
 
-    72.2 MiB.
+      ```
+      yakumo yukari
+
+      gap (touhou)
+
+      1girl, hat, blonde hair,long hair, dress,ribbon, , hat ribbon, purple eyes,bow, mob cap, frills, long sleeves, tabard, socks, wide sleeves, hair bow, white dress,
+
+      1girl, hat, dress, gloves, purple dress, long hair, blonde hair, ribbon, large breasts, cleavage, elbow gloves,short sleeves, hat ribbon, bow, red ribbon,mob cap, puffy short sleeves,ribbon choker, frills,
+      ```
+      144 MiB.
+    - [Yukari Yakumo - yukari_v1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/17000/yukari-yakumo) (`yukari_v1.safetensors`)
+
+      108 MiB.
+    - `东方 八云紫lorayakumo_yukari1.pt`
+
+      72.2 MiB.
 - TYPE-MOON
   - [魔法少女伊莉雅* Prisma illya | AI绘画模型博物馆](https://aimodel.subrecovery.top/2023/01/22/lora/)
 
@@ -716,12 +764,59 @@ Relistic:
 - 天国大魔境
   - [天国大魔境/Heavenly Delusion-style/Character（Doomsday/animel style) - キルコ/斬子 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/74609/heavenly-delusion-stylecharacterdoomsdayanimel-style)
 - [Yurine Hanazono || Dropkick on My Devil! - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/71569/yurine-hanazono-oror-dropkick-on-my-devil)
+- [Maria Campbell (from My Next Life as a Villainess: All Routes Lead to Doom!) - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/89077/maria-campbell-from-my-next-life-as-a-villainess-all-routes-lead-to-doom)
 
 #### Games
 - 蔚蓝档案
-  - [Blue Archive Kisaki Lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/16576/blue-archive-kisaki-lora)
+  - 竜華キサキ（Kisaki）
 
-    9.1 MiB.
+    ```
+    black hair, double bun, braided bun, butterfly hair ornament, twintails, long hair, grey eyes,
+    bare shoulders, off shoulder, china dress, black dress, dragon print,
+    covered navel,
+    back cutout,
+    black gloves,
+    pinstripe jacket,
+    ```
+    许多 model 会偏向于出现 pinstripe jacket，即使加进 negative prompts 也无济于事。
+
+    - [Kisaki(Blue Archive) - v2.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/29645/kisakiblue-archive) (`Kisaki.safetensors`)
+
+      ```
+      Kasaki
+      ```
+      144 MiB；weight 0.9 以上会崩坏，推荐 0.4~0.8；Hires. fix 可能崩坏；横图容易崩坏或倾向于 multiple girls。
+    - [Kisaki_BlueArchive HARD - Kisaki_BlueArchive | Stable Diffusion LoRA | Civitai](https://civitai.com/models/6119/kisakibluearchive-hard) (`kisaki_bluearchive.safetensors`)
+
+      ```
+      1girl, butterfly hair ornament, chinese clothes
+      ```
+      144 MiB；推荐 weight 0.5~0.6；姿势较为单一，横图容易崩坏；倾向于 white/grey background 和 pinstripe jacket；适合与 Nou Art Style 搭配。
+    - [kisaki_(blue_archive) - V1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/26691/kisakibluearchive)
+
+      41.2 MiB.
+    - [Kisaki | キサキ (Blue Archive) - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/54871/kisaki-or-blue-archive)
+
+      36.1 MiB.
+    - [妃咲/キサキ/kisaki - 1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/5579/kisaki)
+
+      36.1 MiB.
+    - [Kisaki | Blue Archive - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/80895/kisaki-or-blue-archive)
+
+      35.3 MiB.
+    - [kisaki 妃咲 （blue_archive) - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/16961/kisaki-bluearchive)
+
+      22.8 MiB.
+    - [Blue Archive Kisaki Lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/16576/blue-archive-kisaki-lora)
+      - v2.0 (`Kisaki_v20.safetensors`)
+  
+        9.1 MiB；倾向于腿部有服饰；不适合较高（10）CFG；不适合与 Nou Art Style 搭配。
+      - v2.5
+        ```
+        Kisaki
+        ```
+        11.4 MiB.
+      
   - [Mari / マリー / 마리 / 玛丽 (Blue Archive) | Stable Diffusion LORA | Civitai](https://civitai.com/models/7999/mari-blue-archive)
 - 碧蓝航线
   - [Hwah Jah Jiangshi/Zombie 華甲-欢乐喜庆僵尸夜 | Stable Diffusion LORA | Civitai](https://civitai.com/models/7393/hwah-jah-jiangshizombie)
