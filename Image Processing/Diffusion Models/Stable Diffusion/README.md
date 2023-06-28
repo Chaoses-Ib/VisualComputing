@@ -26,11 +26,40 @@
 - None
 
   会导致画面的色彩比较淡。
-- [stabilityai/sd-vae-ft-mse-original](https://huggingface.co/stabilityai/sd-vae-ft-mse-original) (`vae-ft-mse-840000-ema-pruned.ckpt`)
+- NovelAI (`nai.vae.pt`, `orangemix.vae.pt`, `Anything-V3.0.vae.pt`)
+
+  饱和度相对较低，看起来更加柔和；体积很大，是其它 VAE 的两倍多；容易导致 `NansException`。
 - `mse840000_klf8anime.vae.pt`
+
+  亮度较高；色调偏红；会减少画面中的微小物体。
+- [stabilityai/sd-vae-ft-mse-original](https://huggingface.co/stabilityai/sd-vae-ft-mse-original) (`vae-ft-mse-840000-ema-pruned.ckpt`)
 - `pastel-waifu-diffusion.vae.pt`
 
-- `orangemix.vae.pt`
+  亮度比 mse840000 稍高。
+- [Blessed VAE](https://huggingface.co/NoCrypt/blessed_vae)
+  - `blessed-fix.vae.pt`
+
+    亮度很高；容易导致 `NansException`。
+  - `blessed2.vae.pt`
+  
+    亮度比 blessed-fix 稍低，但还是很高；容易导致 `NansException`。
+
+[try using different vae : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11ys8ww/try_using_different_vae/)
+
+![](https://preview.redd.it/rr7gbdqfcjpa1.jpeg?width=2656&format=pjpg&auto=webp&v=enabled&s=8b8cd4e6a3e2c329f518bfde26895560fd996af7)
+
+![](https://s3.amazonaws.com/moonup/production/uploads/1678275640402-62de447b4dcb9177d4bd876c.png)
+
+- [NansException: A tensor with all NaNs was produced in VAE on some images in img2img](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/7633)
+  
+  ```
+  modules.devices.NansException: A tensor with all NaNs was produced in VAE. This could be because there's not enough precision to represent the picture. Try adding --no-half-vae commandline argument to fix this. Use --disable-nan-check commandline argument to disable this check.
+  ```
+  使用 `--no-half-vae` 可以解决，但会增加显存占用；也可以尝试通过更换 VAE 来解决；该问题似乎也与 upscaler 和图像分辨率有关。
+
+  由于该异常会中止 batch，推荐默认使用 `--disable-nan-check`。
+  
+  [Is there any issue leaving the command line arg "--no-half-vae" in there full-time? : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/10g41ax/is_there_any_issue_leaving_the_command_line_arg/)
 
 ## Prompts
 - Search engines
@@ -55,11 +84,11 @@ Regional prompts:
 
 ## Tools
 - [Stable Diffusion web UI](#stable-diffusion-web-ui)
+- [ComfyUI: A powerful and modular stable diffusion GUI with a graph/nodes interface.](https://github.com/comfyanonymous/ComfyUI)
 - [Sygil-Dev/sygil-webui: Stable Diffusion web UI](https://github.com/Sygil-Dev/sygil-webui)
 
 ### [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 [Features · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)
-- [stable-diffusion-webui-state: Stable Diffusion extension that preserves ui state](https://github.com/ilian6806/stable-diffusion-webui-state)
 
 Size:
 - 图像的比例也会影响图像的内容，不合适的比例可能会导致异形率增加。
@@ -69,17 +98,44 @@ Size:
 Sampling methods:
 - [Comparison of new UniPC sampler method added to Automatic1111 : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11oke60/comparison_of_new_unipc_sampler_method_added_to/)
 
+CFG:
+- CFG 控制的是生成的创造性，CFG 为 0 时创造性最大，得到的是噪声图像，CFG 为最大时创造性最小，将得到模型下相关 prompt 的基础图像。
+
+  [What exactly is clip skip? · AUTOMATIC1111/stable-diffusion-webui · Discussion #5674](https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/5674#discussioncomment-5465639)
+
+Clip skip:
+- 忽略的 layers 越多，语义越模糊。
+
+  Clip skip 比 CFG 更适合用于增强生成图像的丰富性。
+
+  [What exactly is clip skip? · AUTOMATIC1111/stable-diffusion-webui · Discussion #5674](https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/5674)
+
+  [Clip skip test. You use it? : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/10cvnm0/clip_skip_test_you_use_it/)
+- 如果生成时忽略的 layers 小于模型训练时忽略的 layers，语义会被过度强化。
+
 [Optimizations](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Optimizations):
 - `--xformers`
 - `--opt-split-attention --opt-sub-quad-attention --medvram`
-- Checkpoints to cache in RAM
-- VAE Checkpoints to cache in RAM
+- Batch size
+
+  Batch size 与生成速度并不成正比，甚至可能与 batch size 为 1 时的速度相同。
+
+  [What exactly does batch size do? · AUTOMATIC1111/stable-diffusion-webui · Discussion #8930](https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/8930)
+- Token Merging
+
+  The recommanded ratio is 0.5.
+
+  [Integrate optional speed and memory improvements by token merging (via dbolya/tomesd) by papuSpartan · Pull Request #9256 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/9256)
+
+  [ToMe extension for Stable Diffusion A1111 WebUI](https://github.com/SLAPaper/a1111-sd-webui-tome)
+- Model caching
+  - Checkpoints to cache in RAM
+  - VAE Checkpoints to cache in RAM
 - `SAFETENSORS_FAST_GPU`
 
   [Switching models too slow in Automatic1111? Use SafeTensors to speed it up : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/z8mnak/switching_models_too_slow_in_automatic1111_use/)
 - Disable `--no-half-vae`.
-
-  [Is there any issue leaving the command line arg "--no-half-vae" in there full-time? : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/10g41ax/is_there_any_issue_leaving_the_command_line_arg/)
+- Disable `Always save all generated image grids`.
 
 Automation:
 - Batch
@@ -93,7 +149,37 @@ Automation:
 - [Kryptortio/SDAtom-WebUi-us: Queue system for AUTOMATIC1111's webui](https://github.com/Kryptortio/SDAtom-WebUi-us)
 
   [I made a queue system for Automatic1111's Stable Diffusion WebUI so you don't have to wait for each prompt to complete : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/zq0wl9/i_made_a_queue_system_for_automatic1111s_stable/)
+
+  不支持 Options in main UI。
 - [Stable Diffusion Randomize extension: Randomize txt2img generation params](https://github.com/innightwolfsleep/stable-diffusion-webui-randomize)
+
+User interface:
+- Options in main UI
+  - 在 UI 中不能调整 options 的显示顺序，只能在 `config.json `中手动进行调整，key 为 `extra_options`。
+  - Place options in main UI into an accordion
+
+    可以将 options 显示为两列，节省空间。
+  - Options
+    - `samples_filename_pattern`
+
+      可以用于在生成前进行命名，避免生成后再重命名；也可以搭配 X/Y/Z plot 使用：
+      - `[model_name]`
+      - `[sampler]`
+      - `[steps]`
+      - `[denoising]`
+      - `[cfg]`
+      - `[seed]`
+      - `[clip_skip]`
+      - `[vae_filename]`
+      - `[prompt]`, `[prompt_spaces]`
+      - `[hasprompt<prompt1|default><prompt2>...]`
+      - `[prompt_hash]`
+    - `save_images_before_highres_fix`
+    - `CLIP_stop_at_last_layers`
+    - `token_merging_ratio_hr`
+    - `sd_vae`
+    - `upscaler_for_img2img`
+- [stable-diffusion-webui-state: Stable Diffusion extension that preserves ui state](https://github.com/ilian6806/stable-diffusion-webui-state)
 
 #### img2img
 Hires. fix：
@@ -101,6 +187,8 @@ Hires. fix：
 - Hires. fix 会导致某些 model 崩坏，降低 denosing strength 能够减缓问题，更换 upscaler 也有可能减缓问题。
 - Upscalers
   - Latent upscalers 消耗的显存少很多，但会生成更多的细节，在低 denosing strength 时更容易导致图像崩坏，高 denosing stength 时则会大幅改变图像。
+
+    这实际上说明现有的放大 latent 方法并不等同于放大图像。
   
     [Hires upscalers : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/10wti9c/hires_upscalers/)
 
@@ -129,6 +217,9 @@ Hires. fix：
 
 #### infotext
 [Custom Images Filename Name and Subdirectory · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Images-Filename-Name-and-Subdirectory)
+- [FilenameGenerator](https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/394ffa7b0a7fff3ec484bcd084e673a8b301ccc8/modules/images.py#L338)
+
+  `[denoising]`, `[vae_filename]` and `[job_timestamp]` are not listed in the wiki.
 - Default: `number-[seed]-[prompt_spaces]`
 - `number-[model_name]-[seed]`
 
@@ -139,7 +230,9 @@ Parameters not saved in infotext:
   - Apply color correction to img2img results to match original colors.
 - Upcast cross attention layer to float32.
 - Optimizations
-  - Token merging
+  - ~~Token Merging~~
+
+    但 ToMe 扩展不支持。
 - ~~LoRA hashes~~ (v1.3.0)
 
   [\[Feature Request\]: Save extra networks hashes into infotext · Issue #8040 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/8040)
