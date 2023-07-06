@@ -11,3 +11,4 @@
   另一种缓解方法是在处理之前先对原视频进行 frame interpolation，在生成图像后，手动删除有问题的帧。
 
   也可以将生成的视频通过其它 video processing 模型进行处理。
+- [stable-diffusion-webui-prompt-travel: Travel between prompts in the latent space to make pseudo-animation, extension script for AUTOMATIC1111/stable-diffusion-webui.](https://github.com/Kahsolt/stable-diffusion-webui-prompt-travel)

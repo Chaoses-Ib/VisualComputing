@@ -62,6 +62,8 @@
   [Is there any issue leaving the command line arg "--no-half-vae" in there full-time? : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/10g41ax/is_there_any_issue_leaving_the_command_line_arg/)
 
 ## Prompts
+[stable-diffusion-webui-tokenizer: An extension for stable-diffusion-webui that adds a tab that lets you preview how CLIP model would tokenize your text.](https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer)
+
 - Search engines
   - [Lexica](https://lexica.art/)
   - [PromptHero](https://prompthero.com/)
@@ -80,12 +82,28 @@ Regional prompts:
   要点击 `Prompt Info Update` 才会应用 mask。
 - [Regional Prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 
+Prompt editing:
+- `[from:to:when]`
+
+  Where `from` and `to` are arbitrary texts, and `when` is a number that defines how late in the sampling cycle should the switch be made. The later it is, the less power the model has to draw the `to` text in place of `from` text.
+  
+  If `when` is a number between 0 and 1, it's a fraction of the number of steps after which to make the switch. If it's an integer greater than zero, it's just the step after which to make the switch.
+
+- `[to:when]` - adds `to` to the prompt after a fixed number of steps (`when`)
+
+- `[from::when]` - removes `from` from the prompt after a fixed number of steps (`when`)
+
+[Prompt Fusion: auto1111 webui extension for all sorts of prompt interpolations!](https://github.com/ljleb/prompt-fusion-extension)
+
+[shift-attention: In stable diffusion, generate a sequence of images shifting attention in the prompt.](https://github.com/yownas/shift-attention)
+
 [Cutoff: Cutting Off Prompt Effect](https://github.com/hnmr293/sd-webui-cutoff)
 
 ## Tools
 - [Stable Diffusion web UI](#stable-diffusion-web-ui)
 - [ComfyUI: A powerful and modular stable diffusion GUI with a graph/nodes interface.](https://github.com/comfyanonymous/ComfyUI)
 - [Sygil-Dev/sygil-webui: Stable Diffusion web UI](https://github.com/Sygil-Dev/sygil-webui)
+- [HCP-Diffusion: A universal Stable-Diffusion toolbox](https://github.com/7eu7d7/HCP-Diffusion)
 
 ### [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 [Features · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)
@@ -96,6 +114,9 @@ Size:
 - 改变分辨率会影响 seed 的结果，但改变模型不一定会。
 
 Sampling methods:
+- Comparison
+
+  ![](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/images/sampling.jpg)
 - [Comparison of new UniPC sampler method added to Automatic1111 : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11oke60/comparison_of_new_unipc_sampler_method_added_to/)
 
 CFG:
@@ -128,7 +149,7 @@ Clip skip:
   [Integrate optional speed and memory improvements by token merging (via dbolya/tomesd) by papuSpartan · Pull Request #9256 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/9256)
 
   [ToMe extension for Stable Diffusion A1111 WebUI](https://github.com/SLAPaper/a1111-sd-webui-tome)
-- Model caching
+- [Caching models](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#caching-models)
   - Checkpoints to cache in RAM
   - VAE Checkpoints to cache in RAM
 - `SAFETENSORS_FAST_GPU`
@@ -178,6 +199,7 @@ User interface:
     - `CLIP_stop_at_last_layers`
     - `token_merging_ratio_hr`
     - `sd_vae`
+    - `token_merging_ratio_img2img`
     - `upscaler_for_img2img`
 - [stable-diffusion-webui-state: Stable Diffusion extension that preserves ui state](https://github.com/ilian6806/stable-diffusion-webui-state)
 
@@ -197,6 +219,9 @@ Hires. fix：
   - Latent (nearest) 与 Latent (nearst-exact) 在整数倍缩放时相同，在非整数倍缩放时后者的结果可能更好，推荐只使用后者。
 
     [hires-fix: add "nearest-exact" latent upscale mode. by 0xb8 · Pull Request #6364 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/6364)
+
+  - [LLuL - Local Latent upscaLer](https://github.com/hnmr293/sd-webui-llul)
+  
 - 较高的 denoising strength 可能导致头发趋向于卷发。
 
 [Inpainging & Outpainting](https://rentry.org/drfar):
@@ -260,6 +285,7 @@ Watermark: [Implement invisible watermark according to the settings · Issue #28
 ## Training
 - [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)
 - [Naifu Diffusion: Train stable diffusion model with Diffusers, Hivemind and Pytorch Lightning](https://github.com/Mikubill/naifu-diffusion)
+- [HCP-Diffusion: A universal Stable-Diffusion toolbox](https://github.com/7eu7d7/HCP-Diffusion)
 
 Merging:
 - [Checkpoint Merger](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#checkpoint-merger)

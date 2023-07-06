@@ -21,6 +21,7 @@
   - [LoRA-scripts: LoRA training scripts use kohya-ss's trainer, for diffusion model.](https://github.com/Akegarasu/lora-scripts)
   - [sd-webui-train-tools: The stable diffusion webui training aid extension helps you quickly and visually train models such as Lora.](https://github.com/liasece/sd-webui-train-tools)
 - [Naifu Diffusion: Train stable diffusion model with Diffusers, Hivemind and Pytorch Lightning](https://github.com/Mikubill/naifu-diffusion/)
+- [DreamArtist for Stable-Diffusion-webui extension](https://github.com/7eu7d7/DreamArtist-sd-webui-extension)
 
 Tutorials:
 - [LoRA Training Guide](https://rentry.org/lora_train)
