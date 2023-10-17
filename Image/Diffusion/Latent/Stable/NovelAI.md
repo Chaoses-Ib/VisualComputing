@@ -1,7 +1,7 @@
 # [NovelAI Diffusion](https://novelai.net/)
 [Wikipedia](https://en.wikipedia.org/wiki/NovelAI)
 
-[NovelAI Improvements on Stable Diffusion | by NovelAI | Medium](https://blog.novelai.net/novelai-improvements-on-stable-diffusion-e10d38db82ac)
+[NovelAI Improvements on Stable Diffusion | by NovelAI | Medium](https://novelai.medium.com/novelai-improvements-on-stable-diffusion-e10d38db82ac)
 - Using hidden States of CLIP’s penultimate layer
 - [NovelAI Aspect Ratio Bucketing: Implementation of aspect ratio bucketing for training generative image models](https://github.com/NovelAI/novelai-aspect-ratio-bucketing)
 

@@ -27,6 +27,7 @@ Tutorials:
 - [LoRA Training Guide](https://rentry.org/lora_train)
 - [Fw: [AI] 如何訓練LoRA? 猴子都學得會的手把手教學! - 看板 AI_Art - 批踢踢實業坊](https://www.ptt.cc/bbs/AI_Art/M.1675979958.A.6A5.html)
 - [Stable Diffusion Lora训练定制角色（二次元向） - 知乎](https://zhuanlan.zhihu.com/p/616500728)
+- [(已过时)Lora人物训练（多concept）导论 - 哔哩哔哩](https://www.bilibili.com/read/cv22050074)
 
 Aspect Ratio Bucketing:
 - [LORA train image size and : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11iwo3q/lora_train_image_size_and/)

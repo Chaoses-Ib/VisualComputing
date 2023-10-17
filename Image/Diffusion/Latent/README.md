@@ -1,40 +1,6 @@
-# Stable Diffusion
-[Wikipedia](https://en.wikipedia.org/wiki/Stable_Diffusion), [GitHub](https://github.com/CompVis/stable-diffusion)
-
+# Latent Diffusion
 ## Models
-- [Civitai | Stable Diffusion models, embeddings, hypernetworks and more](https://civitai.com/)
-  - [Civitai Helper2: Model Info Helper: Stable Diffusion Webui Extension for Civitai, to manage your model much more easily.](https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper/tree/main)
-
-### Stable Diffusion 1.5
-[GitHub](https://github.com/runwayml/stable-diffusion), [Hugging Face](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-
-- [stabilityai/stable-diffusion-2-1 · Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2-1) (768)
-- [stabilityai/stable-diffusion-2-1-base · Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) (512)
-
-### Stable Diffusion 2
-[GitHub](https://github.com/Stability-AI/stablediffusion)
-
-[Stable Diffusion 1 vs 2 - What you need to know](https://www.assemblyai.com/blog/stable-diffusion-1-vs-2-what-you-need-to-know/)
-
-### Anime styles
-- [NovelAI Diffusion](https://novelai.net/)
-- [Waifu Diffusion](https://github.com/harubaru/waifu-diffusion)
-- [TrinArt Stable Diffusion_v2](https://huggingface.co/naclbit/trinart_stable_diffusion_v2?continueFlag=15536bed1e034a7d436f2d0584e6fa6b)
-- [Taiyi-Stable-Diffusion-1B-Anime-Chinese-v0.1](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-1B-Anime-Chinese-v0.1)
-
-### Topic models
 - 模型多样性越低越容易崩坏，而专题模型的多样性通常不如大模型，减少在后期 sampling 阶段使用的 topic models 有助于保持图像质量。
-
-### [Stable Diffusion XL](https://stablediffusionxl.com/)
-- [stabilityai/stable-diffusion-xl-base-1.0 · Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
-
-VAEs:
-- [madebyollin/sdxl-vae-fp16-fix · Hugging Face](https://huggingface.co/madebyollin/sdxl-vae-fp16-fix)
-
-[Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#sd-xl)
-- [SD XL support by AUTOMATIC1111 · Pull Request #11757 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/11757)
-
-[Anime Art Diffusion XL - alpha3 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/117259/anime-art-diffusion-xl)
 
 ## Sampling
 - Multi-stage sampling
@@ -51,45 +17,6 @@ VAEs:
     - 另外，如果使用 upscaling 等方法对中间图像进行正则化，也有可能能够产生质量更好的最终图像。
   - 关闭前一阶段 sampling 的 `return_with_leftover_noise`，同时开启后一阶段 sampling 的 `add_noise`，可以产生较为正常的结果，但也与正常 sampling 的结果不同。
   - 一种可能的解决方案是分开保存 decoded image 和 leftover noise，在对 decoded image 进行 encode 后，再添加上 leftover noise 作为下一阶段 sampling 的输入。
-
-## VAEs
-- None
-
-  会导致画面的色彩比较淡。
-- NovelAI (`nai.vae.pt`, `orangemix.vae.pt`, `Anything-V3.0.vae.pt`)
-
-  饱和度相对较低，看起来更加柔和；体积很大，是其它 VAE 的两倍多；容易导致 `NansException`。
-- `mse840000_klf8anime.vae.pt`
-
-  亮度较高；色调偏红；会减少画面中的微小物体。
-- [stabilityai/sd-vae-ft-mse-original](https://huggingface.co/stabilityai/sd-vae-ft-mse-original) (`vae-ft-mse-840000-ema-pruned.ckpt`)
-- `pastel-waifu-diffusion.vae.pt`
-
-  亮度比 mse840000 稍高。
-- [Blessed VAE](https://huggingface.co/NoCrypt/blessed_vae)
-  - `blessed-fix.vae.pt`
-
-    亮度很高；容易导致 `NansException`。
-  - `blessed2.vae.pt`
-  
-    亮度比 blessed-fix 稍低，但还是很高；容易导致 `NansException`。
-
-[try using different vae : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11ys8ww/try_using_different_vae/)
-
-![](https://preview.redd.it/rr7gbdqfcjpa1.jpeg?width=2656&format=pjpg&auto=webp&v=enabled&s=8b8cd4e6a3e2c329f518bfde26895560fd996af7)
-
-![](https://s3.amazonaws.com/moonup/production/uploads/1678275640402-62de447b4dcb9177d4bd876c.png)
-
-- [NansException: A tensor with all NaNs was produced in VAE on some images in img2img](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/7633)
-  
-  ```
-  modules.devices.NansException: A tensor with all NaNs was produced in VAE. This could be because there's not enough precision to represent the picture. Try adding --no-half-vae commandline argument to fix this. Use --disable-nan-check commandline argument to disable this check.
-  ```
-  使用 `--no-half-vae` 可以解决，但会增加显存占用；也可以尝试通过更换 VAE 来解决；该问题似乎也与 upscaler 和图像分辨率有关；ComfyUI 没有该问题。
-
-  由于该异常会中止 batch，推荐默认使用 `--disable-nan-check`。
-  
-  [Is there any issue leaving the command line arg "--no-half-vae" in there full-time? : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/10g41ax/is_there_any_issue_leaving_the_command_line_arg/)
 
 ## Prompts
 - [stable-diffusion-webui-tokenizer: An extension for stable-diffusion-webui that adds a tab that lets you preview how CLIP model would tokenize your text.](https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer)
@@ -403,10 +330,4 @@ Merging:
 - [losslessmix: Mixing models of stable diffusion without weights loss](https://github.com/recoilme/losslessmix) (discontinued)
 
 Tutorials:
-- [(已过时)Lora人物训练（多concept）导论 - 哔哩哔哩](https://www.bilibili.com/read/cv22050074)
 - [Re: [問題] AI為什麼不去吃動畫就好？ - 看板 C_Chat - 批踢踢實業坊](https://www.ptt.cc/bbs/C_Chat/M.1678539597.A.5DB.html)
-
-## Services
-- [Stable Diffusion Online](https://stablediffusionweb.com/)
-- [Stable Diffusion 2-1 - a Hugging Face Space by stabilityai](https://huggingface.co/spaces/stabilityai/stable-diffusion)
-- [MajinAI](https://majinai.art/index.php)
