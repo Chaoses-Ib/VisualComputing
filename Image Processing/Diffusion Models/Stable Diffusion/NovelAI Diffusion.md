@@ -57,7 +57,7 @@ Random prompts:
   ```
   badhandv4
   ```
-  有一定效果，但仍不完美。
+  有一定效果，但仍不完美；对画面可能有较大影响。
 - [Corneo's Spitroast Threesome TI Embedding | Stable Diffusion TextualInversion | Civitai](https://civitai.com/models/5811/corneos-spitroast-threesome-ti-embedding)
 - [XP模组loli | SD - WebUI 资源站](https://www.123114514.xyz/models/embeddings/NSFW/XP%E6%A8%A1%E7%BB%84loli)
 
@@ -164,6 +164,8 @@ Models:
 
 β:
 - [Counterfeit-V2.5](https://huggingface.co/gsdf/Counterfeit-V2.5) ([Civitai](https://civitai.com/models/4468/counterfeit-v25))
+
+  倾向于 multiple girls。
 - [OrangeMixs](https://huggingface.co/WarriorMama777/OrangeMixs)
   - [AbyssOrangeMix3 (AOM3) | Civitai](https://civitai.com/models/9942/abyssorangemix3-aom3)
 
@@ -363,6 +365,18 @@ Personal styles:
   144 MiB；对画风的影响比较大。
 - [{DD} Reverse cowgirl with soles (feet on lap) | Stable Diffusion LORA | Civitai](https://civitai.com/models/28281/dd-reverse-cowgirl-with-soles-feet-on-lap)
 - [Doggystyle from side view | Stable Diffusion LORA | Civitai](https://civitai.com/models/12961/doggystyle-from-side-view)
+- Crotch rub
+  - Table humping
+
+    不使用 LoRA 很难正常画出。
+    - [Desk Humping LoCon - v1.0 | Stable Diffusion LyCORIS | Civitai](https://civitai.com/models/106338) (`Desk Humping.safetensors`)
+      - 29 MiB.
+      - `desk humping, masturbation, table`
+      - highres 容易崩坏。
+    - [Table Sex - v.1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/9013) (`tablesex.safetensors`)
+      - 72 MiB.
+      - `table sex, crotch rub, masturbation`
+      - 效果不太强。
 - [Trapped in Wall | Stable Diffusion LORA | Civitai](https://civitai.com/models/8764/trapped-in-wall)
 - [Trapped in Wall - Behind | Stable Diffusion LORA | Civitai](https://civitai.com/models/8817/trapped-in-wall-behind)
 - [🎁美少女礼盒 | girl in gift box | 箱入り娘 | Stable Diffusion LORA | Civitai](https://civitai.com/models/9706/or-girl-in-gift-box-or)
@@ -480,14 +494,14 @@ Personal styles:
 - [Gyokai / ononoimoko (魚介 / おののいもこ) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/11794/gyokai-ononoimoko-art-style-lora)
 - 鬼针草
   - `gzc-000004.safetensors`
-
-    88.4 MiB.
+    - 88.4 MiB.
+    - 倾向于把 hand 修改为 feet。
   - `gzc_2.safetensors`
 
     4.8 MiB.
 - [汉家松鼠 | Stable Diffusion LORA | Civitai](https://civitai.com/models/8181)
 
-  144 MiB；会导致画面变阴暗；和 Pastel Mix 配合得比较好。
+  144 MiB；会导致画面变阴暗，可以尝试通过 Nou Art Style 补偿；和 Pastel Mix 配合得比较好。
 - [iamuu_n / 逢編いあむ | Style Lora 166 | Stable Diffusion LORA | Civitai](https://civitai.com/models/10348/iamuun-or-style-lora-166)
 - [ヰ世界情緒 Isekai Joucho Nemophila ver. | Stable Diffusion LORA | Civitai](https://civitai.com/models/28256/isekai-joucho-nemophila-ver)
 
@@ -498,8 +512,11 @@ Personal styles:
 
   144 MiB.
 - [Nou (のう) Art Style LoRA | Stable Diffusion LORA | Civitai](https://civitai.com/models/12218/nou-art-style-lora) (`nouArtStyleLora_v20Offset.safetensors`)
-
-  144 MiB；容易导致画面杂乱，可以通过 white background、nude 或者较高的 CFG 来减缓；对于 yuri 效果较好。
+  - 144 MiB；
+  - 容易导致画面杂乱，可以通过 white background、nude 或者较高的 CFG 来减缓。
+  - 下眼睑容易出现污点，眼球边缘容易破损。
+  - 偏向于 red。
+  - 对于 yuri 效果较好。
 - [ohisashiburi style lora | Stable Diffusion LORA | Civitai](https://civitai.com/models/16851/ohisashiburi-style-lora)
 - [\[LoCon/LoRA\] Uekura eku/上倉エク Style | Stable Diffusion LORA | Civitai](https://civitai.com/models/17305/loconlora-uekura-eku-style)
 
@@ -557,7 +574,23 @@ Relistic:
     - [KomeijiKoishi-v0.1 - KomeijiKoishi-v0.1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/10480/komeijikoishi-v01) (`东方 恋恋 komeiji_koishi作附junto.safetensors`)
   
       36.1 MiB.
-  - [remilia scarlet (touhou) 蕾米莉亚 东方project - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/80142/remilia-scarlet-touhou-project)
+  - [蕾米莉亚·斯卡蕾特](https://zh.moegirl.org.cn/%E8%95%BE%E7%B1%B3%E8%8E%89%E4%BA%9A%C2%B7%E6%96%AF%E5%8D%A1%E8%95%BE%E7%89%B9)
+    ```
+    1girl, remilia scarlet, red eyes, medium hair, blue hair, mob cap, hat ribbon, jewelry, ascot, bat wings, puffy short sleeves, frilled shirt collar
+    pink shirt
+    white socks, red footwear
+    pointy ears
+    holding weapon
+    ```
+    - [remilia scarlet (touhou) 蕾米莉亚 东方project - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/80142/remilia-scarlet-touhou-project) (`remilia.safetensors`)
+      - 144 MiB.
+      - `remilia scarlet`
+    - [Kamepan Remilia Lora - 1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/13484/kamepan-remilia-lora) (`kameremi3.safetensors`)
+      - 144 MiB.
+      - `remilia`
+    - [Remilia Scarlet | Touhou - v1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/45536/remilia-scarlet-or-touhou)
+      - 35.3 MiB.
+      - `remilia scarlet`
   - [八云紫](https://zh.moegirl.org.cn/%E5%85%AB%E4%BA%91%E7%B4%AB)
     - [yakumo yukari (touhou) 八云紫 东方project - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/85753/yakumo-yukari-touhou-project) (`yukari.safetensors`)
 
@@ -661,6 +694,21 @@ Relistic:
       ```
       144 MiB；权重低时会丢角。
 - 2434
+  - [竜胆尊](https://zh.moegirl.org.cn/%E9%BE%99%E8%83%86%E5%B0%8A)
+    - [Rindou Mikoto 竜胆尊 / Nijisanji - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/108819/rindou-mikoto-nijisanji) (`rindou_mikoto_v1.safetensors`)
+
+      ```
+      outfit1
+      aamikoto, low twintails, crescent hair ornament, bow, purple ribbon, short eyebrows, fang, off shoulder, purple kimono, short kimono, cleavage, sleeves past wrists, obi, sash, thigh strap
+      outfit2
+      bbmikoto, ponytail, short eyebrows, earrings, fang, black choker, black sailor collar, cardigan, open clothes, sleeves past wrists, school uniform, (black shirt:1.1), pleated skirt, black skirt, black pantyhose
+      outfit3
+      ccmikoto, streaked hair, very long hair, straight hair, hairband, short eyebrows, earrings, collarbone, bare shoulders, black dress, sleeveless dress, see-through, cleavage, (black gloves:1.1)
+      outfit4
+      ddmikoto, short eyebrows, fang, black choker, off shoulder, bare shoulders, sleeveless hoodie, (white hoodie:1.1), black jacket, open clothes, black socks
+      ```
+
+      36.1 MiB.
   - [天宫心](https://zh.moegirl.org.cn/%E5%A4%A9%E5%AE%AB%E5%BF%83)
     - [彩虹社 - 天宫心-六衣服* Nijisanji - Amamiya Kokoro - 6clothes | AI绘画模型博物馆](https://aimodel.subrecovery.top/2023/01/22/lora/)
       ```
@@ -686,6 +734,14 @@ Relistic:
       ```
       amamiya_kokoro,amamya,blue very long hair,yellow eyes,hair bell,hat,x hair ornament,ahoge,multicolored gradient hair,loli,
       white pantyhose
+      ```
+      多样性较差。
+    - ~~[Unofficial ANYCOLOR/えにから amamiya kokoro/雨宮 こころ](https://civitai.com/posts/145108)~~ (`unofficialANYCOLORAmamiya_v07.safetensors`) ([Backups](https://t.me/Civitai_models/36763))
+
+      57.8 MiB.
+
+      ```
+      amamiya kokoro
       ```
     - [Amamiya Kokoro 天宮こころ / Nijisanji | Stable Diffusion LORA | Civitai](https://civitai.com/models/30119/amamiya-kokoro-nijisanji) (`amamiyaKokoro_v10.safetensors`)
   
@@ -732,9 +788,9 @@ Relistic:
     ```
   - [孤独摇滚 - 后藤一里* Bocchi the rock - Gotou Hitori | AI绘画模型博物馆](https://aimodel.subrecovery.top/2023/01/22/lora/)
 
-  ```
-  pink hair,blue eyes,hair accessories
-  ```
+    ```
+    pink hair,blue eyes,hair accessories
+    ```
   - [Kita Ikuyo-Bocchi the rock | Stable Diffusion LORA | Civitai](https://civitai.com/models/8782/kita-ikuyo-bocchi-the-rock)
 
     ```
@@ -767,6 +823,9 @@ Relistic:
 - [Maria Campbell (from My Next Life as a Villainess: All Routes Lead to Doom!) - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/89077/maria-campbell-from-my-next-life-as-a-villainess-all-routes-lead-to-doom)
 
 #### Games
+- THE IDOLM@STER SHINY COLORS
+  - [杜野凛世](https://zh.moegirl.org.cn/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96)
+    - [Morino Rinze (THE IDOLM@STER SHINY COLORS) - v1.0 | Stable Diffusion LyCORIS | Civitai](https://civitai.com/models/21983/morino-rinze-the-idolmster-shiny-colors)
 - 蔚蓝档案
   - 竜華キサキ（Kisaki）
 
@@ -778,7 +837,9 @@ Relistic:
     black gloves,
     pinstripe jacket,
     ```
-    许多 model 会偏向于出现 pinstripe jacket，即使加进 negative prompts 也无济于事。
+    - 模型多样性较低。
+      - 许多 model 会偏向于出现 pinstripe jacket，即使加进 negative prompts 也无济于事。
+      - 容易崩坏。
 
     - [Kisaki(Blue Archive) - v2.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/29645/kisakiblue-archive) (`Kisaki.safetensors`)
 
@@ -816,8 +877,18 @@ Relistic:
         Kisaki
         ```
         11.4 MiB.
-      
-  - [Mari / マリー / 마리 / 玛丽 (Blue Archive) | Stable Diffusion LORA | Civitai](https://civitai.com/models/7999/mari-blue-archive)
+      we
+  - [伊落マリー](https://zh.moegirl.org.cn/%E4%BC%8A%E8%90%BD%E7%8E%9B%E4%B8%BD)
+    - [Mari / マリー / 마리 / 玛丽 (Blue Archive) | Stable Diffusion LORA | Civitai](https://civitai.com/models/7999/mari-blue-archive) (`chara-mari-v5b.safetensors`)
+      - 144 MiB.
+    - [Iochi Mari / 伊落マリー - v1 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/19706/iochi-mari)
+      - 36 MiB.
+    - [Iochi Mari (伊落マリー) Blue Archive | Character Lora 1537 - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/114553/iochi-mari-blue-archive-or-character-lora-1537)
+      - 36 MiB.
+    - [mari/伊落マリー/玛丽 (Blue Archive) - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/121980)
+      - 0.1 MiB.
+    - [Iochi Mari TI - v1 | Stable Diffusion Embedding | Civitai](https://civitai.com/models/6932)
+    - [Iochi Mari (Gym) TI - v1 | Stable Diffusion Embedding | Civitai](https://civitai.com/models/7151)
 - 碧蓝航线
   - [Hwah Jah Jiangshi/Zombie 華甲-欢乐喜庆僵尸夜 | Stable Diffusion LORA | Civitai](https://civitai.com/models/7393/hwah-jah-jiangshizombie)
 - [明日方舟-年 Arknights-Nian | Stable Diffusion LORA | Civitai](https://civitai.com/models/8185/arknights-nian)

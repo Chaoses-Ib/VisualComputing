@@ -22,6 +22,36 @@
 - [TrinArt Stable Diffusion_v2](https://huggingface.co/naclbit/trinart_stable_diffusion_v2?continueFlag=15536bed1e034a7d436f2d0584e6fa6b)
 - [Taiyi-Stable-Diffusion-1B-Anime-Chinese-v0.1](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-1B-Anime-Chinese-v0.1)
 
+### Topic models
+- 模型多样性越低越容易崩坏，而专题模型的多样性通常不如大模型，减少在后期 sampling 阶段使用的 topic models 有助于保持图像质量。
+
+### [Stable Diffusion XL](https://stablediffusionxl.com/)
+- [stabilityai/stable-diffusion-xl-base-1.0 · Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
+
+VAEs:
+- [madebyollin/sdxl-vae-fp16-fix · Hugging Face](https://huggingface.co/madebyollin/sdxl-vae-fp16-fix)
+
+[Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#sd-xl)
+- [SD XL support by AUTOMATIC1111 · Pull Request #11757 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/11757)
+
+[Anime Art Diffusion XL - alpha3 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/117259/anime-art-diffusion-xl)
+
+## Sampling
+- Multi-stage sampling
+  
+  Steps 并不是单纯地重复 sampling，两次 10 steps sampling 的结果与一次 20 steps sampling 的结果是不同的。
+
+  要实现多阶段 sampling，需要：
+  1. 只在第一阶段 sampling 中开启 `add_noise`
+  2. 除了最后一阶段 sampling 都开启 `return_with_leftover_noise`
+  3. 使用 `start_at_step` 和 `end_at_step` 来分配 steps
+  
+  在 sampling 过程中对 latent image 进行 VAE decode 和 encode 会影响 sampling 的结果，被操作的 step 越靠前，对最终结果的影响越大。产生这一问题的原因可能是 VAE 是在无噪音的正常图像上进行训练的，对于含有噪音的中间图像无法进行有效的 encoding。
+  - 这一问题导致无法对 sampling 的中间结果进行干预。这种干预相比于对图像重新进行 sampling（即 img2img）可能更加稳定，在干预区域外的结果保持不变。
+    - 另外，如果使用 upscaling 等方法对中间图像进行正则化，也有可能能够产生质量更好的最终图像。
+  - 关闭前一阶段 sampling 的 `return_with_leftover_noise`，同时开启后一阶段 sampling 的 `add_noise`，可以产生较为正常的结果，但也与正常 sampling 的结果不同。
+  - 一种可能的解决方案是分开保存 decoded image 和 leftover noise，在对 decoded image 进行 encode 后，再添加上 leftover noise 作为下一阶段 sampling 的输入。
+
 ## VAEs
 - None
 
@@ -55,15 +85,17 @@
   ```
   modules.devices.NansException: A tensor with all NaNs was produced in VAE. This could be because there's not enough precision to represent the picture. Try adding --no-half-vae commandline argument to fix this. Use --disable-nan-check commandline argument to disable this check.
   ```
-  使用 `--no-half-vae` 可以解决，但会增加显存占用；也可以尝试通过更换 VAE 来解决；该问题似乎也与 upscaler 和图像分辨率有关。
+  使用 `--no-half-vae` 可以解决，但会增加显存占用；也可以尝试通过更换 VAE 来解决；该问题似乎也与 upscaler 和图像分辨率有关；ComfyUI 没有该问题。
 
   由于该异常会中止 batch，推荐默认使用 `--disable-nan-check`。
   
   [Is there any issue leaving the command line arg "--no-half-vae" in there full-time? : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/10g41ax/is_there_any_issue_leaving_the_command_line_arg/)
 
 ## Prompts
-[stable-diffusion-webui-tokenizer: An extension for stable-diffusion-webui that adds a tab that lets you preview how CLIP model would tokenize your text.](https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer)
+- [stable-diffusion-webui-tokenizer: An extension for stable-diffusion-webui that adds a tab that lets you preview how CLIP model would tokenize your text.](https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer)
+- 下划线与空格的作用是不等价的。
 
+Tools:
 - Search engines
   - [Lexica](https://lexica.art/)
   - [PromptHero](https://prompthero.com/)
@@ -101,9 +133,73 @@ Prompt editing:
 
 ## Tools
 - [Stable Diffusion web UI](#stable-diffusion-web-ui)
-- [ComfyUI: A powerful and modular stable diffusion GUI with a graph/nodes interface.](https://github.com/comfyanonymous/ComfyUI)
+- [ComfyUI](#comfyui)
 - [Sygil-Dev/sygil-webui: Stable Diffusion web UI](https://github.com/Sygil-Dev/sygil-webui)
 - [HCP-Diffusion: A universal Stable-Diffusion toolbox](https://github.com/7eu7d7/HCP-Diffusion)
+
+### [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+A powerful and modular stable diffusion GUI with a graph/nodes interface.
+
+[ComfyUI Community Manual](https://blenderneko.github.io/ComfyUI-docs/)
+
+[ComfyUI Examples](https://comfyanonymous.github.io/ComfyUI_examples/)
+
+[Frequently Asked Questions](https://comfyanonymous.github.io/ComfyUI_examples/faq/)
+
+[ComfyUI Basic Tutorial VN](https://comfyanonymous.github.io/ComfyUI_tutorial_vn/)
+
+Core nodes:
+- [Node Expansion, While Loops, Components, and Lazy Evaluation by guill - Pull Request #931](https://github.com/comfyanonymous/ComfyUI/pull/931)
+- VAEs
+  - [Question: VAE Precision - Issue #827](https://github.com/comfyanonymous/ComfyUI/issues/827)
+- [\[Feature Request\] Conditional execution control - Issue #313](https://github.com/comfyanonymous/ComfyUI/issues/313)
+- [\[Feature Request\] Reroute node widget with on/off switch and reroute node widget with patch selector - Issue #1051](https://github.com/comfyanonymous/ComfyUI/issues/1051)
+- Route
+
+  [Allow connect primitive nodes to route nodes by omar92 - Pull Request #453](https://github.com/comfyanonymous/ComfyUI/pull/453)
+- Load Image
+  - 不能重复上传同一路径的图像。
+  - [Support loading images from arbitrary paths - Issue #138](https://github.com/comfyanonymous/ComfyUI/issues/138)
+
+  [ComfyUI_Ib_CustomNodes](https://github.com/Chaoses-Ib/ComfyUI_Ib_CustomNodes)
+- Save Image
+  - `%node_name.widget_name%`
+    - `%Seed.value%`
+  - 当 `filename_prefix` 为空时会使用 `.` 作为 prefix，但却会用空 prefix 来探测已存在文件，导致已有文件被覆盖。
+- [When designing a custom node, how do we choose whether a parameter is set using nodes, or as an input field? - Issue #1264](https://github.com/comfyanonymous/ComfyUI/issues/1264)
+  - [to have a setting option for widgets "DefultAsInput" - Discussion #454](https://github.com/comfyanonymous/ComfyUI/discussions/454)
+
+Custom nodes:
+- [ComfyUI-Manager/extension-node-map.json](https://github.com/ltdrdata/ComfyUI-Manager/blob/main/extension-node-map.json)
+- [ComfyUI\_Ib\_CustomNodes](https://github.com/Chaoses-Ib/ComfyUI_Ib_CustomNodes)
+  - ComfyScript
+- [Efficiency Nodes for ComfyUI](https://github.com/LucianoCirino/efficiency-nodes-comfyui)
+- [RockOfFire/Comfyroll Custom Nodes](https://github.com/RockOfFire/ComfyUI_Comfyroll_CustomNodes)
+- [Auto-MBW for ComfyUI loosely based on sdweb-auto-MBW](https://github.com/szhublox/ambw_comfyui)
+- [Davemane42's Custom Node for ComfyUI](https://github.com/Davemane42/ComfyUI_Dave_CustomNode)
+  - MultiAreaConditioning
+  - MultiLatentComposite
+- [ComfyUI Noise: 6 nodes for ComfyUI that allows for more control and flexibility over noise to do e.g. variations or "un-sampling"](https://github.com/BlenderNeko/ComfyUI_Noise)
+- [Tiled sampling for ComfyUI](https://github.com/BlenderNeko/ComfyUI_TiledKSampler)
+
+  Random tilling 不适合人物画。
+- [Cutoff for ComfyUI](https://github.com/BlenderNeko/ComfyUI_Cutoff)
+- [Advanced CLIP Text Encode: ComfyUI node that let you pick the way in which prompt weights are interpreted](https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb)
+- [ComfyUI-DynamicPrompts Custom Nodes](https://github.com/adieyal/comfyui-dynamicprompts)
+- `STRING` 缺少 `default` 时会导致 node 无法显示。
+
+Extensions:
+- [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+
+Workflows:
+- [wyrde-comfyui-workflows](https://github.com/wyrde/wyrde-comfyui-workflows)
+
+[Custom Nodes, Extensions, and Tools for ComfyUI](https://github.com/WASasquatch/comfyui-plugins)
+
+[\[Request\] Human Readable Prompt Exportation - Issue #612](https://github.com/comfyanonymous/ComfyUI/issues/612)
+- [Feature request: Comfyui generational data. - Issue #202 - zanllp/sd-webui-infinite-image-browsing](https://github.com/zanllp/sd-webui-infinite-image-browsing/issues/202)
+
+[feat: LoRA as prompt - Issue #794](https://github.com/comfyanonymous/ComfyUI/issues/794)
 
 ### [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 [Features · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)
@@ -118,6 +214,13 @@ Sampling methods:
 
   ![](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/images/sampling.jpg)
 - [Comparison of new UniPC sampler method added to Automatic1111 : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11oke60/comparison_of_new_unipc_sampler_method_added_to/)
+
+  > UniPC is meant to work at low and very low steps numbers, 5-10.
+
+  10 steps 仍然不太够，15 steps 足够了。
+
+  bh1 vs bh2:
+  > The difference is small, some areas look better, some look worse, many look the pretty much the same. In general bh2 appears to do better with straight lines, bh1 looks more detailed but also tends to insert random junk into the image? I think I prefer the look of bh2.
 
 CFG:
 - CFG 控制的是生成的创造性，CFG 为 0 时创造性最大，得到的是噪声图像，CFG 为最大时创造性最小，将得到模型下相关 prompt 的基础图像。
@@ -147,6 +250,8 @@ Clip skip:
   The recommanded ratio is 0.5.
 
   [Integrate optional speed and memory improvements by token merging (via dbolya/tomesd) by papuSpartan · Pull Request #9256 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/9256)
+
+  除了提高速度和节省内存外，Token Merging 还可用于简化画面。
 
   [ToMe extension for Stable Diffusion A1111 WebUI](https://github.com/SLAPaper/a1111-sd-webui-tome)
 - [Caching models](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#caching-models)
@@ -201,12 +306,16 @@ User interface:
     - `sd_vae`
     - `token_merging_ratio_img2img`
     - `upscaler_for_img2img`
+- Hires fix
+  - Show hires sampler selection
+  - Show hires prompt and negative prompt
 - [stable-diffusion-webui-state: Stable Diffusion extension that preserves ui state](https://github.com/ilian6806/stable-diffusion-webui-state)
 
 #### img2img
 Hires. fix：
 - Hires. fix 能够添加细节，使图像更加接近 prompts，但过强的 fix 也可能导致图像崩坏。
 - Hires. fix 会导致某些 model 崩坏，降低 denosing strength 能够减缓问题，更换 upscaler 也有可能减缓问题。
+- 如果某个 LoRA 容易导致 txt2img 图像崩溃，可以通过不在 txt2img 中使用，只在 hires. fix 中使用（并使用高 denosing strength）来缓解。
 - Upscalers
   - Latent upscalers 消耗的显存少很多，但会生成更多的细节，在低 denosing strength 时更容易导致图像崩坏，高 denosing stength 时则会大幅改变图像。
 
