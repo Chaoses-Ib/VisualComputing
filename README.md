@@ -9,6 +9,8 @@
 - [Image File Formats](Image/Formats/README.md)
   - [Graphics Interchange Format](Image/Formats/GIF.md)
 - [Image Scaling](Image/Scaling/README.md)
+- Mosaic
+  - [Photographic Mosaic](Image/Mosaic/Photographic/README.md)
 - [Data Augmentation](Image/Data%20Augmentation/README.md)
 - [Diffusion Models](Image/Diffusion/README.md)
   - [Latent Diffusion](Image/Diffusion/Latent/README.md)
@@ -30,9 +32,12 @@
 - [Frame Interpolation](Video/Frame%20Interpolation.md)
 - [Tools](Video/Tools/README.md)
   - [Adobe Premiere Pro](Video/Tools/Premiere/README.md)
+- Video Sharing
+  - [YouTube](Video/Sharing/YouTube.md)
 
 ## [Computer Vision](Vision/README.md)
 - [Features](Vision/Features/README.md)
+- [Image Similarity](Vision/Image%20Similarity/README.md)
 - [Image Classification](Vision/Image%20Classification/README.md)
 - [Image Segmentation](Vision/Image%20Segmentation/README.md)
 - [Object Detection](Vision/Object%20Detection/README.md)
@@ -48,6 +53,15 @@
   - [3D Reconstruction](Vision/3D/Reconstruction/README.md)
 - [Motion](Vision/Motion/README.md)
   - [Object Tracking](Vision/Motion/Object%20Tracking/RAEDME.md)
+- Libraries
+  - [Open Source Computer Vision Library](Vision/Libraries/OpenCV/README.md)
+    - [Core Operations](Vision/Libraries/OpenCV/Core.md)
+    - [Image Processing](Vision/Libraries/OpenCV/Image.md)
+    - [Feature Detection and Description](Vision/Libraries/OpenCV/Features.md)
+    - [Logging](Vision/Libraries/OpenCV/Logging.md)
+    - [GUI](Vision/Libraries/OpenCV/GUI.md)
+    - [CUDA](Vision/Libraries/OpenCV/CUDA.md)
+    - [Python](Vision/Libraries/OpenCV/Python.md)
 
 ## Natural Language Processing
 - [Text-to-image](NLP/Text-to-image/README.md)
