@@ -72,6 +72,10 @@
   - Typesetting
     - [Fonts](Graphics/Typography/Typesetting/Fonts.md)
 
+## [Modeling](Modeling/README.md)
+- Tools
+  - [SolidWorks](Modeling/Tools/SolidWorks/README.md)
+
 ## [Visualization](Visualization/README.md)
 - [The Grammar of Graphics](Visualization/The%20Grammar%20of%20Graphics.md)
 - [Graph Visualization](Visualization/Graph/README.md)
