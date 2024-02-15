@@ -40,7 +40,19 @@ Plugins:
       [Settings and inpaint question · Issue #95 · AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin](https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin/issues/95)
 - [Concept.art | Adobe Exchange](https://exchange.adobe.com/apps/cc/114117da/stable-diffusion)
 
+## Workspace
+- Grid (`Ctrl+'`)
+
 ## Image and color basics
+- [View images](https://helpx.adobe.com/photoshop/using/viewing-images.html)
+  - Navigator panel
+
+    Navigator panel 只能显示完整图像，不能放大到局部，用于查看细节时需要占用大量空间。
+
+  - Pixel Grid
+
+    开启后只会在图像放大到 500% 时才会显示。默认开启。
+
 - [Choose colors](https://helpx.adobe.com/photoshop/using/choosing-colors.html)
 
   - Color panel
@@ -57,9 +69,12 @@ Plugins:
 
 ## Layers
 - 只能通过 `Layer > Hide Layers` (`Ctrl+,`) 来批量隐藏或显示 layers，无法在 Layers panel 中直接实现。
+- [Applying same mask to multiple layers in Photoshop - Graphic Design Stack Exchange](https://graphicdesign.stackexchange.com/questions/9266/applying-same-mask-to-multiple-layers-in-photoshop)
 
 ## Selections
 - [Get started with selections](https://helpx.adobe.com/photoshop/using/making-selections.html)
+  
+- [Select and Mask workspace](https://helpx.adobe.com/photoshop/using/select-mask.html)
 
 Selection 不能同时选中多个 layer 中的图像，只能合并后再选中。
 
