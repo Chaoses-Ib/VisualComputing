@@ -14,7 +14,6 @@
 - [Data Augmentation](Image/Data%20Augmentation/README.md)
 - [Diffusion Models](Image/Diffusion/README.md)
   - [Latent Diffusion](Image/Diffusion/Latent/README.md)
-    - [Variational Autoencoder](Image/Diffusion/Latent/VAE.md)
     - [Stable Diffusion](Image/Diffusion/Latent/Stable/README.md)
       - [NovelAI Diffusion](Image/Diffusion/Latent/Stable/NovelAI.md)
   - [Low-Rank Adaptation](Image/Diffusion/LoRA.md)

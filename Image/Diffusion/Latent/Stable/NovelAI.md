@@ -1,25 +1,28 @@
 # [NovelAI Diffusion](https://novelai.net/)
 [Wikipedia](https://en.wikipedia.org/wiki/NovelAI)
 
-[NovelAI Improvements on Stable Diffusion | by NovelAI | Medium](https://novelai.medium.com/novelai-improvements-on-stable-diffusion-e10d38db82ac)
-- Using hidden States of CLIP’s penultimate layer
-- [NovelAI Aspect Ratio Bucketing: Implementation of aspect ratio bucketing for training generative image models](https://github.com/NovelAI/novelai-aspect-ratio-bucketing)
+History:
+- 2022-10 [NovelAI Improvements on Stable Diffusion | by NovelAI | Medium](https://novelai.medium.com/novelai-improvements-on-stable-diffusion-e10d38db82ac)
+  - Using hidden States of CLIP’s penultimate layer
+  - [NovelAI Aspect Ratio Bucketing: Implementation of aspect ratio bucketing for training generative image models](https://github.com/NovelAI/novelai-aspect-ratio-bucketing)
 
-  Using random crops instead of center crops only slightly improves the issues.
-- Extending the Stable Diffusion token limit by 3x.
-- Hypernetworks
+    Using random crops instead of center crops only slightly improves the issues.
+  - Extending the Stable Diffusion token limit by 3x.
+  - Hypernetworks
+- 2022-10 NovelAI experienced a data breach where its software source code was leaked.
+  - [magnet:?xt=urn:btih:5bde442da86265b670a3e5ea3163afad2c6f8ecc](magnet:?xt=urn:btih:5bde442da86265b670a3e5ea3163afad2c6f8ecc&dn=novelaileak&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce)
+  - [Guide to set up the leaked NovelAI model for Stable-Diffusion : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/xxxx94/guide_to_set_up_the_leaked_novelai_model_for/)
+  - [NovelAI原版部署教程 – Telegraph](https://telegra.ph/NovelAI%E5%8E%9F%E7%89%88%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B-10-07)
+  - [NovelAI Naifu 低顯存優化版教學：Naifu low vram ver - YouTube](https://www.youtube.com/watch?v=T09tBeFzYwI)
+  - [\[閒聊\] NovelAI模型外洩事件對各界後續影響 - 看板 C_Chat - 批踢踢實業坊](https://www.ptt.cc/bbs/C_Chat/M.1665590615.A.461.html)
 
-On October 6, 2022, NovelAI experienced a data breach where its software source code was leaked.
-- [magnet:?xt=urn:btih:5bde442da86265b670a3e5ea3163afad2c6f8ecc](magnet:?xt=urn:btih:5bde442da86265b670a3e5ea3163afad2c6f8ecc&dn=novelaileak&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce)
-- [Guide to set up the leaked NovelAI model for Stable-Diffusion : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/xxxx94/guide_to_set_up_the_leaked_novelai_model_for/)
-- [NovelAI原版部署教程 – Telegraph](https://telegra.ph/NovelAI%E5%8E%9F%E7%89%88%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B-10-07)
-- [NovelAI Naifu 低顯存優化版教學：Naifu low vram ver - YouTube](https://www.youtube.com/watch?v=T09tBeFzYwI)
-- [\[閒聊\] NovelAI模型外洩事件對各界後續影響 - 看板 C_Chat - 批踢踢實業坊](https://www.ptt.cc/bbs/C_Chat/M.1665590615.A.461.html)
+- 2023-11 [Introducing NovelAI Diffusion Anime V3 | by NovelAI | Nov, 2023 | Medium](https://blog.novelai.net/introducing-novelai-diffusion-anime-v3-6d00d1c118c3)
 
 Textual inversion 相比 LoRA 对画风的影响更小。
 
 ## Prompts
 - [Stable Diffusion使用入门与提示词技巧 - 知乎](https://zhuanlan.zhihu.com/p/577238010)
+- [Tutorial \[EN\]: Creating Consistent Characters with NovelAI Diffusion Anime \[Female\] | by NovelAI | Nov, 2023 | Medium](https://blog.novelai.net/tutorial-en-creating-consistent-characters-with-novelai-diffusion-anime-female-538b4b678a4e)
 - [Danbooru: Anime Image Board](https://danbooru.donmai.us/)
   - [Danbooru 标签导出器](https://sleazyfork.org/zh-CN/scripts/452976-danbooru-tags-select-to-export)
 - Index
@@ -77,6 +80,8 @@ Random prompts:
 Models:
 - [ACertainty](https://huggingface.co/JosephusCheung/ACertainty)
   - [Evt_V4-preview](https://huggingface.co/haor/Evt_V4-preview)
+- [CuteYukiMix(特化可爱风格adorable style） - Nai\_V3style](https://civitai.com/models/28169/cuteyukimixadorable-style)
+  - 比 Dorayakimix 的效果更好。
 - [DisillusionMix 幻灭 | Civitai](https://civitai.com/models/16052/disillusionmix)
 
   VAE: `vae-ft-mse-840000-ema-pruned.ckpt`
@@ -311,13 +316,15 @@ Personal styles:
   headpat, head rub
   ```
   4.6 MiB.
-- [Yuri kiss | Stable Diffusion LORA | Civitai](https://civitai.com/models/25152/yuri-kiss)
+- 百合
+  - [百合花开/yuri Lora - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/148633/yuri-lora) (`yuri_20230918155120.safetensors`)
+  - [Yuri kiss | Stable Diffusion LORA | Civitai](https://civitai.com/models/25152/yuri-kiss)
 
-  ```
-  yuri, kiss
-  ```
+    ```
+    yuri, kiss
+    ```
 
-  4.6 MiB；容易出现嘴连在一起的问题。
+    4.6 MiB；容易出现嘴连在一起的问题。
 - [Pocky Kiss Side View | Test Concept Lora 231 | Stable Diffusion LORA | Civitai](https://civitai.com/models/27960/pocky-kiss-side-view-or-test-concept-lora-231)
 - [Glory Hole Tongue | Stable Diffusion LORA | Civitai](https://civitai.com/models/26262/glory-hole-tongue)
 
@@ -821,6 +828,16 @@ Relistic:
   - [天国大魔境/Heavenly Delusion-style/Character（Doomsday/animel style) - キルコ/斬子 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/74609/heavenly-delusion-stylecharacterdoomsdayanimel-style)
 - [Yurine Hanazono || Dropkick on My Devil! - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/71569/yurine-hanazono-oror-dropkick-on-my-devil)
 - [Maria Campbell (from My Next Life as a Villainess: All Routes Lead to Doom!) - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/89077/maria-campbell-from-my-next-life-as-a-villainess-all-routes-lead-to-doom)
+
+##### 2310
+- アンデッドアンラック
+  - ジーナ
+    - `yellow eyes, pink hair, fang`
+    - `black headwear, oversized hat, heart earrings, red skirt, plaid skirt, black thighhighs, bare foot`
+      - `jacket, white shirt, breast pocket, red necktie`
+    - [AI Art LoRA Model: ジーナ　アンデッドアンラック　 / UNDEAD UNLUCK | PixAI](https://pixai.art/model/1674933181999596500/1674937113397175538) (`1674933181999596499.safetensors`)
+      - `1girl, pink hair, white shirt, black suit, longhair, red tie, red skirt, plaid skirt, fang`
+      - Anime 数据集，对画风的影响很大
 
 #### Games
 - THE IDOLM@STER SHINY COLORS

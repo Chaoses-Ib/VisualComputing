@@ -1,4 +1,21 @@
 # Latent Diffusion
+## Variational autoencoders
+不同 VAE 间的效果差别类似滤镜。
+
+### modules.devices.NansException: A tensor with all NaNs was produced in VAE
+```
+modules.devices.NansException: A tensor with all NaNs was produced in VAE. This could be because there's not enough precision to represent the picture. Try adding --no-half-vae commandline argument to fix this. Use --disable-nan-check commandline argument to disable this check.
+```
+
+使用 `--no-half-vae` 可以解决，但会增加显存占用；也可以尝试通过更换 VAE 来解决；该问题似乎也与 upscaler 和图像分辨率有关；ComfyUI 没有该问题。
+
+由于该异常会中止 batch，推荐默认使用 `--disable-nan-check`。
+
+- [\[Bug\]: A tensor with all NaNs was produced in Unet · Issue #6923 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/6923)
+- [NansException: A tensor with all NaNs was produced in VAE on some images in img2img](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/7633)
+- [Help with Stable Diffusion NaNs error? : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/10eikja/help_with_stable_diffusion_nans_error/)
+- [Is there any issue leaving the command line arg "--no-half-vae" in there full-time? : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/10g41ax/is_there_any_issue_leaving_the_command_line_arg/)
+
 ## Models
 - 模型多样性越低越容易崩坏，而专题模型的多样性通常不如大模型，减少在后期 sampling 阶段使用的 topic models 有助于保持图像质量。
 
@@ -21,6 +38,8 @@
 ## Prompts
 - [stable-diffusion-webui-tokenizer: An extension for stable-diffusion-webui that adds a tab that lets you preview how CLIP model would tokenize your text.](https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer)
 - 下划线与空格的作用是不等价的。
+
+[Pro-Tip: Negative Prompt doesn't technically exist (But practically does). : comfyui](https://www.reddit.com/r/comfyui/comments/188z6gv/protip_negative_prompt_doesnt_technically_exist/)
 
 Tools:
 - Search engines
@@ -76,6 +95,10 @@ A powerful and modular stable diffusion GUI with a graph/nodes interface.
 [ComfyUI Basic Tutorial VN](https://comfyanonymous.github.io/ComfyUI_tutorial_vn/)
 
 Core nodes:
+- [What's up with diffusers and ComfyUI? : comfyui](https://www.reddit.com/r/comfyui/comments/17fvb49/whats_up_with_diffusers_and_comfyui/)
+
+  > The diffusers library itself is badly designed so I won't include or use it in the core software but I don't mind supporting models in that format as long as it's something people are actually going to use.
+
 - [Node Expansion, While Loops, Components, and Lazy Evaluation by guill - Pull Request #931](https://github.com/comfyanonymous/ComfyUI/pull/931)
 - VAEs
   - [Question: VAE Precision - Issue #827](https://github.com/comfyanonymous/ComfyUI/issues/827)
@@ -128,6 +151,10 @@ Workflows:
 
 [feat: LoRA as prompt - Issue #794](https://github.com/comfyanonymous/ComfyUI/issues/794)
 
+API:
+- [`ComfyUI/script_examples/basic_api_example.py`](https://github.com/comfyanonymous/ComfyUI/blob/a252963f956a7d76344e3f0ce24b1047480a25af/script_examples/basic_api_example.py)
+- [ComfyUI : Using the API : Part 1. Controlling ComfyUI via Script &... | by Yushan777 | Medium](https://medium.com/@yushantripleseven/comfyui-using-the-api-261293aa055a)
+
 ### [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 [Features · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)
 
@@ -135,19 +162,6 @@ Size:
 - 图像的比例也会影响图像的内容，不合适的比例可能会导致异形率增加。
   - 0.7: 448x640, 896x1280
 - 改变分辨率会影响 seed 的结果，但改变模型不一定会。
-
-Sampling methods:
-- Comparison
-
-  ![](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/images/sampling.jpg)
-- [Comparison of new UniPC sampler method added to Automatic1111 : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11oke60/comparison_of_new_unipc_sampler_method_added_to/)
-
-  > UniPC is meant to work at low and very low steps numbers, 5-10.
-
-  10 steps 仍然不太够，15 steps 足够了。
-
-  bh1 vs bh2:
-  > The difference is small, some areas look better, some look worse, many look the pretty much the same. In general bh2 appears to do better with straight lines, bh1 looks more detailed but also tends to insert random junk into the image? I think I prefer the look of bh2.
 
 CFG:
 - CFG 控制的是生成的创造性，CFG 为 0 时创造性最大，得到的是噪声图像，CFG 为最大时创造性最小，将得到模型下相关 prompt 的基础图像。
@@ -285,7 +299,7 @@ Hires. fix：
 - `number-[model_name]-[seed]`
 
 Parameters not saved in infotext:
-- VAE
+- ~~VAE~~ (v1.6.0)
 - img2img
   - init images (v1.1.0)
   - Apply color correction to img2img results to match original colors.
