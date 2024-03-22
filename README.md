@@ -64,9 +64,9 @@
     - [CUDA](Vision/Libraries/OpenCV/CUDA.md)
     - [Python](Vision/Libraries/OpenCV/Python.md)
 
-## Natural Language Processing
-- [Text-to-image](NLP/Text-to-image/README.md)
-- [Text-to-video](NLP/Text-to-video/README.md)
+## Vision-Language
+- [Text-to-image](Language/Text-to-image/README.md)
+- [Text-to-video](Language/Text-to-video/README.md)
 
 ## [Computer Graphics](Graphics/README.md)
 - [Typography](Graphics/Typography/README.md)
