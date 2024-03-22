@@ -77,6 +77,9 @@ Prompt editing:
 
 [Cutoff: Cutting Off Prompt Effect](https://github.com/hnmr293/sd-webui-cutoff)
 
+### Embeddings
+[SD1.5 to SDXL Embedding Converter](https://huggingface.co/spaces/FoodDesert/Embedding_Converter)
+
 ## Tools
 - [Stable Diffusion web UI](#stable-diffusion-web-ui)
 - [ComfyUI](#comfyui)

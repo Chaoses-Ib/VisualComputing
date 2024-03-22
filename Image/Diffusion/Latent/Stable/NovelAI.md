@@ -199,6 +199,7 @@ Realistic:
 
   指定人体姿势的效果比较好。
 - [FaceBombMix | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/7152/facebombmix)
+  - 较适合高分辨率。
 - [AOAOKO \[PVC Style Model\] | Civitai](https://civitai.com/models/15509/aoaoko-pvc-style-model)
 - [Uber Realistic Porn Merge (URPM) | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/2661/uber-realistic-porn-merge-urpm)
 - [Realistic Asia doll (peeing) (Lora merge) | Civitai](https://civitai.com/models/13252/realistic-asia-doll-peeing-lora-merge)

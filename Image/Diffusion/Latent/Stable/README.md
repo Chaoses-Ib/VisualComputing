@@ -273,6 +273,21 @@ Stable Diffusion 2.1:
 ## [Stable Diffusion XL](https://stablediffusionxl.com/)
 - [stabilityai/stable-diffusion-xl-base-1.0 · Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
 
+- Resolution
+
+  > For SDXL, it is recommended to use trained values listed below:
+  > - 1024 x 1024
+  > - 1152 x 896
+  > - 896  x 1152
+  > - 1216 x 832
+  > - 832  x 1216
+  > - 1344 x 768
+  > - 768  x 1344
+  > - 1536 x 640
+  > - 640  x 1536
+
+  在低分辨率上效果不佳。
+
 VAEs:
 - [madebyollin/sdxl-vae-fp16-fix · Hugging Face](https://huggingface.co/madebyollin/sdxl-vae-fp16-fix)
 
@@ -280,6 +295,15 @@ VAEs:
 - [SD XL support by AUTOMATIC1111 · Pull Request #11757 · AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/11757)
 
 [Anime Art Diffusion XL - alpha3 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/117259/anime-art-diffusion-xl)
+
+### Fine-tuned models
+Anime:
+- [anima\_pencil-XL - v1.5.0 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/261336/animapencil-xl?modelVersionId=323674)
+  - 偏向于非 loli
+  - VAE 似乎有问题？
+- [Animagine XL V3 - v3.0 | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/260267/animagine-xl-v3?modelVersionId=293564)
+  - 多样性较差
+  - 偏向于 small breasts、非 closed eyes
 
 ## Fine-tuned models
 - [Civitai | Stable Diffusion models, embeddings, hypernetworks and more](https://civitai.com/)
