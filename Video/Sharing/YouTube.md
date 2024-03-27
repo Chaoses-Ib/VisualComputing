@@ -12,8 +12,12 @@
 
 [YouTube Vanced](https://youtubevanced.com/)
 
-- [ReVanced](https://github.com/revanced)
+- [→ReVanced](https://github.com/Chaoses-Ib/Linux/blob/main/Distributions/Android/Applications/ReVanced.md)
 - Vanced Extended  
   - [inotia00/VancedManager](https://github.com/inotia00/VancedManager)
   - [inotia00/VancedManager_v2](https://github.com/inotia00/VancedManager_v2)
   - [cuynu/ytvanced: YouTube Vanced & Vanced MicroG Backup APK](https://github.com/cuynu/ytvanced)
+
+Android 6:
+- [ReVanced YouTube Extended - RVX - Android 6 & Android 7](https://revanced.net/revanced-youtube-extended-for-android-6-android-7)
+- [kitadai31/revanced-patches-android6-7: YouTube ReVanced for Android 6.0-7.1](https://github.com/kitadai31/revanced-patches-android6-7)
