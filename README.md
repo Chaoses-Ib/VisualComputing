@@ -64,7 +64,8 @@
     - [CUDA](Vision/Libraries/OpenCV/CUDA.md)
     - [Python](Vision/Libraries/OpenCV/Python.md)
 
-## Vision-Language
+## [Vision-Language](Language/README.md)
+- [Contrastive Learning](Language/Contrastive/README.md)
 - [Text-to-image](Language/Text-to-image/README.md)
 - [Text-to-video](Language/Text-to-video/README.md)
 
