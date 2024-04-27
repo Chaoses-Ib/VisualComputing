@@ -68,6 +68,7 @@
 - [Contrastive Learning](Language/Contrastive/README.md)
 - [Text-to-image](Language/Text-to-image/README.md)
 - [Text-to-video](Language/Text-to-video/README.md)
+- [Prompt Engineering](Language/Prompt/README.md)
 
 ## [Computer Graphics](Graphics/README.md)
 - [Typography](Graphics/Typography/README.md)
