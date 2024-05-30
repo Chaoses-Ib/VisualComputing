@@ -80,14 +80,28 @@ Maps:
 - [Graphviz](https://graphviz.org/) ([GitLab](https://gitlab.com/graphviz/graphviz))
   - Diagrams
 
+### LaTeX
+- [TikZ.net: Graphics with TikZ in LaTeX](https://tikz.net/)
+
+  [TikZ package - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/TikZ_package)
+
 ## Tools
 - [Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)
+- Microsoft PowerPoint
 - Microsoft Visio
-- [diagrams.net](https://www.diagrams.net/) (formerly draw.io, [GitHub](https://github.com/jgraph/drawio))
+- [draw.io](https://www.drawio.com/) (formerly draw.io and diagrams.net, [GitHub](https://github.com/jgraph/drawio))
+  - `scoop install draw.io`
+  - [Use mathematical typesetting in diagrams](https://www.drawio.com/doc/faq/math-typesetting)
 - [Tableau](Tools/Tableau.md)
 - [Metabase](https://www.metabase.com/) ([GitHub](https://github.com/metabase/metabase))
 - [Processing](https://processing.org/) ([GitHub](https://github.com/processing/processing4))
 - [Visually](https://visual.ly/)
+
+Machine learning:
+- 2021-01 [\[D\] Best Way to Draw Neural Network Diagrams : r/MachineLearning](https://www.reddit.com/r/MachineLearning/comments/l1z8cr/d_best_way_to_draw_neural_network_diagrams/)
+- 2021-01 [\[D\] Best software to diagram a neural network? : r/MachineLearning](https://www.reddit.com/r/MachineLearning/comments/l4xz8z/d_best_software_to_diagram_a_neural_network/)
+- 2021-12 [\[D\] Research paper figure drawing : r/MachineLearning](https://www.reddit.com/r/MachineLearning/comments/rp849m/d_research_paper_figure_drawing/)
+- 2022-12 [\[D\] Good tools to draw fancy diagrams : r/MachineLearning](https://www.reddit.com/r/MachineLearning/comments/xk68f4/d_good_tools_to_draw_fancy_diagrams/)
 
 ## Applications
 - [Scientific visualization](https://en.wikipedia.org/wiki/Scientific_visualization)
