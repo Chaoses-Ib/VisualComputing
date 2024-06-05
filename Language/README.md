@@ -8,6 +8,12 @@
 History:
 - 2022-12 [Vision-Language Pre-training: Basics, Recent Advances, and Future Trends](https://arxiv.org/abs/2210.09263)
 - 2023-02 [A Dive into Vision-Language Models](https://huggingface.co/blog/vision_language_pretraining)
+- 2023-10 [Introduction to Visual-Language Model | by Navendu Brajesh | Medium](https://medium.com/@navendubrajesh/vision-language-models-an-introduction-37853f535415)
+
+  ![](https://miro.medium.com/v2/format:webp/1*zeQqG58h8o1GFFUQo8buHw.jpeg)
+
 - 2024-04 [Vision Language Models Explained](https://huggingface.co/blog/vlms)
+
+  ![](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/vlm/visual.jpg)
 
 [Is CLIP still state of the art - or what other text encoder is used? : r/StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/19d6h7w/is_clip_still_state_of_the_art_or_what_other_text/)
