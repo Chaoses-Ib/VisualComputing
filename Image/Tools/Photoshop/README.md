@@ -24,6 +24,14 @@
 
 [Adobe 系列软件中英文版本的切换_MediaTea的博客 - CSDN博客](https://blog.csdn.net/qq_41176800/article/details/112792590)
 
+## API
+Python:
+- [loonghao/photoshop-python-api: Python API for Photoshop.](https://github.com/loonghao/photoshop-python-api)
+  - PyPI: [`photoshop-python-api`](https://pypi.org/project/photoshop-python-api/), [`photoshop`](https://pypi.org/project/photoshop/)
+
+JS:
+- [adobe/aio-lib-photoshop-api: Adobe I/O Photoshop API SDK](https://github.com/adobe/aio-lib-photoshop-api)
+
 ## Generative AI
 - [Experience the future of Photoshop with Generative Fill](https://helpx.adobe.com/photoshop/using/generative-fill.html)
 

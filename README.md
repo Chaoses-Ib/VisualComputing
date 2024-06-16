@@ -20,6 +20,7 @@
   - [ControlNet](Image/Diffusion/ControlNet.md)
 - [Tools](Image/Tools/README.md)
   - [Photoshop](Image/Tools/Photoshop/README.md)
+    - [Image Format: PSD](Image/Tools/Photoshop/Format.md)
 - [Image Hosting](Image/Hosting.md)
 - [Image Sharing](Image/Sharing/README.md)
   - [Pixiv](Image/Sharing/Pixiv.md)
