@@ -16,6 +16,15 @@ OpenCV 4 从零开始编译需要 1.2h。
 
 [\[opencv2\] Fix build failure when vcpkg folder path include "++" by Cheney-W · Pull Request #21249 · microsoft/vcpkg](https://github.com/microsoft/vcpkg/pull/21249)
 
+### Bindings
+Python: [→OpenCV-Python](Python.md)
+
+Rust:
+- [opencv-rust: Rust bindings for OpenCV 3 & 4](https://github.com/twistedfall/opencv-rust)
+
+.NET:
+- [OpenCvSharp: OpenCV wrapper for .NET](https://github.com/shimat/opencvsharp)
+
 ## pile
 [c++ - How to properly convert a freetype bitmap buffer to opencv Mat? - Stack Overflow](https://stackoverflow.com/questions/59887237/how-to-properly-convert-a-freetype-bitmap-buffer-to-opencv-mat)
 - 直接构造

@@ -85,6 +85,8 @@
 - [Graph Visualization](Visualization/Graph/README.md)
 - Text Visualization
   - [Tag Cloud](Visualization/Text/Tag%20Cloud.md)
+- [Barcodes](Visualization/Barcodes/README.md)
+  - [Quick-response Codes (QR Codes)](Visualization/Barcodes/QR.md)
 - Libraries
   - D3.js
   - [Apache ECharts](Visualization/Libraries/ECharts/README.md)
