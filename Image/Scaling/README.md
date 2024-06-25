@@ -5,9 +5,10 @@
 
 [The DEFINITIVE Comparison to Upscalers : StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/y2mrc2/the_definitive_comparison_to_upscalers/)
 
-- R-ESRGAN 4x+ Anime6B
+- [Real-ESRGAN: Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.](https://github.com/xinntao/Real-ESRGAN)
+  - R-ESRGAN 4x+ Anime6B
 
-  会导致部分物体放大后的质感变得像胶体或晶体；可以起到降噪效果。
+    会导致部分物体放大后的质感变得像胶体或晶体；可以起到降噪效果。
   
 - SwinIR_4x
   - [Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration. Advances in Image Manipulation (AIM) workshop ECCV 2022](https://github.com/mv-lab/swin2sr)
