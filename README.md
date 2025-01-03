@@ -98,3 +98,6 @@
   - Microsoft Excel
   - [diagrams.net](Visualization/Tools/diagrams.net.md)
   - [Tableau](Visualization/Tools/Tableau.md)
+
+## [Display Devices](Display/README.md)
+- [Video Interfaces](Display/Interfaces.md)
