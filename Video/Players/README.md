@@ -54,6 +54,10 @@
 - VLC
   - Windows, Linux, Android, macOS
 
+- 暴风影音
+
+  [当同时安装火绒安全和暴风影音后屏幕会定时闪烁？不得不说也是挺幽默 -- 蓝点网](https://www.landiannews.com/archives/107679.html)
+
 - Directory Opus (v13)
   - Fast
 
@@ -68,5 +72,9 @@
 > [MPV\_lazy](https://github.com/hooke007/MPV_lazy) 虽然不错但也需要折腾，比如[默认的字幕设置](https://github.com/hooke007/MPV_lazy/blob/b6b10a53fe86297ed0eef555172331b24bedcd08/portable_config/mpv.conf#L150)（字体、颜色、描边、模糊）我个人不太喜欢，[播放列表](https://github.com/hooke007/MPV_lazy/discussions/506)之类的功能默认没开可以手动打开。mpv 默认遵循 BT.1886 曲线 (Gamma 2.4) 观感会有些不一样，可以[手动改成 Gamma 2.2](https://github.com/hooke007/MPV_lazy/blob/b6b10a53fe86297ed0eef555172331b24bedcd08/portable_config/mpv.conf#L106)。此外想要播放历史也需要手动装 [simplehistory](https://github.com/dyphire/Eisa01_mpv-scripts/blob/dev/scripts/simplehistory.lua) 或 [recent-menu](https://github.com/natural-harmonia-gropius/recent-menu)。
 > 
 > 比较尴尬的是虽然 mpv 是跨平台的，但流行的整合版大都是 Windows 限定，非 Win 平台只能自己慢慢配了。macOS 上的 [IINA](https://github.com/iina/iina) 就是基于 mpv，Linux 上貌似没有特别有名的 GUI 前端。
+
+> potplayer并不废, 大多用户并不关心什么开源耻辱柱, 只关心软件好不好用,主要是实在没什么替代的, 里面内建的一些快捷键  
+> 尤其是控制播放速度, 逐帧播放和列出时间轴的功能, 我也是在用的.  
+> 其他的开源播放器 MPC VLC MPV我都用过, 虽然播放能力是很强, 但是功能细节和UI等太差了。我对画质, 杜比, HDR什么的没啥要求, 就只对信息快速获取有需求, 所以市面上目前就potplayer能符合要求, 其他的都不够我用
 
 [What Media Player do you use on Windows? : r/windows](https://www.reddit.com/r/windows/comments/1e66y1l/what_media_player_do_you_use_on_windows/)
