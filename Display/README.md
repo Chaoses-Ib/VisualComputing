@@ -21,6 +21,9 @@ Samsung:
 - LC24F396FHCXXF
   - 23.5'', 1920x1080, 16:9, 93.74 PPI, 1522.42cm²
   - VA, NTSC 72%, 60Hz
+  - Indicator light (LED)：插入但无输入时会闪烁，关机会常亮
+    
+    设置中只能调整关机常亮为运行时常亮，想要彻底关闭只能堵住，比如利用自带的薄膜。
   
   [三星LC24F396FHCXXF参数-配置-性能规格-参数对比-天极网](https://product.yesky.com/product/1048/1048110/param.shtml)
 
