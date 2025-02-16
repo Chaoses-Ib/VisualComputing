@@ -1,6 +1,26 @@
 # [Microsoft Whiteboard](https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app/)
 [Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Whiteboard)
 
+- Infinite canvas
+- Toolbar position: bottom
+- Inking
+  - 3 custom pens + highlighter
+    - Rainbow, Galaxy
+    - Arrows
+  - Partial eraser only has one size
+  - Ruler
+  - Lasso
+    - Duplicate
+    - Convert to shapes
+    - Lock
+- Note
+  - Note grid
+- Reaction (emojis)
+- Text
+- Shape
+- Template
+- Require Internet to load
+
 [Microsoft Whiteboard Review | PCMag](https://www.pcmag.com/reviews/microsoft-whiteboard)
 > PC Magazine rated Microsoft Whiteboard a 3.5 out of 5, praising the app's free availability and plentiful templates. It compared it to other, paid whiteboarding solutions, and concludes that Microsoft offers the best free one. Some of the cons, described by PCMag, include the inability to view boards without a Microsoft account, and the inability to create custom templates.
 
@@ -20,3 +40,5 @@ Export formats:
 - PDF
 - Zip (HTML+JSON)
   - Still can't import
+
+Cannot batch export.
