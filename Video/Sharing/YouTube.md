@@ -1,6 +1,19 @@
 # YouTube
-## YouTube Kids
-很惊艳的功能和界面，早点知道就好了，既不会污染个人推荐，推荐也更适合儿童，甚至不登录都可以使用。~~唯一的遗憾是还是不能限制推荐视频语言~~尽管不能限制推荐视频语言，但因为推荐与观看较多的频道强相关，绝大部分推荐都没有语言问题。
+## Web
+- YouTube
+  - PWA
+- [Invidious: Invidious is an alternative front-end to YouTube](https://github.com/iv-org/invidious)
+
+## Desktop
+- [FreeTube - The Private YouTube Client](https://freetubeapp.io/) ([GitHub](https://github.com/FreeTubeApp/FreeTube))
+  - Local-only
+
+    [Add a option to use a google account - Issue #2959 - FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube/issues/2959)
+  - `scoop install freetube`
+- [Minitube, YouTube app for Mac, Windows and Linux](https://flavio.tordini.org/minitube)
+- [Youtube-TV-Client: A Youtube TV Client for Windows Computers](https://github.com/marticliment/Youtube-TV-Client)
+
+[Is there a desktop client similar to NewPipe? : r/youtube](https://www.reddit.com/r/youtube/comments/15a7a06/is_there_a_desktop_client_similar_to_newpipe/)
 
 ## YouTube Vanced
 [Vanced](https://vancedapp.com/) ([repo](https://github.com/TeamVanced/VancedManager))
@@ -21,3 +34,6 @@
 Android 6:
 - [ReVanced YouTube Extended - RVX - Android 6 & Android 7](https://revanced.net/revanced-youtube-extended-for-android-6-android-7)
 - [kitadai31/revanced-patches-android6-7: YouTube ReVanced for Android 6.0-7.1](https://github.com/kitadai31/revanced-patches-android6-7)
+
+## YouTube Kids
+很惊艳的功能和界面，早点知道就好了，既不会污染个人推荐，推荐也更适合儿童，甚至不登录都可以使用。~~唯一的遗憾是还是不能限制推荐视频语言~~尽管不能限制推荐视频语言，但因为推荐与观看较多的频道强相关，绝大部分推荐都没有语言问题。
