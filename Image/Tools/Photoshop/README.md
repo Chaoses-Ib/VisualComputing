@@ -12,15 +12,33 @@
 - 推荐选择 United States，不要选择 China。
 
 ## Installation
-- [CCMaker – Adobe CC 2015~2018 All Products one-click downloader, installer & activator | AppNee Freeware Group.](https://appnee.com/ccmaker/)
-- [Adobe-GenP: Adobe CC 2019/2020/2021/2022/2023 GenP Universal Patch 3.0](https://github.com/cw2k/Adobe-GenP)
+- [CCMaker – Adobe CC 2015~2018 All Products one-click downloader, installer & activator | AppNee Freeware Group.](https://appnee.com/ccmaker/) (discontinued)
+- ~~[Adobe-GenP: Adobe CC 2019/2020/2021/2022/2023 GenP Universal Patch 3.0](https://github.com/cw2k/Adobe-GenP)~~
+  - [Patch methods](https://www.reddit.com/r/GenP/wiki/patchmethods/)
+  - [Compatibility List | 2025 Creative Suite : r/GenP](https://www.reddit.com/r/GenP/comments/1egksyn/compatibility_list_2025_creative_suite/)
+  - [Guides](https://www.reddit.com/r/GenP/wiki/redditgenpguides/)
+  - ```pwsh
+    scoop bucket add kengwang_scoop-ctftools-bucket https://github.com/kengwang/scoop-ctftools-bucket
+    scoop install kengwang_scoop-ctftools-bucket/adobegenp
+    ```
 - [Warez by m0nkrus](https://w14.monkrus.ws/)
-- [@vposy 的个人主页 - 微博](https://weibo.com/vposy)
+
+  > It's a modified installer made by a Russian RePacker who goes by "m0nkrus." **The community has trusted them so far.**
+  > 
+  > It uses a repack of the official Adobe programs, already pre-patched by GenP, and requires **no Creative Cloud or any account signed in to work (Great for offline use)** --- it's similar to the previous method, but with all the work already done for you.
+
+  > ❗ m0nkrus apps are "set and forget"; unlike GenP, you have to re-download the entire app or "Master Collection" repack to update them; this will use far more bandwidth than just updating the app through CC.
+- [@vposy 的个人主页 - 微博](https://weibo.com/vposy) (discontinued)
 
   [Adobe CC by @vposy](https://t.me/adobe_vposy)
 
   [为什么面对Adobe的版权要求下，vposy大神还能从容不迫？ - 知乎](https://www.zhihu.com/question/389392505)
 - [AMTEmu – Universal Adobe Patcher](https://amtemu-official.com/) (discontinued)
+
+Adobe Genuine Service:
+- 好奇怪，特意做成了独立的程序，可以选择不装，装了也可以单独卸载
+
+[Pirating adobe products : r/Piracy](https://www.reddit.com/r/Piracy/comments/16f6grg/pirating_adobe_products/)
 
 [Adobe 系列软件中英文版本的切换_MediaTea的博客 - CSDN博客](https://blog.csdn.net/qq_41176800/article/details/112792590)
 
