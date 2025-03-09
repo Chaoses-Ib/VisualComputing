@@ -31,9 +31,13 @@ TCL:
 - L32E5020E ([百度百科](https://baike.baidu.com/item/TCL%20L32E5020E/18756467))
   - 2012-12
   - 32'', 1366x768, 48.97
+  - VGA, HDMI, USB
+  - Networks: Ethernet, USB Wi-Fi
 - D32E161 ([百度百科](https://baike.baidu.com/item/TCLD32E161/19644887))
   - 2014-03
   - 32'', 1366x768, 48.97
+  - VGA, HDMI, USB
+  - Networks: Ethernet, Wi-Fi
 
 方正:
 - FN980-WT
