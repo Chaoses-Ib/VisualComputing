@@ -42,6 +42,7 @@
   - [Adobe Premiere Pro](Video/Tools/Premiere/README.md)
 - Video Sharing
   - [YouTube](Video/Sharing/YouTube.md)
+  - [哔哩哔哩](Video/Sharing/哔哩哔哩.md)
 
 ## [Computer Vision](Vision/README.md)
 - [Features](Vision/Features/README.md)
