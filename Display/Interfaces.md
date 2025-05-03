@@ -11,6 +11,18 @@ Common combinations:
 - 上限为 HDMI v2.1 + DP v1.4
 - B650 大部分都是 HDMI + DP，但也有支持 Type-C、VGA、多 DP 和多 HDMI 的
 
+## Screens
+```rust
+let screens = gpus.map(|gpu| {
+    gpu.vgas.count()
+    + gpu.dvis.count()
+    + gpu.hdmis.count()
+    + gpu.dps.chain(gpu.usb_dps).map(|dp| min(mst_split(dp.data_rate), 63)).sum()
+}).sum() + side_channel_screens()
+```
+
+视频矩阵控制器
+
 [\[硬件求助\] 电脑想要双屏工作，但是机箱只有一个HDMI接口，何解？ 178](https://nga.178.com/read.php?tid=36895072&rand=831)
 
 [独立显卡的接口不够用，还想用主板的hdmi接口，再接一个显示器，可以吗？](https://www.zhihu.com/tardis/zm/ans/2736588905)
@@ -21,6 +33,8 @@ Common combinations:
 > 没有5个接口的单块显卡（个别x080有5个口，但是最多好像只能同时接4个显示器，所以…），都只有4个，所以都要两块才能连5个显示器
 
 [主板只有一个HDMI能双屏吗？ - 知乎](https://www.zhihu.com/question/455322456)
+
+[求万能 V 友给一个"一台电脑，只有一个 HDMI 输出连多个显示屏幕的方案"？ - V2EX](https://www.v2ex.com/t/680567)
 
 ## Bandwidth
 `(H + Hblank) × (V + Vblank) × C × F`
@@ -80,9 +94,19 @@ Versions:
 
 > The host system's software also needs to support MST for hubs or daisy-chains to work. While Microsoft Windows environments have full support for it, Apple operating systems currently do not support MST hubs or DisplayPort daisy-chaining as of macOS 10.15 ("Catalina"). DisplayPort-to-DVI and DisplayPort-to-HDMI adapters/cables may or may not function from an MST output port; support for this depends on the specific device.
 
+MST hub, DP splitter (分配器)
+- ~100元起
+- HDMI out
+
 [Active DP>HDMI adapters with DisplayPort MST - Video Connector Adapters, Converters, and Cables / DP-HDMI & MDP-HDMI - Plugable Support](https://support.plugable.com/t/active-dp-hdmi-adapters-with-displayport-mst/10424)
 
 [Display Port to HDMI converter over Multi Stream Suport : r/elgato](https://www.reddit.com/r/elgato/comments/15nshjt/display_port_to_hdmi_converter_over_multi_stream/)
+
+[为什么显示器 DP Out 接口几乎被淘汰了？ - V2EX](https://www.v2ex.com/t/980578)
+> 以前显卡的 DP 口少甚至没有啊， 现在随便一张中端显卡都有 3 个 DP 口
+
+macOS:
+- [通过正宗雷电 3 扩展坞扩展出来的 DP 接口，能够使 MacBook Pro 支持 DP MST 菊链吗？ - V2EX](https://global.v2ex.com/t/840209)
 
 ## USB Type-C
 [【求助】微星B660M迫击炮主板Type-c接口问题 - 电脑讨论(新) - Chiphell - 分享与交流用户体验](https://www.chiphell.com/thread-2438577-1-1.html)
@@ -115,3 +139,5 @@ Brands:
   - 4K/60Hz (DP 1.2): 55元
 
 [原来DP转HDMI后真的能上144Hz - 知乎](https://zhuanlan.zhihu.com/p/376077093)
+
+[DP 转 HDMI 的转接器有什么要注意的吗？ - V2EX](https://www.v2ex.com/t/624168)
