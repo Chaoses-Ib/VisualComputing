@@ -36,6 +36,7 @@
   - [Lottie](Video/Formats/Lottie/README.md)
 - [Video Players](Video/Players/README.md)
 - [Video Scaling](Video/Scaling.md)
+- [Video Enhancement](Video/Enhancement/README.md)
 - [Diffusion Models](Video/Diffusion/README.md)
 - [Frame Interpolation](Video/Frame%20Interpolation.md)
 - [Tools](Video/Tools/README.md)

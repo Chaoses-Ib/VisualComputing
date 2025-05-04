@@ -1,4 +1,6 @@
 # Video Scaling
+[Video super-resolution - Wikipedia](https://en.wikipedia.org/wiki/Video_super-resolution)
+
 - Batch [image scaling](../Image/Scaling/README.md)
 - ...
 
@@ -11,7 +13,7 @@
 - [Topaz Video AI](https://www.topazlabs.com/topaz-video-ai) (paid)
 
 ## Real-time
-- RTX Video Super Resolution
+- RTX Video Super Resolution ([Wikipedia](https://en.wikipedia.org/wiki/Video_Super_Resolution))
 
   [Pixel Perfect: RTX Video Super Resolution Now Available | NVIDIA Blog](https://blogs.nvidia.com/blog/rtx-video-super-resolution/)
 
