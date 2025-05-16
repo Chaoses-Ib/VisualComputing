@@ -23,7 +23,13 @@
 
 - [PotPlayer](https://potplayer.daum.net/) ([Wikipedia](https://en.wikipedia.org/wiki/PotPlayer))
   - `scoop install potplayer`
-  - Time jump interval 默认为 5 秒，比较长，同时还会 jump to keyframe，可能会长达十几秒
+  - Time jump: Time jump interval 默认为 5 秒，比较长，同时还会 jump to keyframe，可能会长达十几秒
+  - Video capture
+    - Copy: `Ctrl+C`, Save: `Ctrl+E`
+    - Formats: BMP, JPEG, PNG, WEBP
+    - Can only include system time or file elapsed time, not both
+      - File elapsed time should be better, since system time will also be in file metadata anyway, and elapsed time can also be used to sort
+    - Location is in Preferences
 
   [Windows 的最佳视频播放器：PotPlayer | Best Of - 少数派](https://sspai.com/post/56687) (paid, [什么值得买](https://post.smzdm.com/p/a5klqqx8/))
 
