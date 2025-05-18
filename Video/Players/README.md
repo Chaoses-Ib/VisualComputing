@@ -23,10 +23,13 @@
 
 - [PotPlayer](https://potplayer.daum.net/) ([Wikipedia](https://en.wikipedia.org/wiki/PotPlayer))
   - `scoop install potplayer`
+  - [Update history](https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html)
   - Time jump: Time jump interval 默认为 5 秒，比较长，同时还会 jump to keyframe，可能会长达十几秒
   - Video capture
     - Copy: `Ctrl+C`, Save: `Ctrl+E`
     - Formats: BMP, JPEG, PNG, WEBP
+      - WEBP is much smaller than PNG and JPEG but also has lower quality. There is no option to set quality for formats.
+      - In v241211, WEBP has different color (lower saturation) than other formats. It was later fixed in the next version v250226.
     - Can only include system time or file elapsed time, not both
       - File elapsed time should be better, since system time will also be in file metadata anyway, and elapsed time can also be used to sort
     - Location is in Preferences
