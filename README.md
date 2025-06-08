@@ -6,6 +6,7 @@
 - [Image Sensors](Photo/Sensors/README.md)
 - [Cameras](Photo/Cameras/README.md)
   - [Webcams](Photo/Cameras/Webcams.md)
+  - [Surveillance Cameras](Photo/Cameras/Surveillance.md)
 - [Eye Trackers](Photo/Eye%20Trackers/README.md)
 
 ## [Image Processing](Image/README.md)
