@@ -2,6 +2,15 @@
 ## Web
 - YouTube
   - PWA
+  - Anti translation
+    - [zpix1/yt-anti-translate: Chrome extension to disable youtube video titles autotranslation](https://github.com/zpix1/yt-anti-translate)
+      - Copying links may still doesn't work
+
+      [Google deleted Anti-Translate, any alternatives? : r/youtube](https://www.reddit.com/r/youtube/comments/1hklm49/google_deleted_antitranslate_any_alternatives/)
+    - [YouG-o/YouTube\_No\_Translation: Web browser add-on that prevents YouTube's automatic translations! It keeps titles, descriptions, and audio in their original language.](https://github.com/YouG-o/YouTube_No_Translation)
+      - Doesn't work?
+
+      [YouTube No Translation | Hacker News](https://news.ycombinator.com/item?id=44613491)
 - [Invidious: Invidious is an alternative front-end to YouTube](https://github.com/iv-org/invidious)
 
 ## Desktop
