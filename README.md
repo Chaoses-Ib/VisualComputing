@@ -36,6 +36,7 @@
 - [Video File Formats](Video/Formats/README.md)
   - [Lottie](Video/Formats/Lottie/README.md)
 - [Video Players](Video/Players/README.md)
+  - [PotPlayer](Video/Players/PotPlayer.md)
 - [Video Scaling](Video/Scaling.md)
 - [Video Enhancement](Video/Enhancement/README.md)
 - [Diffusion Models](Video/Diffusion/README.md)
