@@ -1,6 +1,7 @@
 # [Visual Computing](Visual%20Computing.md)
 ## [Color](Color/README.md)
 - [Color Spaces](Color/Spaces/README.md)
+- [Color Names](Color/Names.typ)
 
 ## [Photography](Photo/README.md)
 - [Image Sensors](Photo/Sensors/README.md)
