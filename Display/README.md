@@ -41,9 +41,13 @@ TCL:
 
 方正:
 - FN980-WT
+  - Release date: \[2003, 2012-08-16)
   - 19'', 1440×900, 16:10, 89.37, 1046.75cm²
   - 最大亮度较低
   - 遇到不支持的分辨率/刷新率时会强制显示 `不支援！` 弹窗
+
+  [A Design Method of Saturation Test Image Based on CIEDE2000 - Yang - 2012 - Advances in Multimedia - Wiley Online Library](https://onlinelibrary.wiley.com/doi/full/10.1155/2012/513963)
+  - [Color Image Quality Assessment Based on CIEDE2000 - Yang - 2012 - Advances in Multimedia - Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1155/2012/273723)
 
 Laptops:
 - [ROG Flow X16 (2022)](https://rog.asus.com/laptops/rog-flow/rog-flow-x16-2022-series/spec/)
