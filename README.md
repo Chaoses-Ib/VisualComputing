@@ -13,6 +13,8 @@
 ## [Image Processing](Image/README.md)
 - [Image File Formats](Image/Formats/README.md)
   - [Graphics Interchange Format](Image/Formats/GIF.md)
+- [Icons](Image/Icon/README.typ)
+  - [Icon Sets](Image/Icon/Sets.typ)
 - [Image Scaling](Image/Scaling/README.md)
 - Mosaic
   - [Photographic Mosaic](Image/Mosaic/Photographic/README.md)
