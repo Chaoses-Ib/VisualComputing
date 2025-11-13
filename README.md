@@ -113,4 +113,6 @@
   - [Tableau](Visualization/Tools/Tableau.md)
 
 ## [Display Devices](Display/README.md)
+- [Resolution](Display/Resolution.md)
 - [Video Interfaces](Display/Interfaces.md)
+- [Brands](Display/Brands.md)

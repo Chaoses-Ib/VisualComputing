@@ -3,6 +3,8 @@
 
 [Electronic visual display - Wikipedia](https://en.wikipedia.org/wiki/Electronic_visual_display)
 
+[显示器TN、IPS、VA面板类型哪个好? - 知乎](https://www.zhihu.com/question/57854431)
+
 ## Computer monitors
 [Wikipedia](https://en.wikipedia.org/wiki/Computer_monitor)
 
@@ -16,44 +18,6 @@
 
 [第一章 | 显示器基础知识与选购指南（上） - 少数派](https://sspai.com/post/60470)
 - [第二章 | 显示器基础知识与选购指南（下） - 少数派](https://sspai.com/post/60473) (paid)
-
-Samsung:
-- LC24F396FHCXXF
-  - 23.5'', 1920x1080, 16:9, 93.74 PPI, 1522.42cm²
-  - VA, NTSC 72%, 60Hz
-  - Indicator light (LED)：插入但无输入时会闪烁，关机会常亮
-    
-    设置中只能调整关机常亮为运行时常亮，想要彻底关闭只能堵住，比如利用自带的薄膜。
-  
-  [三星LC24F396FHCXXF参数-配置-性能规格-参数对比-天极网](https://product.yesky.com/product/1048/1048110/param.shtml)
-
-TCL:
-- L32E5020E ([百度百科](https://baike.baidu.com/item/TCL%20L32E5020E/18756467))
-  - 2012-12
-  - 32'', 1366x768, 48.97
-  - VGA, HDMI, USB
-  - Networks: Ethernet, USB Wi-Fi
-- D32E161 ([百度百科](https://baike.baidu.com/item/TCLD32E161/19644887))
-  - 2014-03
-  - 32'', 1366x768, 48.97
-  - VGA, HDMI, USB
-  - Networks: Ethernet, Wi-Fi
-
-方正:
-- FN980-WT
-  - Release date: \[2003, 2012-08-16)
-  - 19'', 1440×900, 16:10, 89.37, 1046.75cm²
-  - 最大亮度较低
-  - 遇到不支持的分辨率/刷新率时会强制显示 `不支援！` 弹窗
-
-  [A Design Method of Saturation Test Image Based on CIEDE2000 - Yang - 2012 - Advances in Multimedia - Wiley Online Library](https://onlinelibrary.wiley.com/doi/full/10.1155/2012/513963)
-  - [Color Image Quality Assessment Based on CIEDE2000 - Yang - 2012 - Advances in Multimedia - Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1155/2012/273723)
-
-Laptops:
-- [ROG Flow X16 (2022)](https://rog.asus.com/laptops/rog-flow/rog-flow-x16-2022-series/spec/)
-  - 16'', 2560x1600, 16:10, 188.68 PPI, 742.3cm²
-  - miniLED, DCI-P3 100%, 165Hz
-  - Touch screen, stylus
 
 ## Display sizes
 [Wikipedia](https://en.wikipedia.org/wiki/Display_size)
