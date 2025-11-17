@@ -1,6 +1,8 @@
 # Resolution
 [Wikipedia](https://en.wikipedia.org/wiki/Display_resolution)
 
+2025-08 [(4K IS OVERRATED) Real : r/pcmasterrace](https://www.reddit.com/r/pcmasterrace/comments/1mlldf6/real/)
+
 ## Retinal resolution
 > Our results demonstrate that the resolution limit is higher than what was previously believed, reaching 94 pixels per degree (ppd) for foveal achromatic vision, 89 ppd for red-green patterns, and 53 ppd for yellow-violet patterns. We also observe a much larger drop in the resolution limit for chromatic patterns (redgreen and yellow-violet) than for achromatic patterns.[^ashrafResolutionLimitEye2025]
 

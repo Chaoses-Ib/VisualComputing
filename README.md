@@ -113,6 +113,10 @@
   - [Tableau](Visualization/Tools/Tableau.md)
 
 ## [Display Devices](Display/README.md)
+- [Display Technologies](Display/Technologies/README.md)
+  - [Liquid-crystal Display (LCD)](Display/Technologies/LCD.md)
+  - [Light-emitting Diode (LED)](Display/Technologies/LED.md)
+  - [microLED](Display/Technologies/microLED.md)
 - [Resolution](Display/Resolution.md)
 - [Video Interfaces](Display/Interfaces.md)
 - [Brands](Display/Brands.md)

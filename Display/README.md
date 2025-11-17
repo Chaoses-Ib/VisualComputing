@@ -3,8 +3,6 @@
 
 [Electronic visual display - Wikipedia](https://en.wikipedia.org/wiki/Electronic_visual_display)
 
-[显示器TN、IPS、VA面板类型哪个好? - 知乎](https://www.zhihu.com/question/57854431)
-
 ## Computer monitors
 [Wikipedia](https://en.wikipedia.org/wiki/Computer_monitor)
 
@@ -41,10 +39,23 @@ Diagonal | Area | Resolution | PPI
 19'' | 1046.75cm² | 1440x900 | 89.37
 23.5'' | 1522.42cm² | 1920x1080 | 93.74
 24'' | | 2560x1440 | 125.79
+27'' | | 2560x1440 | 108.79
 27'' | | 3840x2160 | 163.18
-32'' | 
+32'' | 3840x2160 | 137.68
 34'' | 2656.48cm² | 3440x1440 | 109.68
 34'' | | 3840x2160 | 129.58
+
+[In your opinion, what's the optimal size for 4K monitor in 2022? : r/Monitors](https://www.reddit.com/r/Monitors/comments/u2w38p/in_your_opinion_whats_the_optimal_size_for_4k/)
+- 32'' > 27'' >> 34''
+
+[4k gaming at 27" or 32"? : r/Monitors](https://www.reddit.com/r/Monitors/comments/qoyis1/4k_gaming_at_27_or_32/)
+
+[Is 27-28 inches too small for 4k? Is 32' the bare minimum? : r/Monitors](https://www.reddit.com/r/Monitors/comments/15xc8qq/is_2728_inches_too_small_for_4k_is_32_the_bare/)
+> If you view any 4k at the optimal viewing distance in order for it to be within the human central viewing angle of 60 to 50 degrees - any 4k screen of any size will have exactly the same PPD.
+
+2020-12 [4K 显示器取舍， 27 寸 or32 寸，用过的哥们来谈下使用感受 - V2EX](https://v2ex.com/t/740278)
+
+2023-02 [问下，大家配的是 27 寸还是 32 寸显示器？ 4k - V2EX](https://v2ex.com/t/916192)
 
 ### 带鱼屏
 [2025年1月值得购买的带鱼屏显示器推荐（带鱼屏优缺点介绍、34寸带鱼屏显示器推荐）](https://www.zhihu.com/tardis/zm/art/367803155)
