@@ -11,6 +11,11 @@
       - Doesn't work?
 
       [YouTube No Translation | Hacker News](https://news.ycombinator.com/item?id=44613491)
+  - [YouTube Livestreams Theater Mode](https://chromewebstore.google.com/detail/youtube-livestreams-theat/cmjhejfkhdonjimgkinjdombabgfbcal)
+    - Toggle Livestreams Theater Mode (full webpage)
+    - Toggle Chat Over Video
+    - Toggle Char Side
+  - [Live Chat Overlay: Restyle the YouTube "popout chat" window so you can key it over a video to show comments on a livestream](https://github.com/aaronpk/live-chat-overlay)
 - [Invidious: Invidious is an alternative front-end to YouTube](https://github.com/iv-org/invidious)
 
 ## Desktop
