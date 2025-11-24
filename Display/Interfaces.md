@@ -48,6 +48,21 @@ Or `H × V × C × F × 1.05`
 [How do you calculate DisplayPort / HDMI bandwidth? : r/Monitors](https://www.reddit.com/r/Monitors/comments/ayvt4r/how_do_you_calculate_displayport_hdmi_bandwidth/)
 
 ## VGA
+[Wikipedia](https://en.wikipedia.org/wiki/VGA_connector)
+
+> The same VGA cable can be used with a variety of supported VGA resolutions, ranging from 320×400px @70 Hz, or 320×480px @60 Hz (12.6 MHz of signal bandwidth) to 1280×1024px (SXGA) @85 Hz (160 MHz) and up to 2048×1536px (QXGA) @85 Hz (388 MHz).
+>
+> There are no standards defining the quality required for each resolution, but higher-quality cables typically contain coaxial wiring and insulation that make them thicker.
+>
+> While shorter VGA cables are less likely to introduce significant signal degradation, good-quality cable should not suffer from signal crosstalk (whereby signals in one wire induce unwanted currents in adjacent wires) even at greater lengths.
+>
+> Ghosting occurs when impedance mismatches cause signals to be reflected. A correctly impedance matched cable (75 ohm) should prevent this, however, ghosting with long cables may be caused by equipment with incorrect signal termination or by passive cable splitters rather than the cables themselves.
+
+[display - How does VGA work with resolutions higher than the maximum resolution? - Super User](https://superuser.com/questions/1716784/how-does-vga-work-with-resolutions-higher-than-the-maximum-resolution)
+
+[VGA switch without loss of quality: Analog or digital? \\ VOGONS](https://www.vogons.org/viewtopic.php?t=104905)
+
+[VGA的极限分辨率在哪里？从原理角度深挖模拟信号与数字信号的差别，读过高中就能懂！ - 哔哩哔哩](https://www.bilibili.com/opus/713568306287607874)
 
 ## DVI
 

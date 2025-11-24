@@ -118,5 +118,7 @@
   - [Light-emitting Diode (LED)](Display/Technologies/LED.md)
   - [microLED](Display/Technologies/microLED.md)
 - [Resolution](Display/Resolution.md)
+- [High-dynamic-range (HDR)](Display/HDR.md)
 - [Video Interfaces](Display/Interfaces.md)
 - [Brands](Display/Brands.md)
+- [Tools](Display/Tools.md)

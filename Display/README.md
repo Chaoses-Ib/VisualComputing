@@ -33,17 +33,22 @@
 
 [ELI5 screen size surface area always fairly represented by diagonal measurements : r/explainlikeimfive](https://www.reddit.com/r/explainlikeimfive/comments/1aiq4ys/eli5_screen_size_surface_area_always_fairly/)
 
+- Area 越大，对虚拟切换的需要就越少，更容易进行专用使用，例如全屏。
+- 虽然把显示器放远可以提高 PPI，但面板更大耗电量会更高，从省电的角度来说，近距离小尺寸显示器更好。
+- 屏幕越小，受距离波动的影响也就越大，动起来更不从容，除非小到可以拿起。
+
 Diagonal | Area | Resolution | PPI
 --- | --- | --- | ---
-16'' | | 2560x1600 | 188.68
+16'' | 742.3cm² | 2560x1600 | 188.68
 19'' | 1046.75cm² | 1440x900 | 89.37
 23.5'' | 1522.42cm² | 1920x1080 | 93.74
-24'' | | 2560x1440 | 125.79
-27'' | | 2560x1440 | 108.79
+24'' | 1587.9cm² | 2560x1440 | 125.79
+27'' | 2009.68cm | 2560x1440 | 108.79
 27'' | | 3840x2160 | 163.18
-32'' | 3840x2160 | 137.68
+31.5'' | 2735.4cm² | 3840x2160 | 139.87
+32'' | 2822.93cm² | 3840x2160 | 137.68
 34'' | 2656.48cm² | 3440x1440 | 109.68
-34'' | | 3840x2160 | 129.58
+34'' | 3186.82cm² | 3840x2160 | 129.58
 
 [In your opinion, what's the optimal size for 4K monitor in 2022? : r/Monitors](https://www.reddit.com/r/Monitors/comments/u2w38p/in_your_opinion_whats_the_optimal_size_for_4k/)
 - 32'' > 27'' >> 34''

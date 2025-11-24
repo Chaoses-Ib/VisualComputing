@@ -12,7 +12,30 @@
 ## LED-backlit LCD
 [Wikipedia](https://en.wikipedia.org/wiki/LED-backlit_LCD)
 
+### LED arrangements
+- Edge-lit (ELED)
+- Direct-lit (DLED) or full-array
+
+[说说老掉牙背光那直下与侧入的两三事 - 行家说](https://www.hangjianet.com/topic/14730488947890000)
+
+[赛时达：LCD液晶屏背光源，LED背光侧入式和直下式对比，哪种用显示器更好?\_亮度\_设备\_屏幕](https://www.sohu.com/a/746450050_121206964)
+
+2020-11 [All I can say is don't get an edge lit television. They are absolutely garbage and I can't believe they even made them. Get Full Array. : r/4kTV](https://www.reddit.com/r/4kTV/comments/jxl6j6/all_i_can_say_is_dont_get_an_edge_lit_television/)
+
+2021-01 [Anyone else ready for non edge lit panels? : r/Monitors](https://www.reddit.com/r/Monitors/comments/l5nbp3/anyone_else_ready_for_non_edge_lit_panels/)
+> I always wondered why (direct) backlit isn't (more) used for monitors. TVs are already backlit for years! I don't care if it makes my monitor 1 cm thicker. I don't necessarily need FALD immediately, just get rid of edge lit first please.
+
+> Because its a dud technology and edge lit is the best of a bad bunch (excluding FALD and real technologies like OLED)?
+
+> As with Full Array televisions, Direct Lit TVs use several rows of LEDs placed behind the entire surface of the screen.
+> However, Direct Lit televisions don't use local dimming, which is a key factor in how Full Array TVs are able to produce deep, uniform blacks.
+> Because of this, pictures produced on Direct Lit TVs tend to be lower quality, lacking in depth, and produce more gray tones—rather than deep, true blacks.
+> And although Edge Lit TVs don't produce blacks on the same level as Full Array televisions, they do use local dimming technology to create deep, nuanced images that go far beyond what Direct Lit televisions are capable of.
+
 ### Mini LED
+2025-11 [【毅种循环】25年双11显示器推荐 -上集- 2K和1080P - 知乎](https://zhuanlan.zhihu.com/p/1967675934241977019)
+> 一种独特的背光类型，背光需要搭配面板使用。所以MiniLED有IPS-MiniLED和VA-MiniLED两种。MiniLED特点是亮度高、色域高、控光效果优秀，因此非常适合HDR应用。但目前MiniLED都存在色温偏离（量子点特性，开机时间越长，色温越偏蓝）、不支持硬件低蓝光（不够护眼）以及光晕问题。因此MiniLED不太适合专业设计、只适合HDR游戏和HDR电影。
+
 [Miniled技术的显示器，到底是选va屏还是ips屏呀，两者各有什么优势？ - 知乎](https://www.zhihu.com/question/534678767)
 
 2023-05 [618显示器选购，常规ips还是miniled - 电脑讨论(新) - Chiphell - 分享与交流用户体验](https://www.chiphell.com/thread-2518027-1-1.html)
