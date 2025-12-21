@@ -1,5 +1,6 @@
 # Video Enhancement
 - Edge enhancement
+- Compression artifact reduction
 - Scaling (Super resolution)
 - Frame interpolation
 

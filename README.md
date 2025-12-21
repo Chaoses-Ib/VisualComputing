@@ -42,6 +42,7 @@
   - [PotPlayer](Video/Players/PotPlayer.md)
 - [Video Scaling](Video/Scaling.md)
 - [Video Enhancement](Video/Enhancement/README.md)
+  - [RTX Video Enhancements](Video/Enhancement/RTX.typ)
 - [Diffusion Models](Video/Diffusion/README.md)
 - [Frame Interpolation](Video/Frame%20Interpolation.md)
 - [Tools](Video/Tools/README.md)
