@@ -121,5 +121,6 @@
 - [Resolution](Display/Resolution.md)
 - [High-dynamic-range (HDR)](Display/HDR.md)
 - [Video Interfaces](Display/Interfaces.md)
-- [Brands](Display/Brands.md)
+- [Brands](Display/Brands/README.md)
+  - [OLED](Display/Brands/OLED.typ)
 - [Tools](Display/Tools.md)
