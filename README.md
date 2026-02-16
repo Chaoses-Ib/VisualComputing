@@ -38,6 +38,7 @@
 ## [Video Processing](Video/README.md)
 - [Video File Formats](Video/Formats/README.md)
   - [Lottie](Video/Formats/Lottie/README.md)
+- [Subtitles](Video/Subtitles/README.typ)
 - [Video Players](Video/Players/README.md)
   - [PotPlayer](Video/Players/PotPlayer.md)
 - [Video Scaling](Video/Scaling.md)
