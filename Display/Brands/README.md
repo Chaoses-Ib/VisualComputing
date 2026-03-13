@@ -222,13 +222,22 @@ Laptops:
 - AOC AG326UD: 4000元
 - 飞利浦32M2N8800: 4000元
 - ROG
-  - XG32UCWG: 5000元
+  - (XG32UCG: IPS)
+  - #a[XG32UCWG][https://shop.asus.com/us/90lm0bx0-b013b2-rog-strix-oled-xg32ucwg.html]
+    : 5000元
     - 31.5''
     - WOLED, 165/330Hz
+    - HDR TB 400, 99% DCI-P3, 10-bit, Delta E < 2
+    - Glossy
+    - DP 1.4, HDMI 2.1, USB-C 3.2 15W
+    - #t[260314] 5470-100元, 拍拍 5170元
+
+    #a[【心得】ROG XG32UCWG W-OLED & MPG 321URXW QD-OLED 購買/使用心得 \@電腦應用綜合討論 哈啦板 - 巴哈姆特][https://forum.gamer.com.tw/C.php?bsn=60030&snA=680225]
   - XG32UCWMG: 6000元
 
     > 提升：刷新率。在XG32UCWG基础上，提高了刷新率，FPS表现更好。其他方面都一样。如果不是为了FPS，就不用考虑它了，买XG32UCWG就行了。
   - PG32UCDM
+    : 8000元
 - MSI MAG 321UP
   - 165Hz
 - [MSI MAG 321UPX](https://www.msi.com/Monitor/MAG-321UPX-QD-OLED): 4500元, 二手 3350元
@@ -236,6 +245,7 @@ Laptops:
   - QD-OLED, DCI-P3 99%, HDR400, 240Hz
   - Brightness: 250nit
   - OLED Care 2.0
+  - #t[260314] 4574-100元
 
   [MSI MAG 321UPX Review (The cheapest 4k OLED Monitor) : r/OLED\_Gaming](https://www.reddit.com/r/OLED_Gaming/comments/1d0jxvb/msi_mag_321upx_review_the_cheapest_4k_oled_monitor/)
   > I've had this monitor for a couple of months and the VRR brightness flicker is borderline unbearable. I contacted MSI and they said it is normal behaviour for the panel, and I should disable freesync or set my refresh rate to 60hz, neither of which any right-minded gamer who buys a good quality high-refresh monitor should be prepared to do.
