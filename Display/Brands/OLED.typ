@@ -32,11 +32,18 @@
 #a[Should I buy the ROG XG32UCWMG, or is there a better 4K dual‑mode OLED monitor available or coming soon? : r/Monitors][https://www.reddit.com/r/Monitors/comments/1roj02n/should_i_buy_the_rog_xg32ucwmg_or_is_there_a/]
 - #a[Asus XG32UCWMG or wait for new 4k 32" QD-OLEDs? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1rq40ob/asus_xg32ucwmg_or_wait_for_new_4k_32_qdoleds/]
 
+#a[32" 4K glossy OLED enjoyers --- what's actually worth buying in 2026? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1tb6x8w/32_4k_glossy_oled_enjoyers_whats_actually_worth/]
+
+#a[Question about which OLED to buy. Thinking about XG32UCWG. : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sr6o5e/question_about_which_oled_to_buy_thinking_about/]
+
 #a[CES 2026 消费电子展专题][https://www.ithome.com/zt/ces2026/]
 - #a[进入 RGB 条状 OLED 时代：华硕 ROG 发布 CES 2026 显示器新品 - IT之家][https://www.ithome.com/0/910/305.htm]
 
 #a[UBI Research：2025 年 OLED 显示器出货量提升 64%，今年有望延续超五成增幅 - IT之家][https://www.ithome.com/0/917/275.htm]
 - #a[UBI Research：OLED 在平板 / 笔记本 / 显示器市场占比均不足 10% - IT之家][https://www.ithome.com/0/927/621.htm]
+
+#t[0511]
+#a[消息称三星显示器年内仍将在国内市场销售，本月还将推出 15 款新品 - IT之家][https://www.ithome.com/0/948/850.htm]
 
 == QD-OLED
 #a[2026 QD-OLED TV panel reaches 4500 nits, says Samsung Display - FlatpanelsHD][https://www.flatpanelshd.com/news.php?subaction=showfull&id=1767420486]
@@ -48,11 +55,17 @@
   #a[华硕推出 PA279CDV 专业 OLED 显示器：类纸观感，UHD 分辨率 - IT之家][https://www.ithome.com/0/911/132.htm]
 
 - ROG Strix OLED XG27UQDMS: 5000元
+  #footnote[#a[华硕"XG27UQDMS"27 英寸显示器首销：4K 240Hz 四代 QD-OLED，4999 元 - IT之家][https://www.ithome.com/0/929/226.htm]]
   - 4th Gen
 
   #a[华硕推出 QD-OLED 显示器 XG27UQDMS：26.5" UHD 240Hz - IT之家][https://www.ithome.com/0/920/657.htm]
 
   #a[华硕 XG27UQDMS 显示器上架预售：4999 元，26.5" UHD 240Hz OLED - IT之家][https://www.ithome.com/0/927/836.htm]
+
+- MSI
+  - MAG 272UP QD-OLED E16
+    #footnote[#a[微星推出 MAG 272UP QD-OLED E16 显示器：26.5" UHD 165Hz - IT之家][https://www.ithome.com/0/933/074.htm]]
+    - 4th Gen (2025)
 
 - Alienware AW2726DM
   - 1440p
@@ -60,12 +73,14 @@
   #a[外星人推出 26.5 英寸 2K 240Hz QD-OLED 显示器 AW2726DM，首发 2999 元 - IT之家][https://www.ithome.com/0/928/114.htm]
 
 === 32''
+3840x2160:
 - ROG PG32UCDM3: 8200元
   - 4th Gen, 99% DCI-P3, Delta E < 2, HDR TB 500
     - Not RGB stripe
   - 240Hz
   - DP 2.1, HDMI 2.1, USB-C 90W
   - #t[260314] 8455-150元
+  - #t[260513] 7360元
 
   #a[华硕推出 ROG 超神 32 OLED 显示器 PG32UCDM3，首发价 8199 元 - IT之家][https://www.ithome.com/0/918/900.htm]
 
@@ -73,21 +88,80 @@
 
   #a[My Review Of The PG32UCDM GEN3 :) : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1rk8eiz/my_review_of_the_pg32ucdm_gen3/]
 
+  #a[Finally made the switch - ASUS PG32UCDM3 : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sknkq9/finally_made_the_switch_asus_pg32ucdm3/]
+
+  #a[PG32UCDM3 - Finally : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1st9aoe/pg32ucdm3_finally/]
+  - #q[Wait for Gen 5. Biggest upgrade to Gen 4 is the coating durability and reflection reduction. Gen 5 will bring higher peak brightness and v-stripe rgb]
+
+  #a[Any recommendations for stands to replace the one that comes with the Asus PG32UCDM3? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1t7fg61/any_recommendations_for_stands_to_replace_the_one/]
+
+  vs. XG32UCWMG/XG32UCWG:
+  - #a[PG32UCDM3 vs XG32UCWMG as a ranked competitive gamer who also does 4K video editing and 3D modeling/editing : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sg9fvu/pg32ucdm3_vs_xg32ucwmg_as_a_ranked_competitive/]
+    #a-badge[https://www.reddit.com/r/OLED_Gaming/comments/1s16roq/pg32ucdm3_vs_xg32ucwmg_as_a_main_ranked/?tl=fr]
+  - #a[Asus XG32UCWMG or PG32UCDM3? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sldiw9/asus_xg32ucwmg_or_pg32ucdm3/]
+    - #q[I kept the PG because of how much better the colors and overall better quality and QC issues were.
+    XG was great but the banding is there but not noticeable during gaming. QC issues were random, some had dead pixels.]
+  - #a[XG32UCWMG for \$950 or PG32UCDM3 for \$1400? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1rq1d9n/xg32ucwmg_for_950_or_pg32ucdm3_for_1400/]
+  - #a[xg32ucwmg vs pg32ucdm3 : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1s13e0y/xg32ucwmg_vs_pg32ucdm3/]
+    - #q[I also have a 5090 and had to make this same decision. I went with the PG32UCDM3 over the XG32UCWMG for the DP 2.1, higher USB-C power delivery for my work laptop, and because I like the QD-OLED colors.]
+  - #a[which to choose between XG32UCWMG vs PG32UCDM3? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1slb7kp/which_to_choose_between_xg32ucwmg_vs_pg32ucdm3/]
+  - #a[PG32UCDM3 vs XG32UCWMG : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sruu75/pg32ucdm3_vs_xg32ucwmg/]
+    - #q[The XG will reflect everything in a high light environment from my experience, but it looks beautiful if you can mitigate the reflections.]
+
 - MSI
   - MPG 322UR QD-OLED X24
+    #footnote[#a[微星 MPG 322UR QD-OLED X24"流光"显示器上市，7999 元 - IT之家][https://www.ithome.com/0/941/227.htm]]
+    - 4th Gen
+    - DP 2.1, HDMI 2.1$times$2, USB-C 98W, USB-B 5Gbps, USB-A 5Gbps$times$2
     - AI Care Sensor
+    - #t[260513] 7460元
   - MPG 321UP QD-OLED X24
     : 5400元
     - 4th Gen, 99% DCI-P3, HDR TB 500, 300 nit
     - 240Hz
     - DP 1.4, HDMI 2.1, USB-C 3.2 15W
+    - No sensor
     - #t[260314] 5470-100元
+    - #t[260513] N/A
 
   #a[MSI announces 32-inch 4K QD-OLED gaming monitors with 5-layer Tandem OLED panels - VideoCardz.com][https://videocardz.com/newz/msi-announces-32-inch-4k-qd-oled-gaming-monitors-with-5-layer-tandem-oled-panels]
   #a-badge[https://www.reddit.com/r/OLED_Gaming/comments/1q11g89/msi_announces_32inch_4k_qdoled_gaming_monitors/]
   #a-badge[https://www.reddit.com/r/Monitors/comments/1q11gh3/msi_announces_32inch_4k_qdoled_gaming_monitors/]
 
+  #a[MSI's New 32" QD-OLED Gaming Monitors Kill the Purple Tint Problem, Boost Black Levels by 40% & Prevent OLED Burn-In][https://wccftech.com/msi-32-qd-oled-gaming-monitors-kill-purple-tint-boost-black-levels-prevent-oled-burn-in/]
+
+  #a[MPG 322UR X24 pushed to a May/June Release (tftcentral.co.uk) : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1slxa70/mpg_322ur_x24_pushed_to_a_mayjune_release/]
+
+  #a[New MSI MAG for 799, worth over others? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sta0h9/new_msi_mag_for_799_worth_over_others/]
+  - #q[You could buy 2 of these MSI monitors for the price of one ASUS. You most likely can’t or won’t notice DSC anyway. 1.4 DP for \$800 or 1300 for 2.1.]
+
+  #a[Worth waiting on MSI's new 4th Gen QD-OLEDs or should I just go with Asus' XG32UCWMG? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1smbd0v/worth_waiting_on_msis_new_4th_gen_qdoleds_or/]
+
+  #a[Convince me not to buy an MSI 321URX QD-Oled for \$800 : r/Monitors][https://www.reddit.com/r/Monitors/comments/1sodmau/convince_me_not_to_buy_an_msi_321urx_qdoled_for/]
+
+  #a[MPG 322UR QD-OLED X24, release the beast, MSI : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sw9av2/mpg_322ur_qdoled_x24_release_the_beast_msi/]
+
   #a[微星上线 MAG 321UP QD-OLED X24 显示器：DarkArmor、均匀亮度双技术加持 - IT之家][https://www.ithome.com/0/913/786.htm]
+
+- AOC AG326UZD2
+  - DP 2.1
+  - No sensor
+  - HDR broken
+    #footnote[#a[HDR color gamut on the AOC AGON PRO AG276QZD2 and should I use digital vibrance or Win11 calibration to up the colors a bit? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1o28drv/hdr_color_gamut_on_the_aoc_agon_pro_ag276qzd2_and/]]
+  - No anti-flicker mode
+  - #t[260513] 5300元
+
+  #a[AGON PRO AG326UZD2 announced as AOC's 'most advanced 32" 4K display to date' with 4th-gen QD-OLED : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1srotgo/agon_pro_ag326uzd2_announced_as_aocs_most/]
+
+  #a[AG326UZD2 (4K OLED with 5th-generation Samsung panel) will likely be available starting April 13, 2026 (in Europe) : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1seq1s0/ag326uzd2_4k_oled_with_5thgeneration_samsung/]
+
+- Gigabyte: #a[MO32U24][https://www.aorus.com/zh-tw/monitors/mo32u24/Key-Features]
+  : 5400元
+  - DP 1.4, HDMI 2.1$times$2, USB-C 18W, USB-B 5Gbps, USB-A 5Gbps$times$2
+  - No sensor
+  - #t[260513] N/A
+
+  #a[技嘉MO32U24显示器评测：尺寸够大，屏幕够亮，色彩够好看 - 超能网][https://www.expreview.com/104816.html]
 
 - 飞利浦 32M2N8800P: 6000元
   - 3rd Gen
@@ -110,6 +184,8 @@
   #a-badge[https://www.reddit.com/r/OLED_Gaming/comments/1q3l5pp/asus_launches_rog_swift_4th_gen_tandem_oled/]
   #a-badge[https://www.reddit.com/r/Monitors/comments/1q3l5wu/asus_launches_rog_swift_4th_gen_tandem_oled/]
 
+  #a[Why is no one buying the PG34WCDM, and everyone is going for the PG32UCDM????? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1awyich/why_is_no_one_buying_the_pg34wcdm_and_everyone_is/]
+
   #a[进入 RGB 条状 OLED 时代：华硕 ROG 发布 CES 2026 显示器新品 - IT之家][https://www.ithome.com/0/910/305.htm]
 - MSI
   - #a[MPG 341CQR QD-OLED X36][https://www.msi.com/Monitor/MPG-341CQR-QD-OLED-X36]
@@ -118,6 +194,7 @@
     - DP 2.1a UHBR13.5, HDMI 2.1 $times$2
     - USB-C 98W PD-out
     - #t[260314] 6963元
+    - #t[260513] 7460元
 
     #a[MSI launches MPG 341CQR QD-OLED X36 monitor with 5th Gen Tandem OLED and RGB Stripe sub-pixel layout - VideoCardz.com][https://videocardz.com/newz/msi-launches-mpg-341cqr-qd-oled-x36-monitor-with-5th-gen-tandem-oled-and-rgb-stripe-sub-pixel-layout]
     #a-badge[https://www.reddit.com/r/OLED_Gaming/comments/1q3l6li/msi_launches_mpg_341cqr_qdoled_x36_monitor_with/]
@@ -127,6 +204,10 @@
   - MEG X
 
     #a[微星 MEG X 显示器集成全套 AI Gaming 功能和 AI Robot Lite 智能助理 - IT之家][https://www.ithome.com/0/910/315.htm]
+
+- AOC
+  - AGP346UCSD
+    #footnote[#a[RGB 条纹子像素 OLED 显示器 +1：AOC 推出 AGP346UCSD - IT之家][https://www.ithome.com/0/929/395.htm]]
 
 === 48''
 - S95H
@@ -143,6 +224,10 @@
     - USB-C 90W PD-out
 
   #a[ASUS launches ROG Swift 4th Gen Tandem OLED PG27UCWM and QD-OLED PG34WCDN monitors - VideoCardz.com][https://videocardz.com/newz/asus-launches-rog-swift-4th-gen-tandem-oled-pg27ucwm-and-qd-oled-pg34wcdn-monitors]
+
+- MSI
+  - MAG 276QRDY54: 2K
+    #footnote[#a[微星"MAG 276QRDY54"27 英寸显示器发售：2K 540Hz/720P 720Hz 双模、原生 10-Bit 色彩，6299 元 - IT之家][https://www.ithome.com/0/946/475.htm]]
 
 - 蚂蚁电竞 ANT275ZQE
   - 4th Gen

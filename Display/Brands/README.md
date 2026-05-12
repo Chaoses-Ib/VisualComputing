@@ -231,6 +231,7 @@ Laptops:
     - Glossy
     - DP 1.4, HDMI 2.1, USB-C 3.2 15W
     - #t[260314] 5470-100元, 拍拍 5170元
+    - #t[260513] 5400/4500元, 闲鱼 4500元
 
     #a[【心得】ROG XG32UCWG W-OLED & MPG 321URXW QD-OLED 購買/使用心得 \@電腦應用綜合討論 哈啦板 - 巴哈姆特][https://forum.gamer.com.tw/C.php?bsn=60030&snA=680225]
   - XG32UCWMG: 6000元
@@ -246,9 +247,15 @@ Laptops:
   - Brightness: 250nit
   - OLED Care 2.0
   - #t[260314] 4574-100元
+  - #t[260513] 3980元
 
   [MSI MAG 321UPX Review (The cheapest 4k OLED Monitor) : r/OLED\_Gaming](https://www.reddit.com/r/OLED_Gaming/comments/1d0jxvb/msi_mag_321upx_review_the_cheapest_4k_oled_monitor/)
   > I've had this monitor for a couple of months and the VRR brightness flicker is borderline unbearable. I contacted MSI and they said it is normal behaviour for the panel, and I should disable freesync or set my refresh rate to 60hz, neither of which any right-minded gamer who buys a good quality high-refresh monitor should be prepared to do.
+
+  - #a[mag321upx vs mpg321urx vs xg32ucwg : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1opml50/mag321upx_vs_mpg321urx_vs_xg32ucwg/]
+  - #a[MSI MPG 321URX for 750€ vs ASUS XG32UCWMG for 950€ : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1ov95sx/msi_mpg_321urx_for_750_vs_asus_xg32ucwmg_for_950/]
+  - #a[MSI MAG 321UPX QD-OLED vs ASUS ROG Strix OLED XG32UCWG : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1p2107v/msi_mag_321upx_qdoled_vs_asus_rog_strix_oled/]
+  - #a[Really torn between the MPG 321URX and XG32UCWMG (Difference of \$250) : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1pquew4/really_torn_between_the_mpg_321urx_and_xg32ucwmg/]
 - Dell Alienware AW3225QF: 6000元
   - 31.5'', 3840x2160, 1700R
   - QD-OLED, DCI-P3 99%, HDR400, 240Hz
