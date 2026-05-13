@@ -29,6 +29,9 @@
 - Dell Alienware AW3425DW
 - Dell S3225QC
 
+#a[【毅种循环】26年6-18显示器推荐 - 知乎][https://zhuanlan.zhihu.com/p/2037655885636449962]
+#footnote[#a[618推荐换显示器吗 NGA玩家社区][https://bbs.nga.cn/read.php?tid=46765897&rand=482]]
+
 #a[Should I buy the ROG XG32UCWMG, or is there a better 4K dual‑mode OLED monitor available or coming soon? : r/Monitors][https://www.reddit.com/r/Monitors/comments/1roj02n/should_i_buy_the_rog_xg32ucwmg_or_is_there_a/]
 - #a[Asus XG32UCWMG or wait for new 4k 32" QD-OLEDs? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1rq40ob/asus_xg32ucwmg_or_wait_for_new_4k_32_qdoleds/]
 
@@ -108,6 +111,12 @@
   - #a[PG32UCDM3 vs XG32UCWMG : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sruu75/pg32ucdm3_vs_xg32ucwmg/]
     - #q[The XG will reflect everything in a high light environment from my experience, but it looks beautiful if you can mitigate the reflections.]
 
+- #a[ROG Strix OLED XG32UQDMS][https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-oled-xg32uqdms/]
+  - 3rd Gen
+  - DP 1.4, HDMI 2.1$times$2, USB-A$times$2, AUX
+  - Proximity sensor
+  - #t[260514] 5060元
+
 - MSI
   - MPG 322UR QD-OLED X24
     #footnote[#a[微星 MPG 322UR QD-OLED X24"流光"显示器上市，7999 元 - IT之家][https://www.ithome.com/0/941/227.htm]]
@@ -115,6 +124,7 @@
     - DP 2.1, HDMI 2.1$times$2, USB-C 98W, USB-B 5Gbps, USB-A 5Gbps$times$2
     - AI Care Sensor
     - #t[260513] 7460元
+    - #t[260513] 6962元
   - MPG 321UP QD-OLED X24
     : 5400元
     - 4th Gen, 99% DCI-P3, HDR TB 500, 300 nit
@@ -144,6 +154,7 @@
   #a[微星上线 MAG 321UP QD-OLED X24 显示器：DarkArmor、均匀亮度双技术加持 - IT之家][https://www.ithome.com/0/913/786.htm]
 
 - AOC AG326UZD2
+  - 4th Gen
   - DP 2.1
   - No sensor
   - HDR broken
@@ -155,6 +166,8 @@
 
   #a[AG326UZD2 (4K OLED with 5th-generation Samsung panel) will likely be available starting April 13, 2026 (in Europe) : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1seq1s0/ag326uzd2_4k_oled_with_5thgeneration_samsung/]
 
+  #a[AG326UZD2 : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1qxm7rm/ag326uzd2/]
+
 - Gigabyte: #a[MO32U24][https://www.aorus.com/zh-tw/monitors/mo32u24/Key-Features]
   : 5400元
   - DP 1.4, HDMI 2.1$times$2, USB-C 18W, USB-B 5Gbps, USB-A 5Gbps$times$2
@@ -163,10 +176,53 @@
 
   #a[技嘉MO32U24显示器评测：尺寸够大，屏幕够亮，色彩够好看 - 超能网][https://www.expreview.com/104816.html]
 
+- 飞利浦 32M2N8900X: 7000元
+  - 4th Gen
+  - #t[260514] 6267元
+
+  #q[这是当代顶级显示器，第四代 QD-OLED。和
+  第三代相比，全屏亮度增加 20%，黑色更黑，反光更少。
+  画质方面，相比基础款的进步可以说是“较大的量变”。
+  而且 DP 接口变成满血的 2.1，切屏速度更快。所以总体上是全方位升级。
+  但是，它的价格比基础款贵了 2000 元，所以性价比肯定不行。
+  只能有预算非常充足、追求极致画质的用户才需要考虑它。]
+
 - 飞利浦 32M2N8800P: 6000元
   - 3rd Gen
+  - #t[260514] 5500元
 
   #a[飞利浦推出"32M2N8800P"32 英寸显示器：4K 240Hz + 双扬，5999 元 - IT之家][https://www.ithome.com/0/928/579.htm]
+
+- Lenovo: #a[Legion Pro 32UD-10][https://psref.lenovo.com/Product/LenovoMonitors/Legion_Pro_32UD_10_Monitor]
+  #a-badge[https://item.lenovo.com.cn/product/1050511.html]
+  - 3rd Gen
+  - 240Hz, HDR TB 400, Dolby Vision
+  - AMD FreeSync Premium Pro, VESA Adaptive Sync
+  - DP 1.4, HDMI 2.1$times$2, USB-C 10Gbps 15W, USB-A 5Gbps$times$3
+    - Type-C 一线连
+    - Picture In Picture (PIP) support (单屏双显、硬分屏、画中画分屏)
+  - 升降旋转支架 (better than MSI MAG 321UPX)
+  - Typical / Max: 130W / 175W, Sleep: $<$0.5W
+  - No sensor
+  - #t[260514] 3940元, 拍拍 4180元, 咸鱼 3920元
+
+  #q[它在价格很低的同时，模具还比同价位 HKC、泰坦、SANC、AOC 的 OLED 更好，所以散热能力更强。
+  散热对 QD-OLED 的寿命、亮度维持、色彩都有影响。
+  同类产品中，比联想好的，价格就超级贵，比如 ROG。
+  价格差不多的，又不如联想。
+  所以这款非常值得考虑，很适合作为“年轻人的第一个 OLED”。]
+
+  #a[I got the Lenovo display driver installed on my 32" Legion Pro 32UD-10 OLED : r/LenovoLegion][https://www.reddit.com/r/LenovoLegion/comments/1qxw708/comment/o5z0vsm/]
+  - #a[Anyone using the Lenovo Legion Pro 32UD-10 OLED? HDR brightness dimming issue (ASBL?) : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sqc5ve/anyone_using_the_lenovo_legion_pro_32ud10_oled/]
+  - #a[why is my Lenovo Legion Pro 27Q-10 dimming : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1skkboc/why_is_my_lenovo_legion_pro_27q10_dimming/]
+
+  #a[My honest experience after buying a QD-OLED monitor (Lenovo Legion Pro 32UD-10) : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1rn9xq3/my_honest_experience_after_buying_a_qdoled/]
+
+  #a[How is the Lenovo Legion Pro 32UD-10? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1q1qmgw/how_is_the_lenovo_legion_pro_32ud10/]
+
+  #a[Any views on the new Legion Pro LP 32UD-10 31.5" 4K OLED monitor? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1pyy4a9/any_views_on_the_new_legion_pro_lp_32ud10_315_4k/]
+
+  #a[A few questions about OLED settings and the Lenovo Legion Pro 27Q-10 : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1qihx8z/a_few_questions_about_oled_settings_and_the/]
 
 === 34''
 3440x1440:
@@ -261,6 +317,17 @@
   - #a[Should I buy the ROG XG32UCWMG, or is there a better 4K dual‑mode OLED monitor available or coming soon? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1roj0d3/should_i_buy_the_rog_xg32ucwmg_or_is_there_a/]
 
   #a[Should I purchase the asus xg32ucwmg or wait for tandem oled 4k monitors next year? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1q1labc/should_i_purchase_the_asus_xg32ucwmg_or_wait_for/]
+
+- AOC AG327UD
+  - 3rd Gen
+  - #t[260514] 4500元
+
+  #q[这款是WOLED，在环境光下，黑色会比QD-OLED黑一些，所以画质可能比基础款更好。
+  但是WOLED的RGWB排列注定了它的文字清晰度会略微差一点，会有一些彩边/毛边，不过4K WOLED的文字彩边比2K WOLED好很多。
+  
+  之所以选择这个4K 165Hz的WOLED而不是其他4K 240Hz的，因为它是镜面屏，而其他的大部分是雾面屏。
+  ROG虽然有4K 240Hz镜面屏WOLED（XG32UCWMG），但是价格极高。
+  在第四代WOLED即将出4K版本的当下，我不建议花大钱买ROG的3代WOLED。]
 
 == Non-OLED
 - Odyssey 3D

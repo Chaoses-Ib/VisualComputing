@@ -53,6 +53,7 @@ Samsung:
   - Indicator light (LED)：插入但无输入时会闪烁，关机会常亮
     
     设置中只能调整关机常亮为运行时常亮，想要彻底关闭只能堵住，比如利用自带的薄膜。
+  - #t[260514] 回收 60元
   
   [三星LC24F396FHCXXF参数-配置-性能规格-参数对比-天极网](https://product.yesky.com/product/1048/1048110/param.shtml)
 
@@ -245,6 +246,8 @@ Laptops:
   - 31.5''
   - QD-OLED, DCI-P3 99%, HDR400, 240Hz
   - Brightness: 250nit
+  - Adaptive Sync
+  - DP 1.4, HDMI 2.1$times$2, USB-C 15W, AUX
   - OLED Care 2.0
   - #t[260314] 4574-100元
   - #t[260513] 3980元
