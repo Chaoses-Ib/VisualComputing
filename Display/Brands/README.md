@@ -16,6 +16,9 @@
 
 2024-08 [求推荐 27 寸 4k 高刷显示器 - V2EX](https://v2ex.com/t/1066154)
 
+#t[2502]
+#a[What are your thoughts about Koorui, Xiaomi and, AOC monitors? : r/Monitors][https://www.reddit.com/r/Monitors/comments/1ixbcwn/what_are_your_thoughts_about_koorui_xiaomi_and/]
+
 2025-02 [25 年了，求推荐 27 寸 4K 显示器，预算 3000 内 - V2EX](https://v2ex.com/t/1112483)
 
 2025-02 [求推荐 27 寸的 4k 显示器 - V2EX](https://v2ex.com/t/1113662)
@@ -229,15 +232,19 @@ Laptops:
     - 31.5''
     - WOLED, 165/330Hz
     - HDR TB 400, 99% DCI-P3, 10-bit, Delta E < 2
+    - HDR10, #strike[Dolby Vision]
     - Glossy
     - DP 1.4, HDMI 2.1, USB-C 3.2 15W
     - #t[260314] 5470-100元, 拍拍 5170元
-    - #t[260513] 5400/4500元, 闲鱼 4500元
+    - #t[260513] 5400/4500元, 京粉 5334元, 闲鱼 4500/3950元
+    - #t[260516] 闲鱼 4260/3950元
 
     #a[【心得】ROG XG32UCWG W-OLED & MPG 321URXW QD-OLED 購買/使用心得 \@電腦應用綜合討論 哈啦板 - 巴哈姆特][https://forum.gamer.com.tw/C.php?bsn=60030&snA=680225]
   - XG32UCWMG: 6000元
 
     > 提升：刷新率。在XG32UCWG基础上，提高了刷新率，FPS表现更好。其他方面都一样。如果不是为了FPS，就不用考虑它了，买XG32UCWG就行了。
+
+    #a[Undecided between XG32UCWG VS XG32UCWMG : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1p2ahl0/undecided_between_xg32ucwg_vs_xg32ucwmg/]
   - PG32UCDM
     : 8000元
 - MSI MAG 321UP

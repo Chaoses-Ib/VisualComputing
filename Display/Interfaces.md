@@ -100,6 +100,8 @@ Versions:
   - UHBR 10, UHBR 13.5, UHBR 20
   - 8K/60Hz
 
+#a[DP 1.4 vs 2.1 on a 5090? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1lvhpie/dp_14_vs_21_on_a_5090/]
+
 ### Multi-Stream Transport (MST)
 > Multi-Stream Transport is a feature first introduced in the DisplayPort 1.2 standard. It allows multiple independent displays to be driven from a single DP port on the source devices by multiplexing several video streams into a single stream and sending it to a *branch device*, which demultiplexes the signal into the original streams. Branch devices are commonly found in the form of an **MST hub**, which plugs into a single DP input port and provides multiple outputs, but it can also be implemented on a display internally to provide a DP output port for **daisy-chaining**, effectively embedding a 2-port MST hub inside the display. With the release of MST, standard single-display operation has been retroactively named "SST" mode (Single-Stream Transport).
 

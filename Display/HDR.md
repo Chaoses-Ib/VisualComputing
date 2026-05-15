@@ -22,6 +22,18 @@
 
 > Yeah, I have a nice LG OLED as of a few months ago. My non-industry friend, who is a big A/V-Head, is obsessed with getting “perfect” HDR and bought that new. HiSense monstrosity, and is updating all his films on his personal server. But I’d say 50% of the films in HDR that I’ve checked out since have utilized it in an overbearing, unnecessary, or downright distracting way. The new release films have a better ratio, maybe 3/4 of them do it well, but the HDR remasters conversely are often WORSE. 
 
+#a[Can someone explain what all these features are on the new monitors? Like Dolby Vision, HDR400, true black, all of it : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1974czp/can_someone_explain_what_all_these_features_are/]
+- #q[There are much MUCH more movies, series and games that have Dolby vision than those that have HdR 10+ or both.
+
+  Does this means that content with Dolby vision isn’t HDR on a monitor without Dolby vision?
+  No, it just means that on a not Dolby vision compatible monitor, you’ll get Normal HDR calibration (wich is “worse”) while if you have Dolby Vision it will automatically enable this superior HDR format.
+  
+  So people tends to look at Dolby Vision as a win against an equivalent product without Dolby vision.
+  It isn’t a huge difference for games because most games That have Dolby vision, also have HDR 10+ and like i mentioned before, this 2 are the same.
+  But when it comes to content consumption, Netflix etc Dolby vision is much more common to find. So you have more access to a superior HDR format with Dolby than with HdR 10+]
+
+#a[How Important is Dolby Vision over HDR10+ ???? : r/hometheater][https://www.reddit.com/r/hometheater/comments/1qy1jao/how_important_is_dolby_vision_over_hdr10/]
+
 ## アニメ
 2019-10 [Are there any anime available in HDR? : r/anime](https://www.reddit.com/r/anime/comments/dftcbw/are_there_any_anime_available_in_hdr/)
 

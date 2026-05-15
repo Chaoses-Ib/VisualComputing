@@ -15,6 +15,8 @@
   #a[华硕 ROG、XREAL 暗示联名 XR 智能眼镜：无显示器实现沉浸大屏游戏体验 - IT之家][https://www.ithome.com/0/910/009.htm]
 
   #a[华硕 ROG × XREAL 联名 AR 游戏眼镜 R1 公布：4m 投射 171 英寸虚拟巨屏 - IT之家][https://www.ithome.com/0/910/530.htm]
+
+  #a[ROG 与 XREAL 联名 AR 眼镜 R1 发布：240Hz 高刷，5999 元 - IT之家][https://www.ithome.com/0/950/946.htm]
 - EIZO ColorEdge OLED
   - 31.5''
 
@@ -36,11 +38,22 @@
 - #a[Asus XG32UCWMG or wait for new 4k 32" QD-OLEDs? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1rq40ob/asus_xg32ucwmg_or_wait_for_new_4k_32_qdoleds/]
 
 #a[32" 4K glossy OLED enjoyers --- what's actually worth buying in 2026? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1tb6x8w/32_4k_glossy_oled_enjoyers_whats_actually_worth/]
+- #a[Best glossy 32" QD-OLED? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sqdnx4/best_glossy_32_qdoled/]
 
 #a[Question about which OLED to buy. Thinking about XG32UCWG. : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sr6o5e/question_about_which_oled_to_buy_thinking_about/]
 
 #a[CES 2026 消费电子展专题][https://www.ithome.com/zt/ces2026/]
 - #a[进入 RGB 条状 OLED 时代：华硕 ROG 发布 CES 2026 显示器新品 - IT之家][https://www.ithome.com/0/910/305.htm]
+
+#a[想整台好些的OLED玩3A和FPS，但感觉市场有点尬 - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/thread-2798815-1-1.html]
+- #q[tb500认证加新涂层32寸4k的都是第四代qd面板 \
+  目前第五代的产品只是改了像素排列，发光和四代一样还是el gen3，首发都是2k带鱼 \   
+  玩游戏的话四代32 4k足够了]
+
+#a[请各位大佬推荐32显示器，很久没关注，晕菜了(已入手pg32ucdm3) - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/thread-2804448-1-1.html]
+- #a[现在有值得强烈推荐的32寸oled（带杜比视界的）显示器么？ - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/forum.php?mod=viewthread&tid=2803203&highlight=oled]
+
+#a[问下 现在4koled有什么推荐的显示屏啊 - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/forum.php?mod=viewthread&tid=2794647&highlight=oled]
 
 #a[UBI Research：2025 年 OLED 显示器出货量提升 64%，今年有望延续超五成增幅 - IT之家][https://www.ithome.com/0/917/275.htm]
 - #a[UBI Research：OLED 在平板 / 笔记本 / 显示器市场占比均不足 10% - IT之家][https://www.ithome.com/0/927/621.htm]
@@ -49,6 +62,28 @@
 #a[消息称三星显示器年内仍将在国内市场销售，本月还将推出 15 款新品 - IT之家][https://www.ithome.com/0/948/850.htm]
 
 == QD-OLED
+#a[Samsung's brand-new QD-OLED tech can double the panel's lifespan --- durable 'Penta Tandem' displays can reach up to 1,300 nits of peak brightness | Tom's Hardware][https://www.tomshardware.com/monitors/samsungs-brand-new-qd-oled-tech-can-double-the-panels-lifespan-durable-penta-tandem-displays-can-reach-up-to-1-300-nits-of-peak-brightness]
+- #a[Gen 4 QD-OLED Hardware Improvement : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1hrvfsz/gen_4_qdoled_hardware_improvement/]
+
+#a[One of the main marketing claim for 4th gen WOLED is durability, how about 4th gen QD OLED : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1r0ouva/one_of_the_main_marketing_claim_for_4th_gen_woled/]
+- #q[yes, 4th gen qd oleds has similar technology improvements to increase lifespan in regards to burnin, tandem stack and power efficiency upgrades.
+  nobody actually knows which lasts longer as these things are both relatively new.
+  i don't really think it's worth splitting hairs for though, I doubt there's much of a difference.]
+
+#a[3rd vs 4th Gen QD-OLED? : r/Monitors][https://www.reddit.com/r/Monitors/comments/1ldh47p/3rd_vs_4th_gen_qdoled/]
+- #q[It's pretty much what you're seeing. The 4th gen improvements are mainly new Pico Inkjet Pro process which allows for increasing the pixel density to allow for 4K 27" 240Hz.
+  There are some improvements in efficiency (up 30%) and brightness, thanks to EL 3.0 (I think EL stands for electro-luminescent here).]
+
+#a[Quick info on QD-OLED generations and which models are which generation : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1s60c28/quick_info_on_qdoled_generations_and_which_models/]
+- #q[Burn in resistance is not cummulative with additional layers per generation, it is exponential.
+  2nd gen QD-OLED is 2x more resistant than 1st gen, 3rd gen is 2x more resistant than 2nd gen, 4th gen is 2x more resistant than 3rd gen, 5th gen is equal to 4th gen.]
+
+#a[Samsung's 4th‑Gen penta‑tandem QD‑OLED panels drop on May 19th : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1tbmy7i/samsungs_4thgen_pentatandem_qdoled_panels_drop_on/]
+
+#a[第四代QD-OLED，我个人只建议买 - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/forum.php?mod=viewthread&tid=2803246&highlight=oled]
+
+#a[别被营销带偏了！从三代QDOLED换到5代发现没半毛钱区别 - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/thread-2797025-1-1.html]
+
 #a[2026 QD-OLED TV panel reaches 4500 nits, says Samsung Display - FlatpanelsHD][https://www.flatpanelshd.com/news.php?subaction=showfull&id=1767420486]
 #a-badge[https://www.ithome.com/0/910/423.htm]
 
@@ -76,14 +111,40 @@
   #a[外星人推出 26.5 英寸 2K 240Hz QD-OLED 显示器 AW2726DM，首发 2999 元 - IT之家][https://www.ithome.com/0/928/114.htm]
 
 === 32''
+TL;DR:
+4000\~7000元:
+- *XG32UCWG*: 二手 *3950* (-1450元) / *4260* (-1070元), 京东 5334元-E卡
+  - 寿命: 才发售半年多。
+  - 已经下架了，可能不久就有新品…
+- Legion Pro 32UD-10: #strike[国补 4000元] / 4332元
+- *MO32U24*: 闲鱼 5250元
+- MPG 321UP QD-OLED X24
+- *Philips Evnia 32M2N8900X*: 京东 6204元
+- AOC AG326UZD2: 京东 6371元-E卡
+- MPG 322UR QD-OLED X24: 6892元-E卡
+- *PG32UCDM3*: 京东 6990元-E卡 (+90元), 闲鱼 6900元
+  - 6期免息
+
 3840x2160:
-- ROG PG32UCDM3: 8200元
+- #a[ROG PG32UCDM3][https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm-gen3-pg32ucdm3/]
+  : 8200元
   - 4th Gen, 99% DCI-P3, Delta E < 2, HDR TB 500
     - Not RGB stripe
+    - PIP/PBP
   - 240Hz
-  - DP 2.1, HDMI 2.1, USB-C 90W
+  - HDR10, Dolby Vision
+  - AMD FreeSync Premium Pro, G-Sync compatible
+  - DP 2.1, HDMI 2.1$times$2, USB-C 90W, USB-A 3.2 Gen 1 $times$3, AUX
+    #footnote[#a[Asus Unveil the ROG Swift PG32UCDM3 with a 4th Gen QD-OLED Panel and New BlackShield Film - TFTCentral][https://tftcentral.co.uk/news/asus-unveil-the-rog-swift-pg32ucdm3-with-a-4th-gen-qd-oled-panel-and-new-blackshield-film]]
+  - Proximity sensor
+    #footnote[#a[华硕 PG32UCDM3 - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/forum.php?mod=viewthread&tid=2780948&highlight=PG32UCDM3]]
+  - Power consumption: $<$42W
+  - Stand:
+    #footnote[#a[The PC32UCDM3 stand kinda sucks : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1swgnf1/the_pc32ucdm3_stand_kinda_sucks/]]
+    ROG Lighting Projection, height >12cm
   - #t[260314] 8455-150元
-  - #t[260513] 7360元
+  - #t[260513] 7360元, 闲鱼 6900元
+  - #t[260515] 7133元, 京粉 6990元
 
   #a[华硕推出 ROG 超神 32 OLED 显示器 PG32UCDM3，首发价 8199 元 - IT之家][https://www.ithome.com/0/918/900.htm]
 
@@ -99,17 +160,33 @@
   #a[Any recommendations for stands to replace the one that comes with the Asus PG32UCDM3? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1t7fg61/any_recommendations_for_stands_to_replace_the_one/]
 
   vs. XG32UCWMG/XG32UCWG:
+  - +QD-OLED (better color?, better text, not blueish, no grey banding)
+    - -More aggressive ABL
+  - +0/75 Hz, -dual mode
+  - Glossy: +Less reflection?
+  - +Dolby Vision
+  - USB-C +75W, +DP2.1
+  - +Better QC, better durability?
+  - -Worse stand
   - #a[PG32UCDM3 vs XG32UCWMG as a ranked competitive gamer who also does 4K video editing and 3D modeling/editing : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sg9fvu/pg32ucdm3_vs_xg32ucwmg_as_a_ranked_competitive/]
     #a-badge[https://www.reddit.com/r/OLED_Gaming/comments/1s16roq/pg32ucdm3_vs_xg32ucwmg_as_a_main_ranked/?tl=fr]
   - #a[Asus XG32UCWMG or PG32UCDM3? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sldiw9/asus_xg32ucwmg_or_pg32ucdm3/]
     - #q[I kept the PG because of how much better the colors and overall better quality and QC issues were.
     XG was great but the banding is there but not noticeable during gaming. QC issues were random, some had dead pixels.]
+    - #q[The PG32 has a more aggressive ABL. I don’t know why it’s never mentioned.
+      It clips heavily in the 1000 nits mode to the point where you might as well just use the TB500 mode or it’s a pretty terrible HDR experience.]
   - #a[XG32UCWMG for \$950 or PG32UCDM3 for \$1400? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1rq1d9n/xg32ucwmg_for_950_or_pg32ucdm3_for_1400/]
   - #a[xg32ucwmg vs pg32ucdm3 : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1s13e0y/xg32ucwmg_vs_pg32ucdm3/]
     - #q[I also have a 5090 and had to make this same decision. I went with the PG32UCDM3 over the XG32UCWMG for the DP 2.1, higher USB-C power delivery for my work laptop, and because I like the QD-OLED colors.]
   - #a[which to choose between XG32UCWMG vs PG32UCDM3? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1slb7kp/which_to_choose_between_xg32ucwmg_vs_pg32ucdm3/]
   - #a[PG32UCDM3 vs XG32UCWMG : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sruu75/pg32ucdm3_vs_xg32ucwmg/]
     - #q[The XG will reflect everything in a high light environment from my experience, but it looks beautiful if you can mitigate the reflections.]
+
+  #a[想问一下各位大佬，刚入手的pg32ucdm3，HDR显示颜色寡淡，有什么好办法解决嘛 - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/forum.php?mod=viewthread&tid=2806514&highlight=PG32UCDM3]
+
+  #a[华硕 PG32UCDM3 这个显示器如何 - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/forum.php?mod=viewthread&tid=2786650&highlight=PG32UCDM3]
+
+  #a[现在入PG32UCDM3还是等等 - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/thread-2806726-1-1.html]
 
 - #a[ROG Strix OLED XG32UQDMS][https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-oled-xg32uqdms/]
   - 3rd Gen
@@ -118,13 +195,15 @@
   - #t[260514] 5060元
 
 - MSI
-  - MPG 322UR QD-OLED X24
+  - #a[MPG 322UR QD-OLED X24][https://www.msi.com/Monitor/MPG-322UR-QD-OLED-X24]
     #footnote[#a[微星 MPG 322UR QD-OLED X24"流光"显示器上市，7999 元 - IT之家][https://www.ithome.com/0/941/227.htm]]
     - 4th Gen
     - DP 2.1, HDMI 2.1$times$2, USB-C 98W, USB-B 5Gbps, USB-A 5Gbps$times$2
+      - PIP/PBP
     - AI Care Sensor
+    - Stand: Flat, height >4cm
     - #t[260513] 7460元
-    - #t[260513] 6962元
+    - #t[260513] 6962元, 京粉 6892元
   - MPG 321UP QD-OLED X24
     : 5400元
     - 4th Gen, 99% DCI-P3, HDR TB 500, 300 nit
@@ -152,15 +231,27 @@
   #a[MPG 322UR QD-OLED X24, release the beast, MSI : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sw9av2/mpg_322ur_qdoled_x24_release_the_beast_msi/]
 
   #a[微星上线 MAG 321UP QD-OLED X24 显示器：DarkArmor、均匀亮度双技术加持 - IT之家][https://www.ithome.com/0/913/786.htm]
+  #a-badge[https://www.chiphell.com/forum.php?mod=viewthread&tid=2799110&highlight=oled]
 
-- AOC AG326UZD2
+- #a[AOC AG326UZD2][https://www.aoc.com/uk/gaming/monitors/ag326uzd2]
   - 4th Gen
-  - DP 2.1
+  - DP 2.1. HDMI 2.1$times$2, USB-C 65W, USB-B 5Gbps, USB-A 5Gbps$times$2, AUX
+    - PIP/PBP support
+  - G-Sync compatible, Flicker Free
+  - Matt?
+  - Stand: Flat, 可垂直
+  - Light FX
+    #footnote[#a[The AOC AG276QZD2 features the Light FX technology][https://www.youtube.com/watch?v=sLEy9-nqtLo]],
+    speaker 8W$times$2
+  - 石墨烯散热
+  - Power: 123/290W
+  - W$times$H$times$D: 717.3 × (485.9~635.9) × 316.8mm
   - No sensor
   - HDR broken
     #footnote[#a[HDR color gamut on the AOC AGON PRO AG276QZD2 and should I use digital vibrance or Win11 calibration to up the colors a bit? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1o28drv/hdr_color_gamut_on_the_aoc_agon_pro_ag276qzd2_and/]]
   - No anti-flicker mode
-  - #t[260513] 5300元
+  - #strike[#t[260513] 5300元]
+  - #t[260514] 6435元, 京粉 6371元
 
   #a[AGON PRO AG326UZD2 announced as AOC's 'most advanced 32" 4K display to date' with 4th-gen QD-OLED : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1srotgo/agon_pro_ag326uzd2_announced_as_aocs_most/]
 
@@ -170,15 +261,33 @@
 
 - Gigabyte: #a[MO32U24][https://www.aorus.com/zh-tw/monitors/mo32u24/Key-Features]
   : 5400元
+  - 4th Gen
   - DP 1.4, HDMI 2.1$times$2, USB-C 18W, USB-B 5Gbps, USB-A 5Gbps$times$2
   - No sensor
-  - #t[260513] N/A
+  - #t[260513] N/A, 闲鱼 5250元
 
   #a[技嘉MO32U24显示器评测：尺寸够大，屏幕够亮，色彩够好看 - 超能网][https://www.expreview.com/104816.html]
 
-- 飞利浦 32M2N8900X: 7000元
+  #a[The MO32U24 is launching - is it worth the price? : r/Monitors][https://www.reddit.com/r/Monitors/comments/1srmhiv/the_mo32u24_is_launching_is_it_worth_the_price/]
+
+  #a[\*NEW\* Gigabyte MO32U24 What are your thoughts about the Monitor? Best Glossy QD-OLED? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1tb7jln/new_gigabyte_mo32u24_what_are_your_thoughts_about/]
+
+- #a[Philips Evnia 32M2N8900X][https://www.philips.com.cn/c-p/32M2N8900X_93/4k-uhd-gaming-monitor-qd-oled-gaming-monitor/overview]
+  #footnote[#a[飞利浦"32M2N8900X"31.5 英寸显示器开售：4K 240Hz QD-OLED、AR 3.0 镜面屏 + 双扬，6999 元 - IT之家][https://www.ithome.com/0/934/689.htm]]
+  : 7000元
   - 4th Gen
-  - #t[260514] 6267元
+  - DP 2.1, HDMI 2.1$times$2, USB-C 65W+15W, USB-B, USB-A$times$2, AUX
+    - PIP/PBP
+  - AMD Adaptive Sync (DP), G-Sync compatible?
+  - 石墨烯散热
+  - Power: 132W
+  - Ambiglow, speaker 5W$times$2
+  - Stand: depth 32cm
+  - 低输入迟滞, EasyRead
+  - 做工较差。
+  - No sensor
+  - #t[260331] 6267元
+  - #t[260514] 6267元, 京粉 6204元
 
   #q[这是当代顶级显示器，第四代 QD-OLED。和
   第三代相比，全屏亮度增加 20%，黑色更黑，反光更少。
@@ -186,6 +295,14 @@
   而且 DP 接口变成满血的 2.1，切屏速度更快。所以总体上是全方位升级。
   但是，它的价格比基础款贵了 2000 元，所以性价比肯定不行。
   只能有预算非常充足、追求极致画质的用户才需要考虑它。]
+
+  #q[画质确实很棒，全屏亮度提到了300nits，比上代好一点。
+  其他的似乎差不多，没啥好说的。吐槽下它的模具，超级大底座不说，稳定性还极差。]
+
+  #a[Philips unveils Evnia 32M2N8900X, 31.5-inch 4K 240Hz QD-OLED monitor with Ambiglow - VideoCardz.com][https://videocardz.com/newz/philips-unveils-evnia-32m2n8900x-31-5-inch-4k-240hz-qd-oled-monitor-with-ambiglow]
+  #a-badge[https://www.reddit.com/r/Monitors/comments/1s4zvtx/philips_unveils_evnia_32m2n8900x_315inch_4k_240hz/]
+  - #q[My only issue with Philips TVs is how conservative they are when comes to burn-in protection compared to LG!
+    Be prepared for alot of screen dimming and their screen saver to jump on every now and then, which cannot be turned off in the settings!]
 
 - 飞利浦 32M2N8800P: 6000元
   - 3rd Gen
@@ -204,9 +321,11 @@
   - 升降旋转支架 (better than MSI MAG 321UPX)
   - Typical / Max: 130W / 175W, Sleep: $<$0.5W
   - No sensor
+  - 烧屏不保修
   - #t[260514] 3940元, 拍拍 4180元, 咸鱼 3920元
+  - #t[260515] 4466元, 京粉 4332元
 
-  #q[它在价格很低的同时，模具还比同价位 HKC、泰坦、SANC、AOC 的 OLED 更好，所以散热能力更强。
+  #q[它在价格很低的同时，模具还比同价位 HKC、泰坦、SANC、AOC、技嘉的 OLED 更好，所以散热能力更强。
   散热对 QD-OLED 的寿命、亮度维持、色彩都有影响。
   同类产品中，比联想好的，价格就超级贵，比如 ROG。
   价格差不多的，又不如联想。
@@ -223,6 +342,15 @@
   #a[Any views on the new Legion Pro LP 32UD-10 31.5" 4K OLED monitor? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1pyy4a9/any_views_on_the_new_legion_pro_lp_32ud10_315_4k/]
 
   #a[A few questions about OLED settings and the Lenovo Legion Pro 27Q-10 : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1qihx8z/a_few_questions_about_oled_settings_and_the/]
+
+- BenQ EX321UZ
+  : \~9000元
+  #footnote[#a[明基 MOBIUZ EX QD-OLED 电竞显示器"三箭齐发"，今年末明年初陆续上市 - IT之家][https://www.ithome.com/0/884/590.htm]]
+  #footnote[#a[明基推出"EX321UZ"31.5 英寸显示器：4K 240Hz QD-OLED，配 DP 2.1 + USB-C 90W 接口 - IT之家][https://www.ithome.com/0/950/618.htm]]
+  - 4th Gen
+  - DP 2.1
+
+  #a[Benq launches 4K 240Hz QD-OLED monitors with DisplayPort 2.1 option : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1nmlted/benq_launches_4k_240hz_qdoled_monitors_with/]
 
 === 34''
 3440x1440:
@@ -271,6 +399,16 @@
   #a[桌面游戏电视新选择：三星带来 48 英寸版 S95H，支持 165Hz 刷新率 - IT之家][https://www.ithome.com/0/910/512.htm]
 
 == WOLED
+#a[说一下四代WOLED的选择 - 毅种循环的快乐生活的动态 - 哔哩哔哩][https://www.bilibili.com/opus/1201184361402073126]
+
+#a[No word addressing the Lifespan increase given by gen 4 W-OLED Primary RGB Tandem on the Gigabyte MO27Q28G, while Asus goes above and beyond quoting an even higher value of 60% on their XG27AQWMG, is this a possible red flag, something to be concerned ? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1nkm65q/no_word_addressing_the_lifespan_increase_given_by/]
+
+#a[How large is the jump between 3rd gen and 4th gen WOLED? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1q355nt/how_large_is_the_jump_between_3rd_gen_and_4th_gen/]
+
+#a[Is paying a significant premium for 4th gen W-OLED worth it over QD-OLED from 2024? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1owt1x7/is_paying_a_significant_premium_for_4th_gen_woled/]
+
+#a[LG 5K大带鱼39,45,52全家桶,种草了,UCDM3...暂时不想买了 - 电脑讨论(新) - Chiphell - 分享与交流用户体验][https://www.chiphell.com/thread-2805448-1-1.html]
+
 #a[LG Display 亮相 CES 2026：33 英寸车载 OLED 柔性"卷轴屏"、51 英寸超宽贯穿式面板... - IT之家][https://www.ithome.com/0/910/400.htm]
 
 === 26.5''
