@@ -1,4 +1,5 @@
-# High-dynamic-range (HDR)
+#import "@local/ib:0.1.0": *
+#title[High-dynamic-range (HDR)]
 [High-dynamic-range television - Wikipedia](https://en.wikipedia.org/wiki/High-dynamic-range_television)
 
 2021-10 [How come HDR isn't more popular than plain old 4K? : r/PleX](https://www.reddit.com/r/PleX/comments/q6fxvk/how_come_hdr_isnt_more_popular_than_plain_old_4k/)
@@ -34,7 +35,7 @@
 
 #a[How Important is Dolby Vision over HDR10+ ???? : r/hometheater][https://www.reddit.com/r/hometheater/comments/1qy1jao/how_important_is_dolby_vision_over_hdr10/]
 
-## アニメ
+= アニメ
 2019-10 [Are there any anime available in HDR? : r/anime](https://www.reddit.com/r/anime/comments/dftcbw/are_there_any_anime_available_in_hdr/)
 
 2020-10 [Is there any native 4k HDR anime? : r/anime](https://www.reddit.com/r/anime/comments/jz0444/is_there_any_native_4k_hdr_anime/)

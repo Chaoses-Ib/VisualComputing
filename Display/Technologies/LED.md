@@ -5,6 +5,9 @@
 - WOLED
   - LG
 
+#t[2408]
+#a[An honest OLED guide for beginners : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1eh6jpp/an_honest_oled_guide_for_beginners/]
+
 Issues:
 - Burn-in (uneven degradation)
   - Upkeep
