@@ -125,4 +125,4 @@
 - [Video Interfaces](Display/Interfaces.md)
 - [Brands](Display/Brands/README.md)
   - [OLED](Display/Brands/OLED.typ)
-- [Tools](Display/Tools.md)
+- [Tools](Display/Tools/README.typ)
