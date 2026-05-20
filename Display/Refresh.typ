@@ -2,6 +2,36 @@
 #title[Refresh Rate]
 #a-badge[https://en.wikipedia.org/wiki/Refresh_rate]
 
+= Judder
+#q[
+Most modern anime will play close to 24 fps (24000/1001 fps). However, most displays often run at refresh rates that do not match this frame rate, leading to an effect known as *judder*.
+
+To avoid judder, it is best to try and match your display's refresh rate with the content frame rate via the following methods:
+- High refresh rate
+
+  Displays that run at 120Hz, 144Hz, 240Hz, or 360Hz will match with each frame, as they are all multiples of 24. Technically, they should be set at 119.88Hz, 143.86Hz, 239.76Hz, or 359.64Hz to closely match with the majority of content at around 23.976 fps (24000/1001 fps).
+
+  _144Hz displays will not display 30/60 fps content properly. Additionally, none of the above will handle 25 fps content correctly._
+
+- Adaptive sync (Variable refresh rate)
+
+  The best solution is to use G-SYNC/G-SYNC Compatible or FreeSync Premium.
+  _Normal FreeSync may work if your monitor supports #a[Low Framerate Compensation (LFC)][https://www.amd.com/en/technologies/free-sync-faq#faq-What-is-Low-Framerate-Compensation?].
+  You will also need to use a media player that supports adaptive sync, such as #a[mpv][https://mpv.io/]._
+
+  Additionally, you may need to force exclusive fullscreen to activate adaptive sync.
+  In mpv, this can be done by adding `ontop` & `fullscreen` to your `mpv.conf` file.
+  You can tell adaptive sync is active when your cursor feels laggy, as this means your display has dropped its refresh rate to match the content.
+
+- Automatic refresh rate adjustment
+
+  Many modern streaming devices (e.g. Amazon Fire TV, Apple TV, NVIDIA SHIELD, etc.) will have the option to change the TV refresh rate to match the content frame rate, either through the device's settings or a setting in the playback software (Kodi, Plex, etc.)
+
+  24/30/60 fps content should all work perfectly. 25 fps content requires 25/50Hz support,
+  _which some TVs in #a[NTSC regions][https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/PAL-NTSC-SECAM.svg/2560px-PAL-NTSC-SECAM.svg.png] do not support._
+]
+#footnote[#a[Playback - The Wiki][https://thewiki.moe/guides/playback/#smooth-playback]]
+
 = Variable refresh rate
 #a-badge[https://en.wikipedia.org/wiki/Variable_refresh_rate]
 

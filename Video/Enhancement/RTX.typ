@@ -38,6 +38,8 @@ The API can be used as a common hook point of video playing.
 = RTX Video Super Resolution
 #a-badge[https://en.wikipedia.org/wiki/Video_Super_Resolution]
 
+#a[Pixel Perfect: RTX Video Super Resolution Now Available | NVIDIA Blog][https://blogs.nvidia.com/blog/rtx-video-super-resolution/]
+
 - What video will RTX Video Super Resolution enhance?
 
   #quote[

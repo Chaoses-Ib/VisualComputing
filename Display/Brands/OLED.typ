@@ -163,6 +163,7 @@ TL;DR:
   - +QD-OLED (better color?, better text, not blueish, no grey banding)
     - -More aggressive ABL
   - +0/75 Hz, -dual mode
+    - 240Hz 是 24/30Hz 的倍数，而 165Hz 不是，有 judder。
   - Glossy: +Less reflection?
   - +Dolby Vision
   - USB-C +75W, +DP2.1

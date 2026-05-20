@@ -12,6 +12,8 @@
 
 ## [Image Processing](Image/README.md)
 - [Image File Formats](Image/Formats/README.md)
+  - [Comparison](Image/Formats/Comparison.typ)
+  - [JPEG XL](<Image/Formats/JPEG XL.typ>)
   - [Graphics Interchange Format](Image/Formats/GIF.md)
 - [Icons](Image/Icon/README.typ)
   - [Icon Sets](Image/Icon/Sets.typ)
@@ -40,6 +42,7 @@
   - [Lottie](Video/Formats/Lottie/README.md)
 - [Subtitles](Video/Subtitles/README.typ)
 - [Video Players](Video/Players/README.md)
+  - [mpv](Video/Players/mpv/README.typ)
   - [PotPlayer](Video/Players/PotPlayer.md)
 - [Video Scaling](Video/Scaling/README.typ)
 - [Video Enhancement](Video/Enhancement/README.md)
