@@ -41,7 +41,7 @@
 - [Subtitles](Video/Subtitles/README.typ)
 - [Video Players](Video/Players/README.md)
   - [PotPlayer](Video/Players/PotPlayer.md)
-- [Video Scaling](Video/Scaling.md)
+- [Video Scaling](Video/Scaling/README.typ)
 - [Video Enhancement](Video/Enhancement/README.md)
   - [RTX Video Enhancements](Video/Enhancement/RTX.typ)
 - [Diffusion Models](Video/Diffusion/README.md)
