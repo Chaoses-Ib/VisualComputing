@@ -2,6 +2,8 @@
 #title[High-dynamic-range (HDR)]
 [High-dynamic-range television - Wikipedia](https://en.wikipedia.org/wiki/High-dynamic-range_television)
 
+#a[What Is HDR On A Monitor?: Understanding And Configuring HDR With Your Monitor - RTINGS.com][https://www.rtings.com/monitor/learn/what-is-hdr]
+
 2021-10 [How come HDR isn't more popular than plain old 4K? : r/PleX](https://www.reddit.com/r/PleX/comments/q6fxvk/how_come_hdr_isnt_more_popular_than_plain_old_4k/)
 
 2022-03 [HDR vs SDR vs 10 bit vs 8 bit : r/4kTV](https://www.reddit.com/r/4kTV/comments/tm3doe/hdr_vs_sdr_vs_10_bit_vs_8_bit/)
@@ -36,6 +38,9 @@
 #a[How Important is Dolby Vision over HDR10+ ???? : r/hometheater][https://www.reddit.com/r/hometheater/comments/1qy1jao/how_important_is_dolby_vision_over_hdr10/]
 
 = アニメ
+- 不同于摄影和游戏，アニメ是从零手工创作的，即使有心使用 HDR 也难以提供超出 SDR 的细节，只有少部分电影能够实现。
+- 上条再叠加上 HDR 片源的稀少，导致 RTX Video HDR 之类的 Auto HDR 几乎只会产生负面影响。
+
 2019-10 [Are there any anime available in HDR? : r/anime](https://www.reddit.com/r/anime/comments/dftcbw/are_there_any_anime_available_in_hdr/)
 
 2020-10 [Is there any native 4k HDR anime? : r/anime](https://www.reddit.com/r/anime/comments/jz0444/is_there_any_native_4k_hdr_anime/)
@@ -65,3 +70,47 @@
 > hdr对动漫没有提升 动漫更需要超分辨率
 
 2024-05 [想搞个U8，miniled看动画有什么硬伤？ NGA玩家社区](https://bbs.nga.cn/read.php?tid=40365318)
+
+= Display
+- HDR modes
+  - DisplayHDR True Black < Console HDR < Gaming HDR < Cinema HDR
+    #footnote[#a[People with ASUS ROG OLED monitors, which HDR setting do you use? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1rdv2ot/people_with_asus_rog_oled_monitors_which_hdr/]]
+  - Different HDR modes would need separate HDR calibration.
+    - ROG PG32UCDM3: True Black 540, Console 1100, Gaming 1420 (default), Cinema 1520.
+
+  #q[
+  It really depends. I would test them all and see which one you like best. Unfourtantly they all have their disadvantages on qd oled.
+
+  Trueblack400 is the most accurate and consistent, and is bright in bright scenes.
+  But it only reaches around 490 peak brightness.
+
+  Console hdr (no brightness boost), can reach 1000 nits peak brightness on small highlights, but has aggresive abl which means that in bright scenes it will dim most of the screen, which makes it less accurate than TB400 and have less average brightness in bright scenes.
+
+  Gaming/Cinema/Console hdr with brightness boost is probably the least accurate mode out of the 3.
+  The benefits are that it can reach 1000 nits on small highlights and still be bright in bright scenes like TB400.
+  But it destroys highlight details in a lot of bright scenes, and it makes things brighter than they should be (almost up to 2 times in certain scenes).
+
+  If you want consistenty and accuracy, and you hate abl dimming go with trueblack 400.
+  If you want the highest peak brightness, while still having a decently accurate image with highlight detail go with console no brightness boost.
+  If you want both high peak brightness, and no abl dimming and youd rather sacrafice highlight detail and accuracy go with one of the brightness boosted profiles.
+  ]
+  #footnote[#a[ROG OLED gaming monitor owners, which HDR setting do you use? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1sbg4je/rog_oled_gaming_monitor_owners_which_hdr_setting/]]
+
+- Adjustable HDR
+  #footnote[#a[Do any of the new QD-OLEDs allow HDR brightness adjustment? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1dtw1dc/do_any_of_the_new_qdoleds_allow_hdr_brightness/]]
+
+  #q[
+  Gives you the ability to adjust the color channels, brightness and contrast.
+  But some have noticed that enabling this will result in slightly dimmer brightness.
+  In fact, the OSD prompt tells you that the PQ EOTF curve will be affected if you enable this.
+  So pick your poison. Do you want to tweak your HDR settings at the cost of some brightness?
+  Even if you crank the brightness to 100, you lose a few nits when enabling Adjustable HDR. Up to you.
+  ]
+  #footnote[#a[[Asus] What does "Adjustable HDR" toggle do? : r/OLED_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1o4n3if/asus_what_does_adjustable_hdr_toggle_do/]]
+
+  #q[
+  I was losing around 30+ nits for the privilege to customize the HDR color channels.
+  So now I just leave Adjustable HDR off and True Black 400 is now plenty bright to my liking without fiddling with the OSD brightness or GPU control panel settings.
+  It may not be much, but my colorimeter clearly caught the differences between Adjustable HDR On vs. Adjustable HDR Off.
+  ]
+  #footnote[#a[Asus PG27UCDM/PG32UCDM - turns out enabling Adjustable HDR might lower overall avg brightness : r/OLED\_Gaming][https://www.reddit.com/r/OLED_Gaming/comments/1o3yqoz/asus_pg27ucdmpg32ucdm_turns_out_enabling/]]
