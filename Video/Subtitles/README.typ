@@ -113,3 +113,19 @@ FFmpeg:
 - #a[mkvextract -- extract tracks from Matroska files into other files][https://mkvtoolnix.download/doc/mkvextract.html]
 
   #a[Extract .srt "quickly" from large .mkv file - Help - MKVToolNix community & help forum][https://help.mkvtoolnix.download/t/extract-srt-quickly-from-large-mkv-file/253]
+
+= Resources
+- #a[OpenSubtitles][https://www.opensubtitles.org/en/search/subs]
+
+Chinese:
+#footnote[#a[美劇字幕哪家强？中國山東找....不對？應該在哪找？ - V2EX][https://www.v2ex.com/t/348127]]
+#footnote[#a[免费电影字幕下载网站大全 | 字幕大师官网][https://zimudashi.com/subtitles/subtitle-download-sites/]]
+#footnote[#a[大家一般下载&看英美剧和番剧都是在哪里啊？][https://bangumi.tv/group/topic/366707]]
+#footnote[#a[字幕以及资源下载 - 幕境使用文档][https://mujingx.com/document/字幕以及资源下载.html]]
+#footnote[#a[有没有啥英剧日剧美剧分享网站啊][https://bgm.tv/m/topic/group/363047]]
+- #a[SubHD][https://subhd.tv/]
+- #a[射手网(伪) - assrt.net][https://assrt.net/]
+  - 无分集
+- #a[字幕库(zimuku,SrtKu)][https://zimuku.org/]
+- #a[人人影视 yysub.cc][https://yysub.cc/subtitle]
+- #a[ZNDS 字幕交流][https://www.znds.com/bbs-290-1.html]
