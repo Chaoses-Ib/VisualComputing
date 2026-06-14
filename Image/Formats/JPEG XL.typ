@@ -35,5 +35,8 @@ Rust:
 = Platforms
 Windows:
 - #a[JPEG XL Image Extension][https://apps.microsoft.com/detail/9mzprth5c0tb]
+  #footnote[#a[JXL on windows 11 : r/jpegxl][https://www.reddit.com/r/jpegxl/comments/1kd77j9/jxl_on_windows_11/]]
   - Photos
   - Directory Opus
+
+- ReShade: #a[Draft: Add JPEG XL screenshot support with libjxl simple lossless encoder by kampidh - Pull Request \#399][https://github.com/crosire/reshade/pull/399]
